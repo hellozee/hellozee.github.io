@@ -1,0 +1,61 @@
+html,body{
+	margin: 0px;
+	height: 100%;
+	font-family: sans-serif;
+}
+
+div.wrapper{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	height: 100%;
+}
+
+div.left{
+	background-color: #cccccc;
+	padding-left: 40px;
+	padding-top: 100px;
+	height: auto;
+}
+
+div.right{
+	background-color: #333333;
+	height: auto;
+}
+
+div.header{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+hr.headerLine{
+	width: 70%
+}
+
+div.aboutContent{
+	font-size: 18px;
+	padding-top: 30px;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+
+div.faceImage{
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+}
+
+div.faceTag{
+	color: #ffffff;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 30px;
+}
+
+div.links{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.links img{
+	padding-right: 20px;
+}
