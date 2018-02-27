@@ -49,6 +49,7 @@ div.faceTag{
 	text-align: center;
 	font-size: 25px;
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 div.links{
@@ -58,4 +59,28 @@ div.links{
 
 div.links img{
 	padding-right: 20px;
+}
+
+div.titleLinks{
+	text-align: center;
+	color: #000000;
+	padding: 10px;
+	font-size: 23px;
+	background-color: #ffffff;
+}
+
+div.repoLink{
+	text-align: center;
+	color: #ffffff;
+}
+
+div.card {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #6600cc;	
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+	color: #ffffff;
+	text-decoration: none;
 }
