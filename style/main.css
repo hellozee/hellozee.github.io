@@ -18,7 +18,8 @@ div.wrapper{
 div.left{
 	background-color: #cccccc;
 	padding-left: 40px;
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-right: 80px;
 	height: auto;
 }
