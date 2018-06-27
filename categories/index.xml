@@ -10,5 +10,14 @@
 	<atom:link href="http://www.hellozee.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Projects</title>
+      <link>http://www.hellozee.me/categories/projects/</link>
+      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/categories/projects/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
