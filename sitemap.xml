@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/something_to_be_scared_of/</loc>
+    <lastmod>2018-06-27T12:47:54+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/cook/</loc>
     <lastmod>2018-06-05T22:04:56+05:30</lastmod>
   </url>
@@ -43,13 +48,19 @@
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <lastmod>2018-06-27T12:47:54+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/categories/projects/</loc>
     <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/self-satisfaction/</loc>
+    <lastmod>2018-06-27T12:47:54+05:30</lastmod>
     <priority>0</priority>
   </url>
   
