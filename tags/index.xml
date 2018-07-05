@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>C</title>
+      <link>http://www.hellozee.me/tags/c/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C&#43;&#43;</title>
       <link>http://www.hellozee.me/tags/c&#43;&#43;/</link>
-      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/c&#43;&#43;/</guid>
       <description></description>
@@ -32,9 +41,36 @@
     <item>
       <title>Golang</title>
       <link>http://www.hellozee.me/tags/golang/</link>
-      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://www.hellozee.me/tags/javascript/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Languages</title>
+      <link>http://www.hellozee.me/tags/languages/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://www.hellozee.me/tags/python/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/python/</guid>
       <description></description>
     </item>
     

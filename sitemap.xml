@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/languages/</loc>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/something_to_be_scared_of/</loc>
     <lastmod>2018-06-27T12:47:54+05:30</lastmod>
   </url>
@@ -30,8 +35,14 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/tags/c/</loc>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/tags/c&#43;&#43;/</loc>
-    <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,20 +52,44 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/categories/free-ka-gyan/</loc>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/tags/golang/</loc>
-    <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/javascript/</loc>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/languages/</loc>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2018-06-27T12:47:54+05:30</lastmod>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/categories/projects/</loc>
     <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/python/</loc>
+    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
     <priority>0</priority>
   </url>
   

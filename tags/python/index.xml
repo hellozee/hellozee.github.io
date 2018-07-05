@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/tags/golang/</link>
-    <description>Recent content in Golang on A Nerd&#39;s Tale</description>
+    <title>Python on A Nerd&#39;s Tale</title>
+    <link>http://www.hellozee.me/tags/python/</link>
+    <description>Recent content in Python on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
     <lastBuildDate>Thu, 05 Jul 2018 19:27:47 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.hellozee.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://www.hellozee.me/posts/languages/</guid>
       <description>Note: Don&amp;rsquo;t take the title onto your ego
  For sake of clarity, I would like to make some terms used in the post clear, it may mean something other to you but for the simplicity of the post, I would be using them in a particular way:</description>
-    </item>
-    
-    <item>
-      <title>Do it, you may learn something new</title>
-      <link>http://www.hellozee.me/posts/cook/</link>
-      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
-      
-      <guid>http://www.hellozee.me/posts/cook/</guid>
-      <description>Frankly speaking Computer Graphics is a subject which is not appreciated by most of students who study Computer Science just like Real Analysis in Mathematics but being a nerd, this were the perfect subjects which could act like stimulant for my neurons.</description>
     </item>
     
   </channel>
