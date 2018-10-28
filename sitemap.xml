@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/ilugd-year/</loc>
+    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/languages/</loc>
     <lastmod>2018-07-05T19:27:47+05:30</lastmod>
   </url>
@@ -52,6 +57,12 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/categories/celebration/</loc>
+    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/categories/free-ka-gyan/</loc>
     <lastmod>2018-07-05T19:27:47+05:30</lastmod>
     <priority>0</priority>
@@ -60,6 +71,12 @@
   <url>
     <loc>http://www.hellozee.me/tags/golang/</loc>
     <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/ilugd/</loc>
+    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,8 +93,14 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/tags/open-source/</loc>
+    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
     <priority>0</priority>
   </url>
   
