@@ -6,10 +6,19 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 05 Jun 2018 22:04:56 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Oct 2018 12:58:13 +0530</lastBuildDate>
     
 	<atom:link href="http://www.hellozee.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anniversary</title>
+      <link>http://www.hellozee.me/tags/anniversary/</link>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/anniversary/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Build System</title>
@@ -50,7 +59,7 @@
     <item>
       <title>Ilugd</title>
       <link>http://www.hellozee.me/tags/ilugd/</link>
-      <pubDate>Fri, 14 Sep 2018 21:43:07 +0530</pubDate>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/ilugd/</guid>
       <description></description>
@@ -77,7 +86,7 @@
     <item>
       <title>Open Source</title>
       <link>http://www.hellozee.me/tags/open-source/</link>
-      <pubDate>Fri, 14 Sep 2018 21:43:07 +0530</pubDate>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/open-source/</guid>
       <description></description>

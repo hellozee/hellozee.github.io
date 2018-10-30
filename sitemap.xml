@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/ilugd-birthday/</loc>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/ilugd-year/</loc>
     <lastmod>2018-09-14T21:43:07+05:30</lastmod>
   </url>
@@ -30,6 +35,12 @@
   <url>
     <loc>http://www.hellozee.me/</loc>
     <lastmod>2018-06-05T22:11:39+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/anniversary/</loc>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,7 +69,13 @@
   
   <url>
     <loc>http://www.hellozee.me/categories/celebration/</loc>
-    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/event/</loc>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,7 +93,7 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/ilugd/</loc>
-    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,13 +111,13 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/open-source/</loc>
-    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2018-09-14T21:43:07+05:30</lastmod>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,7 +141,7 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/</loc>
-    <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   

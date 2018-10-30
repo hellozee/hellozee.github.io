@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Source on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/tags/open-source/</link>
-    <description>Recent content in Open Source on A Nerd&#39;s Tale</description>
+    <title>Event on A Nerd&#39;s Tale</title>
+    <link>http://www.hellozee.me/categories/event/</link>
+    <description>Recent content in Event on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
     <lastBuildDate>Mon, 29 Oct 2018 12:58:13 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.hellozee.me/categories/event/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>http://www.hellozee.me/posts/ilugd-birthday/</guid>
       <description>So apparently one of the oldest community in probably the whole India, celebrated its 2nd anniversary on 28th after it was revived back on 2016. And you know what, this time it was a Capture The Flag event, something new tried by the new group of people who joined hands to not let this community go in hibernation again.</description>
-    </item>
-    
-    <item>
-      <title>A Year Passes by</title>
-      <link>http://www.hellozee.me/posts/ilugd-year/</link>
-      <pubDate>Fri, 14 Sep 2018 21:43:07 +0530</pubDate>
-      
-      <guid>http://www.hellozee.me/posts/ilugd-year/</guid>
-      <description>ILUGD better known as India Linux Users Group - Delhi, a LUG, based in Delhi NCR. Bear in mind that it is &amp;ldquo;India&amp;rdquo; and not &amp;ldquo;Indian&amp;rdquo;, a lot of people get that incorrect, &amp;ldquo;Indian&amp;rdquo; means it is exclusively for Indians which we are obviously not, but our group is based in Delhi which comes in India so, hashtag_blah_blah.</description>
     </item>
     
   </channel>
