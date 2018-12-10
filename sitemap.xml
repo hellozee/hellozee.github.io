@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/nuke-python-marvel/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/ilugd-birthday/</loc>
     <lastmod>2018-10-29T12:58:13+05:30</lastmod>
   </url>
@@ -74,6 +79,12 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/categories/cool-stuff/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/categories/event/</loc>
     <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
@@ -110,6 +121,18 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/tags/marvel/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/nuke/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/tags/open-source/</loc>
     <lastmod>2018-10-29T12:58:13+05:30</lastmod>
     <priority>0</priority>
@@ -117,7 +140,13 @@
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/programming/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -129,7 +158,13 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/python/</loc>
-    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/python/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,6 +177,12 @@
   <url>
     <loc>http://www.hellozee.me/tags/</loc>
     <lastmod>2018-10-29T12:58:13+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/vfx/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
   
