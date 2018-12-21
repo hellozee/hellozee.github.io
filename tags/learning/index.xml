@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on A Nerd&#39;s Tale</title>
+    <link>http://www.hellozee.me/tags/learning/</link>
+    <description>Recent content in Learning on A Nerd&#39;s Tale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <lastBuildDate>Fri, 21 Dec 2018 08:39:18 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.hellozee.me/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Learn</title>
+      <link>http://www.hellozee.me/posts/how-to-learn/</link>
+      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/posts/how-to-learn/</guid>
+      <description>If you search the web for how to learn something, you will surely get a bunch of techniques that would help you to remember something but that is not the learning I am talking about, that is in a sense, a kind of memorization.</description>
+    </item>
+    
+  </channel>
+</rss>
