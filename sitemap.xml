@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/flashback-2018/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/how-to-learn/</loc>
     <lastmod>2018-12-21T08:39:18+05:30</lastmod>
   </url>
@@ -84,6 +89,12 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/tags/cool/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/categories/cool-stuff/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
@@ -98,6 +109,12 @@
   <url>
     <loc>http://www.hellozee.me/categories/free-ka-gyan/</loc>
     <lastmod>2018-12-21T08:39:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/fun/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -133,7 +150,7 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/learning/</loc>
-    <lastmod>2018-12-21T08:39:18+05:30</lastmod>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,13 +186,19 @@
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2018-12-21T08:39:18+05:30</lastmod>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/tags/programming/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/project/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,8 +233,20 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/tags/throwback/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/tags/vfx/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/year-end/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   

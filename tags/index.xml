@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>Cool</title>
+      <link>http://www.hellozee.me/tags/cool/</link>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/cool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Golang</title>
       <link>http://www.hellozee.me/tags/golang/</link>
       <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
@@ -86,7 +95,7 @@
     <item>
       <title>Learning</title>
       <link>http://www.hellozee.me/tags/learning/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/learning/</guid>
       <description></description>
@@ -138,11 +147,29 @@
     </item>
     
     <item>
+      <title>Project</title>
+      <link>http://www.hellozee.me/tags/project/</link>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>http://www.hellozee.me/tags/python/</link>
       <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Throwback</title>
+      <link>http://www.hellozee.me/tags/throwback/</link>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/throwback/</guid>
       <description></description>
     </item>
     
