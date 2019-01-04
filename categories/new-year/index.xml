@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fun on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/categories/fun/</link>
-    <description>Recent content in Fun on A Nerd&#39;s Tale</description>
+    <title>New Year on A Nerd&#39;s Tale</title>
+    <link>http://www.hellozee.me/categories/new-year/</link>
+    <description>Recent content in New Year on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
     <lastBuildDate>Fri, 04 Jan 2019 23:31:58 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/categories/fun/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.hellozee.me/categories/new-year/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>http://www.hellozee.me/posts/new-year-bois/</guid>
       <description>If you don&amp;rsquo;t get the meme reference from the title, here is one more for you :
  Enough of memes, lets talk about something trendy, something that everyone is talking about cause January 2019 is all about setting up goals and resolutions, I am not being punny here.</description>
-    </item>
-    
-    <item>
-      <title>Flashback 2018</title>
-      <link>http://www.hellozee.me/posts/flashback-2018/</link>
-      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
-      
-      <guid>http://www.hellozee.me/posts/flashback-2018/</guid>
-      <description>tl;dr, Typical end of the year post as you may expect.
-Well, 2018 was a significantly productive year for me compared to other years, learned so many things which I wanted to, plus added more things to the bucket list for the coming year.</description>
     </item>
     
   </channel>
