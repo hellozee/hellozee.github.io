@@ -6,10 +6,19 @@
     <description>Recent content in Golang on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
-    <lastBuildDate>Thu, 05 Jul 2018 19:27:47 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jan 2019 20:05:44 +0530</lastBuildDate>
     
 	<atom:link href="http://www.hellozee.me/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Caring about the directories</title>
+      <link>http://www.hellozee.me/posts/dexer/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/posts/dexer/</guid>
+      <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
+    </item>
     
     <item>
       <title>Languages are just tools, you idiot</title>

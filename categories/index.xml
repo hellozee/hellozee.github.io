@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Conference</title>
+      <link>http://www.hellozee.me/categories/conference/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cool Stuff</title>
       <link>http://www.hellozee.me/categories/cool-stuff/</link>
       <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
@@ -52,6 +61,15 @@
       <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
       
       <guid>http://www.hellozee.me/categories/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://www.hellozee.me/categories/golang/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/categories/golang/</guid>
       <description></description>
     </item>
     
@@ -97,6 +115,15 @@
       <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
       
       <guid>http://www.hellozee.me/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pycon</title>
+      <link>http://www.hellozee.me/categories/pycon/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/categories/pycon/</guid>
       <description></description>
     </item>
     

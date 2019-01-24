@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/dexer/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/new-year-bois/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
   </url>
@@ -94,6 +99,12 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/categories/conference/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/tags/cool/</loc>
     <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
@@ -137,7 +148,13 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/golang/</loc>
-    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/golang/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -209,13 +226,13 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/open-source/</loc>
-    <lastmod>2018-10-29T12:58:13+05:30</lastmod>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2019-01-04T23:31:58+05:30</lastmod>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -227,13 +244,25 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/project/</loc>
-    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/categories/projects/</loc>
     <lastmod>2018-06-05T22:04:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/pycon/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/pycon/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
