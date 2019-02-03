@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Critique</title>
+      <link>http://www.hellozee.me/tags/critique/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/critique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fun</title>
       <link>http://www.hellozee.me/tags/fun/</link>
       <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
@@ -201,6 +210,15 @@
     </item>
     
     <item>
+      <title>Tech</title>
+      <link>http://www.hellozee.me/tags/tech/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Throwback</title>
       <link>http://www.hellozee.me/tags/throwback/</link>
       <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
@@ -210,11 +228,29 @@
     </item>
     
     <item>
+      <title>Trash</title>
+      <link>http://www.hellozee.me/tags/trash/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/trash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vfx</title>
       <link>http://www.hellozee.me/tags/vfx/</link>
       <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
       
       <guid>http://www.hellozee.me/tags/vfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>http://www.hellozee.me/tags/youtube/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/tags/youtube/</guid>
       <description></description>
     </item>
     
