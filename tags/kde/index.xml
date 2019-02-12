@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kde on A Nerd&#39;s Tale</title>
+    <link>http://www.hellozee.me/tags/kde/</link>
+    <description>Recent content in Kde on A Nerd&#39;s Tale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <lastBuildDate>Wed, 13 Feb 2019 03:41:21 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.hellozee.me/tags/kde/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How Design Works?</title>
+      <link>http://www.hellozee.me/posts/how-design-works/</link>
+      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/posts/how-design-works/</guid>
+      <description>Note: The title may be misleading, 😛
+ I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&amp;rsquo;t hurt anyone, let that be so.</description>
+    </item>
+    
+  </channel>
+</rss>
