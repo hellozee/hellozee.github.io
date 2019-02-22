@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on A Nerd&#39;s Tale</title>
+    <link>http://www.hellozee.me/tags/video/</link>
+    <description>Recent content in Video on A Nerd&#39;s Tale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <lastBuildDate>Fri, 22 Feb 2019 15:31:30 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.hellozee.me/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows : A true nightmare</title>
+      <link>http://www.hellozee.me/posts/windows/</link>
+      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/posts/windows/</guid>
+      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&amp;rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
+    </item>
+    
+  </channel>
+</rss>
