@@ -6,10 +6,22 @@
     <description>Recent content in Open Source on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 22 Feb 2019 15:31:30 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 01:01:34 +0530</lastBuildDate>
     
 	<atom:link href="http://www.hellozee.me/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Alight</title>
+      <link>http://www.hellozee.me/posts/getting-alight/</link>
+      <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/posts/getting-alight/</guid>
+      <description>Would start this one with a quote,
+ Information is free - You have to know
+People are not - You have to pay
+Contributors are priceless - You have to be</description>
+    </item>
     
     <item>
       <title>Windows : A true nightmare</title>
