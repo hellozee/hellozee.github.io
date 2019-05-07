@@ -195,13 +195,13 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/fun/</loc>
+    <loc>http://www.hellozee.me/tags/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/fun/</loc>
+    <loc>http://www.hellozee.me/categories/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -213,13 +213,13 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/golang/</loc>
+    <loc>http://www.hellozee.me/tags/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/golang/</loc>
+    <loc>http://www.hellozee.me/categories/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -261,13 +261,13 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/krita/</loc>
+    <loc>http://www.hellozee.me/tags/krita/</loc>
     <lastmod>2019-05-07T14:18:32+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/krita/</loc>
+    <loc>http://www.hellozee.me/categories/krita/</loc>
     <lastmod>2019-05-07T14:18:32+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -279,14 +279,14 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/learning/</loc>
-    <lastmod>2018-12-21T08:39:18+05:30</lastmod>
+    <loc>http://www.hellozee.me/tags/learning/</loc>
+    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/learning/</loc>
-    <lastmod>2018-12-24T16:49:01+05:30</lastmod>
+    <loc>http://www.hellozee.me/categories/learning/</loc>
+    <lastmod>2018-12-21T08:39:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -321,14 +321,14 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/open-source/</loc>
-    <lastmod>2019-02-13T03:41:21+05:30</lastmod>
+    <loc>http://www.hellozee.me/tags/open-source/</loc>
+    <lastmod>2019-05-07T14:18:32+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/open-source/</loc>
-    <lastmod>2019-05-07T14:18:32+05:30</lastmod>
+    <loc>http://www.hellozee.me/categories/open-source/</loc>
+    <lastmod>2019-02-13T03:41:21+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -363,25 +363,25 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/pycon/</loc>
-    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.hellozee.me/tags/pycon/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/python/</loc>
-    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <loc>http://www.hellozee.me/categories/pycon/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/tags/python/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/categories/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -405,13 +405,13 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/self/</loc>
+    <loc>http://www.hellozee.me/tags/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/self/</loc>
+    <loc>http://www.hellozee.me/categories/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -471,13 +471,13 @@
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/categories/youtube/</loc>
+    <loc>http://www.hellozee.me/tags/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.hellozee.me/tags/youtube/</loc>
+    <loc>http://www.hellozee.me/categories/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
