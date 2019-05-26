@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Dissecting boost::astar_search</title>
+      <link>http://www.hellozee.me/posts/boost_astar/</link>
+      <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
+      
+      <guid>http://www.hellozee.me/posts/boost_astar/</guid>
+      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+    </item>
+    
+    <item>
       <title>This is the year of Linux Desktop</title>
       <link>http://www.hellozee.me/posts/linux-desktop/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>

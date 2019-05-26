@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/posts/boost_astar/</loc>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/posts/linux-desktop/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
   </url>
@@ -111,6 +116,12 @@
   </url>
   
   <url>
+    <loc>http://www.hellozee.me/tags/boost/</loc>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hellozee.me/tags/bored/</loc>
     <lastmod>2019-02-22T15:31:30+05:30</lastmod>
     <priority>0</priority>
@@ -160,6 +171,12 @@
   <url>
     <loc>http://www.hellozee.me/categories/cool-stuff/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hellozee.me/tags/cpp/</loc>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -243,7 +260,7 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/gsoc/</loc>
-    <lastmod>2019-05-07T14:18:32+05:30</lastmod>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -267,7 +284,7 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/kde/</loc>
-    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -279,13 +296,13 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/krita/</loc>
-    <lastmod>2019-05-07T14:18:32+05:30</lastmod>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.hellozee.me/categories/krita/</loc>
-    <lastmod>2019-05-07T14:18:32+05:30</lastmod>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -351,7 +368,7 @@
   
   <url>
     <loc>http://www.hellozee.me/tags/open-source/</loc>
-    <lastmod>2019-05-07T14:18:32+05:30</lastmod>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -369,7 +386,7 @@
   
   <url>
     <loc>http://www.hellozee.me/posts/</loc>
-    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
+    <lastmod>2019-05-26T04:43:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
