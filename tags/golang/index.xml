@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/tags/golang/</link>
+    <link>http://hellozee.github.io/tags/golang/</link>
     <description>Recent content in Golang on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sat, 19 Jan 2019 20:05:44 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hellozee.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Caring about the directories</title>
-      <link>http://www.hellozee.me/posts/dexer/</link>
+      <link>http://hellozee.github.io/posts/dexer/</link>
       <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/dexer/</guid>
+      <guid>http://hellozee.github.io/posts/dexer/</guid>
       <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
     </item>
     
     <item>
       <title>Languages are just tools, you idiot</title>
-      <link>http://www.hellozee.me/posts/languages/</link>
+      <link>http://hellozee.github.io/posts/languages/</link>
       <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/languages/</guid>
+      <guid>http://hellozee.github.io/posts/languages/</guid>
       <description>Note: Don&amp;rsquo;t take the title onto your ego
  For sake of clarity, I would like to make some terms used in the post clear, it may mean something other to you but for the simplicity of the post, I would be using them in a particular way:</description>
     </item>
     
     <item>
       <title>Do it, you may learn something new</title>
-      <link>http://www.hellozee.me/posts/cook/</link>
+      <link>http://hellozee.github.io/posts/cook/</link>
       <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/cook/</guid>
+      <guid>http://hellozee.github.io/posts/cook/</guid>
       <description>Frankly speaking Computer Graphics is a subject which is not appreciated by most of students who study Computer Science just like Real Analysis in Mathematics but being a nerd, this were the perfect subjects which could act like stimulant for my neurons.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boost on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/tags/boost/</link>
+    <link>http://hellozee.github.io/tags/boost/</link>
     <description>Recent content in Boost on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sun, 26 May 2019 04:43:18 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/tags/boost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hellozee.github.io/tags/boost/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dissecting boost::astar_search</title>
-      <link>http://www.hellozee.me/posts/boost_astar/</link>
+      <link>http://hellozee.github.io/posts/boost_astar/</link>
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/boost_astar/</guid>
+      <guid>http://hellozee.github.io/posts/boost_astar/</guid>
       <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     

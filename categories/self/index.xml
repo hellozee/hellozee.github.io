@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/categories/self/</link>
+    <link>http://hellozee.github.io/categories/self/</link>
     <description>Recent content in Self on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sat, 02 Feb 2019 23:11:17 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/categories/self/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hellozee.github.io/categories/self/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Couple of Words</title>
-      <link>http://www.hellozee.me/posts/no-please/</link>
+      <link>http://hellozee.github.io/posts/no-please/</link>
       <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/no-please/</guid>
+      <guid>http://hellozee.github.io/posts/no-please/</guid>
       <description>Speaking from a normal person&amp;rsquo;s point of view, do praises hurt? or if I can phrase it better, what hurts more, praise or criticism? An appropriate answer would be none, if you can take praise with your head held high you must be able to take criticism with the same attitude, right?</description>
     </item>
     

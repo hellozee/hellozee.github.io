@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Youtube on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/categories/youtube/</link>
+    <link>http://hellozee.github.io/categories/youtube/</link>
     <description>Recent content in Youtube on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sun, 03 Feb 2019 20:46:42 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/categories/youtube/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hellozee.github.io/categories/youtube/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enough of Youtube</title>
-      <link>http://www.hellozee.me/posts/video-review-1/</link>
+      <link>http://hellozee.github.io/posts/video-review-1/</link>
       <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/video-review-1/</guid>
+      <guid>http://hellozee.github.io/posts/video-review-1/</guid>
       <description>&amp;ldquo;Youtube&amp;rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&amp;rsquo;t have the required setup to record videos nor the time to invest in making videos.</description>
     </item>
     

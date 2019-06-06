@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Krita on A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/tags/krita/</link>
+    <link>http://hellozee.github.io/tags/krita/</link>
     <description>Recent content in Krita on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sun, 26 May 2019 04:43:18 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/tags/krita/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hellozee.github.io/tags/krita/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dissecting boost::astar_search</title>
-      <link>http://www.hellozee.me/posts/boost_astar/</link>
+      <link>http://hellozee.github.io/posts/boost_astar/</link>
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/boost_astar/</guid>
+      <guid>http://hellozee.github.io/posts/boost_astar/</guid>
       <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
       <title>Summer is coming...</title>
-      <link>http://www.hellozee.me/posts/summer-is-coming/</link>
+      <link>http://hellozee.github.io/posts/summer-is-coming/</link>
       <pubDate>Tue, 07 May 2019 14:18:32 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/summer-is-coming/</guid>
+      <guid>http://hellozee.github.io/posts/summer-is-coming/</guid>
       <description>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
  This will be a story, so get prepared to be bored, 😸.</description>
     </item>
     
     <item>
       <title>How Design Works?</title>
-      <link>http://www.hellozee.me/posts/how-design-works/</link>
+      <link>http://hellozee.github.io/posts/how-design-works/</link>
       <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/how-design-works/</guid>
+      <guid>http://hellozee.github.io/posts/how-design-works/</guid>
       <description>Note: The title may be misleading, 😛
  I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&amp;rsquo;t hurt anyone, let that be so.</description>
     </item>

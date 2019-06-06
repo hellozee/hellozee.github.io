@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Nerd&#39;s Tale</title>
-    <link>http://www.hellozee.me/</link>
+    <link>http://hellozee.github.io/</link>
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2018 - Kuntal Majumder</copyright>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Tue, 05 Jun 2018 22:11:39 +0530</lastBuildDate>
     
-	<atom:link href="http://www.hellozee.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hellozee.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://www.hellozee.me/about/</link>
+      <link>http://hellozee.github.io/about/</link>
       <pubDate>Tue, 05 Jun 2018 22:11:39 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/about/</guid>
+      <guid>http://hellozee.github.io/about/</guid>
       <description>Hi, I am Kuntal, sophomore at Delhi University, will be majoring in Computer Science, love working with statically typed languages, currently taking my time to understand how light bounces off the surface.</description>
     </item>
     
     <item>
       <title>Dissecting boost::astar_search</title>
-      <link>http://www.hellozee.me/posts/boost_astar/</link>
+      <link>http://hellozee.github.io/posts/boost_astar/</link>
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/boost_astar/</guid>
+      <guid>http://hellozee.github.io/posts/boost_astar/</guid>
       <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
       <title>This is the year of Linux Desktop</title>
-      <link>http://www.hellozee.me/posts/linux-desktop/</link>
+      <link>http://hellozee.github.io/posts/linux-desktop/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/linux-desktop/</guid>
+      <guid>http://hellozee.github.io/posts/linux-desktop/</guid>
       <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
  Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>
     
     <item>
       <title>Summer is coming...</title>
-      <link>http://www.hellozee.me/posts/summer-is-coming/</link>
+      <link>http://hellozee.github.io/posts/summer-is-coming/</link>
       <pubDate>Tue, 07 May 2019 14:18:32 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/summer-is-coming/</guid>
+      <guid>http://hellozee.github.io/posts/summer-is-coming/</guid>
       <description>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
  This will be a story, so get prepared to be bored, 😸.</description>
     </item>
     
     <item>
       <title>Getting Alight</title>
-      <link>http://www.hellozee.me/posts/getting-alight/</link>
+      <link>http://hellozee.github.io/posts/getting-alight/</link>
       <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/getting-alight/</guid>
+      <guid>http://hellozee.github.io/posts/getting-alight/</guid>
       <description>Would start this one with a quote,
  Information is free - You have to know
 People are not - You have to pay
@@ -63,132 +63,132 @@ Contributors are priceless - You have to be</description>
     
     <item>
       <title>Windows : A true nightmare</title>
-      <link>http://www.hellozee.me/posts/windows/</link>
+      <link>http://hellozee.github.io/posts/windows/</link>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/windows/</guid>
+      <guid>http://hellozee.github.io/posts/windows/</guid>
       <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&amp;rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
     </item>
     
     <item>
       <title>How Design Works?</title>
-      <link>http://www.hellozee.me/posts/how-design-works/</link>
+      <link>http://hellozee.github.io/posts/how-design-works/</link>
       <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/how-design-works/</guid>
+      <guid>http://hellozee.github.io/posts/how-design-works/</guid>
       <description>Note: The title may be misleading, 😛
  I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&amp;rsquo;t hurt anyone, let that be so.</description>
     </item>
     
     <item>
       <title>Enough of Youtube</title>
-      <link>http://www.hellozee.me/posts/video-review-1/</link>
+      <link>http://hellozee.github.io/posts/video-review-1/</link>
       <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/video-review-1/</guid>
+      <guid>http://hellozee.github.io/posts/video-review-1/</guid>
       <description>&amp;ldquo;Youtube&amp;rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&amp;rsquo;t have the required setup to record videos nor the time to invest in making videos.</description>
     </item>
     
     <item>
       <title>A Couple of Words</title>
-      <link>http://www.hellozee.me/posts/no-please/</link>
+      <link>http://hellozee.github.io/posts/no-please/</link>
       <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/no-please/</guid>
+      <guid>http://hellozee.github.io/posts/no-please/</guid>
       <description>Speaking from a normal person&amp;rsquo;s point of view, do praises hurt? or if I can phrase it better, what hurts more, praise or criticism? An appropriate answer would be none, if you can take praise with your head held high you must be able to take criticism with the same attitude, right?</description>
     </item>
     
     <item>
       <title>Caring about the directories</title>
-      <link>http://www.hellozee.me/posts/dexer/</link>
+      <link>http://hellozee.github.io/posts/dexer/</link>
       <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/dexer/</guid>
+      <guid>http://hellozee.github.io/posts/dexer/</guid>
       <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
     </item>
     
     <item>
       <title>It is New Year my dudes</title>
-      <link>http://www.hellozee.me/posts/new-year-bois/</link>
+      <link>http://hellozee.github.io/posts/new-year-bois/</link>
       <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/new-year-bois/</guid>
+      <guid>http://hellozee.github.io/posts/new-year-bois/</guid>
       <description>If you don&amp;rsquo;t get the meme reference from the title, here is one more for you :
  Enough of memes, lets talk about something trendy, something that everyone is talking about cause January 2019 is all about setting up goals and resolutions, I am not being punny here.</description>
     </item>
     
     <item>
       <title>Flashback 2018</title>
-      <link>http://www.hellozee.me/posts/flashback-2018/</link>
+      <link>http://hellozee.github.io/posts/flashback-2018/</link>
       <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/flashback-2018/</guid>
+      <guid>http://hellozee.github.io/posts/flashback-2018/</guid>
       <description>tl;dr, Typical end of the year post as you may expect.
 Well, 2018 was a significantly productive year for me compared to other years, learned so many things which I wanted to, plus added more things to the bucket list for the coming year.</description>
     </item>
     
     <item>
       <title>How to Learn</title>
-      <link>http://www.hellozee.me/posts/how-to-learn/</link>
+      <link>http://hellozee.github.io/posts/how-to-learn/</link>
       <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/how-to-learn/</guid>
+      <guid>http://hellozee.github.io/posts/how-to-learn/</guid>
       <description>If you search the web for how to learn something, you will surely get a bunch of techniques that would help you to remember something but that is not the learning I am talking about, that is in a sense, a kind of memorization.</description>
     </item>
     
     <item>
       <title>Recreating the Marvel Intro with Python and Nuke</title>
-      <link>http://www.hellozee.me/posts/nuke-python-marvel/</link>
+      <link>http://hellozee.github.io/posts/nuke-python-marvel/</link>
       <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/nuke-python-marvel/</guid>
+      <guid>http://hellozee.github.io/posts/nuke-python-marvel/</guid>
       <description>Let me start this one with a story.
 Once there was a kid who loved to play games, after a while, he wanted to make games of his own and tada a programmer was born.</description>
     </item>
     
     <item>
       <title>Another year, nice one</title>
-      <link>http://www.hellozee.me/posts/ilugd-birthday/</link>
+      <link>http://hellozee.github.io/posts/ilugd-birthday/</link>
       <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/ilugd-birthday/</guid>
+      <guid>http://hellozee.github.io/posts/ilugd-birthday/</guid>
       <description>So apparently one of the oldest community in probably the whole India, celebrated its 2nd anniversary on 28th after it was revived back on 2016. And you know what, this time it was a Capture The Flag event, something new tried by the new group of people who joined hands to not let this community go in hibernation again.</description>
     </item>
     
     <item>
       <title>A Year Passes by</title>
-      <link>http://www.hellozee.me/posts/ilugd-year/</link>
+      <link>http://hellozee.github.io/posts/ilugd-year/</link>
       <pubDate>Fri, 14 Sep 2018 21:43:07 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/ilugd-year/</guid>
+      <guid>http://hellozee.github.io/posts/ilugd-year/</guid>
       <description>ILUGD better known as India Linux Users Group - Delhi, a LUG, based in Delhi NCR. Bear in mind that it is &amp;ldquo;India&amp;rdquo; and not &amp;ldquo;Indian&amp;rdquo;, a lot of people get that incorrect, &amp;ldquo;Indian&amp;rdquo; means it is exclusively for Indians which we are obviously not, but our group is based in Delhi which comes in India so, hashtag_blah_blah.</description>
     </item>
     
     <item>
       <title>Languages are just tools, you idiot</title>
-      <link>http://www.hellozee.me/posts/languages/</link>
+      <link>http://hellozee.github.io/posts/languages/</link>
       <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/languages/</guid>
+      <guid>http://hellozee.github.io/posts/languages/</guid>
       <description>Note: Don&amp;rsquo;t take the title onto your ego
  For sake of clarity, I would like to make some terms used in the post clear, it may mean something other to you but for the simplicity of the post, I would be using them in a particular way:</description>
     </item>
     
     <item>
       <title>Something to be scared of..</title>
-      <link>http://www.hellozee.me/posts/something_to_be_scared_of/</link>
+      <link>http://hellozee.github.io/posts/something_to_be_scared_of/</link>
       <pubDate>Wed, 27 Jun 2018 12:47:54 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/something_to_be_scared_of/</guid>
+      <guid>http://hellozee.github.io/posts/something_to_be_scared_of/</guid>
       <description>Note: This article is purposefully written in order to offend people, the author just wanted to clear his mind. And as you can see the category says self satisfaction.</description>
     </item>
     
     <item>
       <title>Do it, you may learn something new</title>
-      <link>http://www.hellozee.me/posts/cook/</link>
+      <link>http://hellozee.github.io/posts/cook/</link>
       <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
       
-      <guid>http://www.hellozee.me/posts/cook/</guid>
+      <guid>http://hellozee.github.io/posts/cook/</guid>
       <description>Frankly speaking Computer Graphics is a subject which is not appreciated by most of students who study Computer Science just like Real Analysis in Mathematics but being a nerd, this were the perfect subjects which could act like stimulant for my neurons.</description>
     </item>
     
