@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
-  <link rel="stylesheet" type="text/css" href="http://hellozee.github.io/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://hellozee.github.io/css/styles.css" />
 </head>
 
 <body>
   <div id="container">
     <header>
       <h1>
-                <a href="http://hellozee.github.io/">A Nerd&rsquo;s Tale</a>
+                <a href="https://hellozee.github.io/">A Nerd&rsquo;s Tale</a>
             </h1>
 
       <ul id="social-media">
@@ -43,19 +43,19 @@
     <ul>
         
         <li>
-            <a class="" href="http://hellozee.github.io/">
+            <a class="" href="https://hellozee.github.io/">
                 <i class="fa-li fa  fa-lg"></i><span>Home</span>
             </a>
         </li>
         
         <li>
-            <a class="" href="http://hellozee.github.io/posts/">
+            <a class="" href="https://hellozee.github.io/posts/">
                 <i class="fa-li fa  fa-lg"></i><span>Blog</span>
             </a>
         </li>
         
         <li>
-            <a class="" href="http://hellozee.github.io/about/">
+            <a class="" href="https://hellozee.github.io/about/">
                 <i class="fa-li fa  fa-lg"></i><span>About</span>
             </a>
         </li>
@@ -85,7 +85,7 @@
             <em>
                 
                     
-                    <a href="http://hellozee.github.io/categories/krita/">krita</a>
+                    <a href="https://hellozee.github.io/categories/krita/">krita</a>
                 
             </em>
         </li>
@@ -96,22 +96,22 @@
             <em>
                 
                     
-                    <a href="http://hellozee.github.io/tags/krita/">#krita</a>
+                    <a href="https://hellozee.github.io/tags/krita/">#krita</a>
                 
                     , 
-                    <a href="http://hellozee.github.io/tags/gsoc/">#gsoc</a>
+                    <a href="https://hellozee.github.io/tags/gsoc/">#gsoc</a>
                 
                     , 
-                    <a href="http://hellozee.github.io/tags/open-source/">#open-source</a>
+                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
                 
                     , 
-                    <a href="http://hellozee.github.io/tags/kde/">#kde</a>
+                    <a href="https://hellozee.github.io/tags/kde/">#kde</a>
                 
                     , 
-                    <a href="http://hellozee.github.io/tags/boost/">#boost</a>
+                    <a href="https://hellozee.github.io/tags/boost/">#boost</a>
                 
                     , 
-                    <a href="http://hellozee.github.io/tags/cpp/">#cpp</a>
+                    <a href="https://hellozee.github.io/tags/cpp/">#cpp</a>
                 
             </em>
         </li>
@@ -212,7 +212,7 @@ astar_search
 pred_map predecessor;
 boost<span style="color:#f92672">::</span>associative_property_map<span style="color:#f92672">&lt;</span>pred_map<span style="color:#f92672">&gt;</span> pred_pmap(predecessor);
 </code></pre></div>
-<p><img src="http://hellozee.github.io/img/boost-confusion.jpg" alt="boost-confusion" /></p>
+<p><img src="https://hellozee.github.io/img/boost-confusion.jpg" alt="boost-confusion" /></p>
 
 <p>Documentation of <code>boost::associative_property_map</code> please,</p>
 
@@ -287,14 +287,14 @@ boost<span style="color:#f92672">::</span>associative_property_map<span style="c
 };
 </code></pre></div>
 <p>First lets take a look at my proposed heuristic function,
-<img src="http://hellozee.github.io/img/heuristic1.png" alt="heuristic1" />
+<img src="https://hellozee.github.io/img/heuristic1.png" alt="heuristic1" />
 The m-suffixed variables are part of the final point, while the 0-suffixed one is for the previous point and the i-suffixed ones are of the current point. Calculates the deviation from the base line.
-<img src="http://hellozee.github.io/img/heuristic2.png" alt="heuristic2" />
+<img src="https://hellozee.github.io/img/heuristic2.png" alt="heuristic2" />
 Simple euclidean distance from the final point.
-<img src="http://hellozee.github.io/img/heuristic3.png" alt="heuristic3" />
+<img src="https://hellozee.github.io/img/heuristic3.png" alt="heuristic3" />
 This one combines them both, with coefficients a and b, which is to be determined experimentally.
 Now that I think of it, we can further improove the equation by subtracting the distance of the previous point from the goal from dm, ending up with something like,
-<img src="http://hellozee.github.io/img/heuristic4.png" alt="heuristic4" /></p>
+<img src="https://hellozee.github.io/img/heuristic4.png" alt="heuristic4" /></p>
 
 <p>I would be needing the previous vertex, the final vertex and the current vertex. The final and the current are obvious from the example, but not sure about the previous one. My wild guess, I should be using the <code>predecessor_map</code> and be done with it. Now if I modify the example function for the above equations,</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">euclidean_heuristic</span><span style="color:#f92672">:</span>
@@ -333,7 +333,7 @@ Now that I think of it, we can further improove the equation by subtracting the 
     <ul>
         
         <li>
-            <a href="http://hellozee.github.io/posts/linux-desktop/"><i class="fa fa-chevron-circle-left"></i> This is the year of Linux Desktop</a>
+            <a href="https://hellozee.github.io/posts/linux-desktop/"><i class="fa fa-chevron-circle-left"></i> This is the year of Linux Desktop</a>
         </li>
         
         
@@ -402,10 +402,10 @@ Now that I think of it, we can further improove the equation by subtracting the 
     <footer>
         <h6>Copyright &copy; 2019 - Kuntal Majumder | 
             Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="http://hellozee.github.io/index.xml">Subscribe</a></h6>
+            <a href="https://hellozee.github.io/index.xml">Subscribe</a></h6>
     </footer>
 </div>
-<script src="http://hellozee.github.io/js/scripts.js"></script>
+<script src="https://hellozee.github.io/js/scripts.js"></script>
 </body>
 
 </html>

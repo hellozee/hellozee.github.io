@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference on A Nerd&#39;s Tale</title>
-    <link>http://hellozee.github.io/categories/conference/</link>
+    <link>https://hellozee.github.io/categories/conference/</link>
     <description>Recent content in Conference on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sat, 19 Jan 2019 20:05:44 +0530</lastBuildDate>
     
-	<atom:link href="http://hellozee.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hellozee.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Caring about the directories</title>
-      <link>http://hellozee.github.io/posts/dexer/</link>
+      <link>https://hellozee.github.io/posts/dexer/</link>
       <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
       
-      <guid>http://hellozee.github.io/posts/dexer/</guid>
+      <guid>https://hellozee.github.io/posts/dexer/</guid>
       <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
     </item>
     
