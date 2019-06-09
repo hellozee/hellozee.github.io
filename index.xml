@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Another Week with boost::graph</title>
+      <link>https://hellozee.github.io/posts/another_week_with_boost/</link>
+      <pubDate>Sun, 09 Jun 2019 13:29:33 +0530</pubDate>
+      
+      <guid>https://hellozee.github.io/posts/another_week_with_boost/</guid>
+      <description>&amp;lt;prelude&amp;gt;
+In the previous post, I discussed boost::astar_search and ignored the most important part of the whole setup, the graph itself. This I would say is a little harder to comprehend than boost::astar_search.</description>
+    </item>
+    
+    <item>
       <title>Dissecting boost::astar_search</title>
       <link>https://hellozee.github.io/posts/boost_astar/</link>
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
