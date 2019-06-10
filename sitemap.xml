@@ -3,108 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hellozee.github.io/about/</loc>
-    <lastmod>2018-06-05T22:11:39+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hellozee.github.io/posts/another_week_with_boost/</loc>
+    <loc>https://hellozee.github.io/another_week_with_boost/</loc>
     <lastmod>2019-06-09T13:29:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/boost_astar/</loc>
+    <loc>https://hellozee.github.io/boost_astar/</loc>
     <lastmod>2019-05-26T04:43:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/linux-desktop/</loc>
+    <loc>https://hellozee.github.io/linux-desktop/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/summer-is-coming/</loc>
+    <loc>https://hellozee.github.io/summer-is-coming/</loc>
     <lastmod>2019-05-07T14:18:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/getting-alight/</loc>
+    <loc>https://hellozee.github.io/getting-alight/</loc>
     <lastmod>2019-03-18T01:01:34+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/windows/</loc>
+    <loc>https://hellozee.github.io/windows/</loc>
     <lastmod>2019-02-22T15:31:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/how-design-works/</loc>
+    <loc>https://hellozee.github.io/how-design-works/</loc>
     <lastmod>2019-02-13T03:41:21+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/video-review-1/</loc>
+    <loc>https://hellozee.github.io/video-review-1/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/no-please/</loc>
+    <loc>https://hellozee.github.io/no-please/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/dexer/</loc>
+    <loc>https://hellozee.github.io/dexer/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/new-year-bois/</loc>
+    <loc>https://hellozee.github.io/new-year-bois/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/flashback-2018/</loc>
+    <loc>https://hellozee.github.io/flashback-2018/</loc>
     <lastmod>2018-12-24T16:49:01+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/how-to-learn/</loc>
+    <loc>https://hellozee.github.io/how-to-learn/</loc>
     <lastmod>2018-12-21T08:39:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/nuke-python-marvel/</loc>
+    <loc>https://hellozee.github.io/nuke-python-marvel/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/ilugd-birthday/</loc>
+    <loc>https://hellozee.github.io/ilugd-birthday/</loc>
     <lastmod>2018-10-29T12:58:13+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/ilugd-year/</loc>
+    <loc>https://hellozee.github.io/ilugd-year/</loc>
     <lastmod>2018-09-14T21:43:07+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/languages/</loc>
+    <loc>https://hellozee.github.io/languages/</loc>
     <lastmod>2018-07-05T19:27:47+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/something_to_be_scared_of/</loc>
+    <loc>https://hellozee.github.io/something_to_be_scared_of/</loc>
     <lastmod>2018-06-27T12:47:54+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/posts/cook/</loc>
+    <loc>https://hellozee.github.io/cook/</loc>
     <lastmod>2018-06-05T22:04:56+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://hellozee.github.io/</loc>
-    <lastmod>2018-06-05T22:11:39+05:30</lastmod>
+    <lastmod>2019-06-09T13:29:33+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -386,12 +381,6 @@
   <url>
     <loc>https://hellozee.github.io/tags/photoshop/</loc>
     <lastmod>2019-02-13T03:41:21+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hellozee.github.io/posts/</loc>
-    <lastmod>2019-06-09T13:29:33+05:30</lastmod>
     <priority>0</priority>
   </url>
   

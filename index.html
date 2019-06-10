@@ -1,604 +1,156 @@
-<!doctype html>
-
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <title>A Nerd&#39;s Tale</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="The HTML5 Herald" />
-  <meta name="author" content="hellozee" />
-  <meta name="generator" content="Hugo 0.40.1" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
-  <link rel="stylesheet" type="text/css" href="https://hellozee.github.io/css/styles.css" />
+	<meta name="generator" content="Hugo 0.40.1" />
+    <title>A Nerd&#39;s Tale</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+        body{
+            background: #fff;
+            margin-left: 20px;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        header{
+            font-size: 22px;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            width: 50%;
+            color: #346ac1;
+        }
+
+        sub{
+            font-size: 15px;
+            color: #666666;
+        }
+
+        div.list{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        div.landing{
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+            width: 50%;
+            display: grid;
+            grid-column-gap: 10px;
+            grid-template-columns: 20% 80%;
+            padding-left: 20px;
+        }
+
+        div.landing a:link, div.landing a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+
+        div.landing  {
+            color: #000;
+        }
+
+        div.date{
+            color:#666666;
+        }
+  </style>
 </head>
-
 <body>
-  <div id="container">
-    <header>
-      <h1>
-                <a href="https://hellozee.github.io/">A Nerd&rsquo;s Tale</a>
-            </h1>
-
-      <ul id="social-media">
-        
-        <li><a href="https://twitter.com/hellozee54"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://www.linkedin.com/in/mkuntal"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://github.com/hellozee"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://gitlab.com/hellozee"><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
-          
-      </ul>
-      
-      <p><em>A place where I can shout</em></p>
-      
+    <header>A Nerd&#39;s Tale<br>
+        <sub>A place where I can shout</sub>
     </header>
 
-    
-<nav>
-    <ul>
-        
-        <li>
-            <a class="active" href="https://hellozee.github.io/">
-                <i class="fa-li fa  fa-lg"></i><span>Home</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="https://hellozee.github.io/posts/">
-                <i class="fa-li fa  fa-lg"></i><span>Blog</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="https://hellozee.github.io/about/">
-                <i class="fa-li fa  fa-lg"></i><span>About</span>
-            </a>
-        </li>
-        
-    </ul>
-</nav>
-
-    <main>
-
-
-
-
-<section id="home">
-        <ul>
-          
-          <li class="first">
-            <h1><a href="https://hellozee.github.io/posts/another_week_with_boost/" title="Another Week with boost::graph">Another Week with boost::graph</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-06-09T13:29:33&#43;05:30">Jun 9, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/krita/">krita</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/krita/">#krita</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/gsoc/">#gsoc</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/kde/">#kde</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/boost/">#boost</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/cpp/">#cpp</a>
-                
-            </em>
-        </li>
-        
-
-        <li>4 min read</li>
-    </ul>
-</aside>
-            <p>&lt;prelude&gt;
-In the previous post, I discussed boost::astar_search and ignored the most important part of the whole setup, the graph itself. This I would say is a little harder to comprehend than boost::astar_search.</p>
-            
-            <a href="https://hellozee.github.io/posts/another_week_with_boost/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/boost_astar/" title="Dissecting boost::astar_search">Dissecting boost::astar_search</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-05-26T04:43:18&#43;05:30">May 26, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/krita/">krita</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/krita/">#krita</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/gsoc/">#gsoc</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/kde/">#kde</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/boost/">#boost</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/cpp/">#cpp</a>
-                
-            </em>
-        </li>
-        
-
-        <li>7 min read</li>
-    </ul>
-</aside>
-            <p>Right now, I am having a hard time understanding BGL&rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</p>
-            
-            <a href="https://hellozee.github.io/posts/boost_astar/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/linux-desktop/" title="This is the year of Linux Desktop">This is the year of Linux Desktop</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-05-17T19:46:48&#43;05:30">May 17, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/linux/">linux</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/categories/open-source/">open-source</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/linux/">#linux</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/gnome/">#gnome</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/kde/">#kde</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/foss/">#foss</a>
-                
-            </em>
-        </li>
-        
-
-        <li>5 min read</li>
-    </ul>
-</aside>
-            <p>The title is a running joke now, please don&rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&rsquo;s retrospect the situation.
- Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</p>
-            
-            <a href="https://hellozee.github.io/posts/linux-desktop/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/summer-is-coming/" title="Summer is coming...">Summer is coming...</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-05-07T14:18:32&#43;05:30">May 7, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/krita/">krita</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/krita/">#krita</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/gsoc/">#gsoc</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/kde/">#kde</a>
-                
-            </em>
-        </li>
-        
-
-        <li>3 min read</li>
-    </ul>
-</aside>
-            <p>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
- This will be a story, so get prepared to be bored, 😸.</p>
-            
-            <a href="https://hellozee.github.io/posts/summer-is-coming/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/getting-alight/" title="Getting Alight">Getting Alight</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-03-18T01:01:34&#43;05:30">Mar 18, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/ranting/">ranting</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/rant/">#rant</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
-                
-            </em>
-        </li>
-        
-
-        <li>2 min read</li>
-    </ul>
-</aside>
-            <p>Would start this one with a quote,
- Information is free - You have to know
-People are not - You have to pay
-Contributors are priceless - You have to be</p>
-            
-            <a href="https://hellozee.github.io/posts/getting-alight/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/windows/" title="Windows : A true nightmare">Windows : A true nightmare</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-02-22T15:31:30&#43;05:30">Feb 22, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/windows/">windows</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/bored/">#bored</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/freedom/">#freedom</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/video/">#video</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/resolve/">#resolve</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/adobe/">#adobe</a>
-                
-            </em>
-        </li>
-        
-
-        <li>4 min read</li>
-    </ul>
-</aside>
-            <p>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</p>
-            
-            <a href="https://hellozee.github.io/posts/windows/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/how-design-works/" title="How Design Works?">How Design Works?</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-02-13T03:41:21&#43;05:30">Feb 13, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/design/">design</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/categories/open-source/">open-source</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/kde/">#kde</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/krita/">#krita</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/inkscape/">#inkscape</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/photoshop/">#photoshop</a>
-                
-            </em>
-        </li>
-        
-
-        <li>4 min read</li>
-    </ul>
-</aside>
-            <p>Note: The title may be misleading, 😛
- I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&rsquo;t hurt anyone, let that be so.</p>
-            
-            <a href="https://hellozee.github.io/posts/how-design-works/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/video-review-1/" title="Enough of Youtube">Enough of Youtube</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-02-03T20:46:42&#43;05:30">Feb 3, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/engineering/">engineering</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/categories/youtube/">youtube</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/critique/">#critique</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/youtube/">#youtube</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/tech/">#tech</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/trash/">#trash</a>
-                
-            </em>
-        </li>
-        
-
-        <li>4 min read</li>
-    </ul>
-</aside>
-            <p>&ldquo;Youtube&rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&rsquo;t have the required setup to record videos nor the time to invest in making videos.</p>
-            
-            <a href="https://hellozee.github.io/posts/video-review-1/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/no-please/" title="A Couple of Words">A Couple of Words</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-02-02T23:11:17&#43;05:30">Feb 2, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/self/">self</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/self/">#self</a>
-                
-            </em>
-        </li>
-        
-
-        <li>3 min read</li>
-    </ul>
-</aside>
-            <p>Speaking from a normal person&rsquo;s point of view, do praises hurt? or if I can phrase it better, what hurts more, praise or criticism? An appropriate answer would be none, if you can take praise with your head held high you must be able to take criticism with the same attitude, right?</p>
-            
-            <a href="https://hellozee.github.io/posts/no-please/">Read more&hellip;</a>
-            
-          </li>
-          
-          <li >
-            <h1><a href="https://hellozee.github.io/posts/dexer/" title="Caring about the directories">Caring about the directories</a></h1> 
-            <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2019-01-19T20:05:44&#43;05:30">Jan 19, 2019</time>
-        </li>
-        
-        
-        <li>
-            Categories: 
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/categories/pycon/">pycon</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/categories/conference/">conference</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/categories/golang/">golang</a>
-                
-            </em>
-        </li>
-        
-
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="https://hellozee.github.io/tags/pycon/">#pycon</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/golang/">#golang</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/project/">#project</a>
-                
-                    , 
-                    <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>
-                
-            </em>
-        </li>
-        
-
-        <li>3 min read</li>
-    </ul>
-</aside>
-            <p>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</p>
-            
-            <a href="https://hellozee.github.io/posts/dexer/">Read more&hellip;</a>
-            
-          </li>
-          
-        </ul>
-      </section>
-
-
-
-</main>
-    <footer>
-        <h6>Copyright &copy; 2019 - Kuntal Majumder | 
-            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="https://hellozee.github.io/index.xml">Subscribe</a></h6>
-    </footer>
+<div class="list">
+    <div class="landing">
+        <div class="date">Sun Jun 09 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/another_week_with_boost/">Another Week with boost::graph</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Sun May 26 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/boost_astar/">Dissecting boost::astar_search</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Fri May 17 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/linux-desktop/">This is the year of Linux Desktop</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Tue May 07 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/summer-is-coming/">Summer is coming...</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Mon Mar 18 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/getting-alight/">Getting Alight</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Fri Feb 22 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/windows/">Windows : A true nightmare</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Wed Feb 13 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/how-design-works/">How Design Works?</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Sun Feb 03 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/video-review-1/">Enough of Youtube</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Sat Feb 02 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/no-please/">A Couple of Words</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Sat Jan 19 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/dexer/">Caring about the directories</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Fri Jan 04 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/new-year-bois/">It is New Year my dudes</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Mon Dec 24 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/flashback-2018/">Flashback 2018</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Fri Dec 21 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/how-to-learn/">How to Learn</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Mon Dec 10 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/nuke-python-marvel/">Recreating the Marvel Intro with Python and Nuke</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Mon Oct 29 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/ilugd-birthday/">Another year, nice one</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Fri Sep 14 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/ilugd-year/">A Year Passes by</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Thu Jul 05 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/languages/">Languages are just tools, you idiot</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Wed Jun 27 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/something_to_be_scared_of/">Something to be scared of..</a></div>
+    </div>
+    <div class="landing">
+        <div class="date">Tue Jun 05 2018</div>
+        <div class="title"><a href="https://hellozee.github.io/cook/">Do it, you may learn something new</a></div>
+    </div>
 </div>
-<script src="https://hellozee.github.io/js/scripts.js"></script>
-</body>
+<style>
+    div.post-footer{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-top: 1px solid #dbdbdb;
+        margin-left: 20px;
+    }
 
+    a{
+        color: #346ac1;
+        text-decoration: none;
+    }
+</style>
+<div class="post-footer">
+Contents © 2019 hellozee - Powered by <a href="https://gohugo.io/">Hugo</a> | Liked the theme? Get it <a href="https://github.com/hellozee/plain-n-simple">here</a>
+</div>
+</body>
 </html>

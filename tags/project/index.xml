@@ -5,6 +5,8 @@
     <link>https://hellozee.github.io/tags/project/</link>
     <description>Recent content in Project on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
+    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sat, 19 Jan 2019 20:05:44 +0530</lastBuildDate>
     
@@ -13,19 +15,19 @@
     
     <item>
       <title>Caring about the directories</title>
-      <link>https://hellozee.github.io/posts/dexer/</link>
+      <link>https://hellozee.github.io/dexer/</link>
       <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/dexer/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/dexer/</guid>
       <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
     </item>
     
     <item>
       <title>Flashback 2018</title>
-      <link>https://hellozee.github.io/posts/flashback-2018/</link>
+      <link>https://hellozee.github.io/flashback-2018/</link>
       <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/flashback-2018/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/flashback-2018/</guid>
       <description>tl;dr, Typical end of the year post as you may expect.
 Well, 2018 was a significantly productive year for me compared to other years, learned so many things which I wanted to, plus added more things to the bucket list for the coming year.</description>
     </item>

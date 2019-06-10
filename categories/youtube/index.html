@@ -1,112 +1,83 @@
-<!doctype html>
-
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <title>A Nerd&#39;s Tale</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="The HTML5 Herald" />
-  <meta name="author" content="hellozee" />
-  <meta name="generator" content="Hugo 0.40.1" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
-  <link rel="stylesheet" type="text/css" href="https://hellozee.github.io/css/styles.css" />
+    <title>Youtube</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+        body{
+            background: #fff;
+            margin-left: 20px;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        header{
+            font-size: 22px;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            width: 50%;
+            color: #346ac1;
+        }
+
+        sub{
+            font-size: 15px;
+            color: #666666;
+        }
+
+        div.list{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        div.landing{
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+            width: 50%;
+            display: grid;
+            grid-column-gap: 10px;
+            grid-template-columns: 20% 80%;
+            padding-left: 20px;
+        }
+
+        div.landing a:link, div.landing a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+
+        div.landing  {
+            color: #000;
+        }
+
+        div.date{
+            color:#666666;
+        }
+  </style>
 </head>
-
 <body>
-  <div id="container">
-    <header>
-      <h1>
-                <a href="https://hellozee.github.io/">A Nerd&rsquo;s Tale</a>
-            </h1>
-
-      <ul id="social-media">
-        
-        <li><a href="https://twitter.com/hellozee54"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://www.linkedin.com/in/mkuntal"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://github.com/hellozee"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://gitlab.com/hellozee"><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
-          
-      </ul>
-      
-      <p><em>A place where I can shout</em></p>
-      
+    <header>A Nerd&#39;s Tale<br>
+        <sub>A place where I can shout</sub>
     </header>
 
-    
-<nav>
-    <ul>
-        
-        <li>
-            <a class="" href="https://hellozee.github.io/">
-                <i class="fa-li fa  fa-lg"></i><span>Home</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="https://hellozee.github.io/posts/">
-                <i class="fa-li fa  fa-lg"></i><span>Blog</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="https://hellozee.github.io/about/">
-                <i class="fa-li fa  fa-lg"></i><span>About</span>
-            </a>
-        </li>
-        
-    </ul>
-</nav>
-
-    <main>
-
-
-
-
-<section id="list">
-
-    
-
-    
-        <h2>Youtube</h2>
-    
-
-    
-
-    
-
-    <h3>2019</h3>
-    <ul>
-        
-        <li>
-            <a href="https://hellozee.github.io/posts/video-review-1/">Enough of Youtube</a>
-            <time class="date-meta">Feb 3</time>
-        </li>
-        
-    </ul>
-    
-    
-
-</section>
-
-
-
-
-
-
-</main>
-    <footer>
-        <h6>Copyright &copy; 2019 - Kuntal Majumder | 
-            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="https://hellozee.github.io/index.xml">Subscribe</a></h6>
-    </footer>
+<div class="list">
+    <div class="landing">
+        <div class="date">Sun Feb 03 2019</div>
+        <div class="title"><a href="https://hellozee.github.io/video-review-1/">Enough of Youtube</a></div>
+    </div>
 </div>
-<script src="https://hellozee.github.io/js/scripts.js"></script>
-</body>
+<style>
+    div.post-footer{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-top: 1px solid #dbdbdb;
+        margin-left: 20px;
+    }
 
+    a{
+        color: #346ac1;
+        text-decoration: none;
+    }
+</style>
+<div class="post-footer">
+Contents © 2019 hellozee - Powered by <a href="https://gohugo.io/">Hugo</a> | Liked the theme? Get it <a href="https://github.com/hellozee/plain-n-simple">here</a>
+</div>
+</body>
 </html>

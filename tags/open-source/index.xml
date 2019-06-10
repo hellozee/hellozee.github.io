@@ -5,6 +5,8 @@
     <link>https://hellozee.github.io/tags/open-source/</link>
     <description>Recent content in Open Source on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
+    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sun, 09 Jun 2019 13:29:33 +0530</lastBuildDate>
     
@@ -13,39 +15,39 @@
     
     <item>
       <title>Another Week with boost::graph</title>
-      <link>https://hellozee.github.io/posts/another_week_with_boost/</link>
+      <link>https://hellozee.github.io/another_week_with_boost/</link>
       <pubDate>Sun, 09 Jun 2019 13:29:33 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/another_week_with_boost/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/another_week_with_boost/</guid>
       <description>&amp;lt;prelude&amp;gt;
 In the previous post, I discussed boost::astar_search and ignored the most important part of the whole setup, the graph itself. This I would say is a little harder to comprehend than boost::astar_search.</description>
     </item>
     
     <item>
       <title>Dissecting boost::astar_search</title>
-      <link>https://hellozee.github.io/posts/boost_astar/</link>
+      <link>https://hellozee.github.io/boost_astar/</link>
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/boost_astar/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/boost_astar/</guid>
       <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
       <title>Summer is coming...</title>
-      <link>https://hellozee.github.io/posts/summer-is-coming/</link>
+      <link>https://hellozee.github.io/summer-is-coming/</link>
       <pubDate>Tue, 07 May 2019 14:18:32 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/summer-is-coming/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/summer-is-coming/</guid>
       <description>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
  This will be a story, so get prepared to be bored, 😸.</description>
     </item>
     
     <item>
       <title>Getting Alight</title>
-      <link>https://hellozee.github.io/posts/getting-alight/</link>
+      <link>https://hellozee.github.io/getting-alight/</link>
       <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/getting-alight/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/getting-alight/</guid>
       <description>Would start this one with a quote,
  Information is free - You have to know
 People are not - You have to pay
@@ -54,37 +56,37 @@ Contributors are priceless - You have to be</description>
     
     <item>
       <title>Windows : A true nightmare</title>
-      <link>https://hellozee.github.io/posts/windows/</link>
+      <link>https://hellozee.github.io/windows/</link>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/windows/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/windows/</guid>
       <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&amp;rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
     </item>
     
     <item>
       <title>Caring about the directories</title>
-      <link>https://hellozee.github.io/posts/dexer/</link>
+      <link>https://hellozee.github.io/dexer/</link>
       <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/dexer/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/dexer/</guid>
       <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
     </item>
     
     <item>
       <title>Another year, nice one</title>
-      <link>https://hellozee.github.io/posts/ilugd-birthday/</link>
+      <link>https://hellozee.github.io/ilugd-birthday/</link>
       <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/ilugd-birthday/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/ilugd-birthday/</guid>
       <description>So apparently one of the oldest community in probably the whole India, celebrated its 2nd anniversary on 28th after it was revived back on 2016. And you know what, this time it was a Capture The Flag event, something new tried by the new group of people who joined hands to not let this community go in hibernation again.</description>
     </item>
     
     <item>
       <title>A Year Passes by</title>
-      <link>https://hellozee.github.io/posts/ilugd-year/</link>
+      <link>https://hellozee.github.io/ilugd-year/</link>
       <pubDate>Fri, 14 Sep 2018 21:43:07 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/ilugd-year/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/ilugd-year/</guid>
       <description>ILUGD better known as India Linux Users Group - Delhi, a LUG, based in Delhi NCR. Bear in mind that it is &amp;ldquo;India&amp;rdquo; and not &amp;ldquo;Indian&amp;rdquo;, a lot of people get that incorrect, &amp;ldquo;Indian&amp;rdquo; means it is exclusively for Indians which we are obviously not, but our group is based in Delhi which comes in India so, hashtag_blah_blah.</description>
     </item>
     

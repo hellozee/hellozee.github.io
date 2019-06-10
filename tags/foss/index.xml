@@ -5,6 +5,8 @@
     <link>https://hellozee.github.io/tags/foss/</link>
     <description>Recent content in Foss on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
+    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Fri, 17 May 2019 19:46:48 +0530</lastBuildDate>
     
@@ -13,10 +15,10 @@
     
     <item>
       <title>This is the year of Linux Desktop</title>
-      <link>https://hellozee.github.io/posts/linux-desktop/</link>
+      <link>https://hellozee.github.io/linux-desktop/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      
-      <guid>https://hellozee.github.io/posts/linux-desktop/</guid>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/linux-desktop/</guid>
       <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
  Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>
