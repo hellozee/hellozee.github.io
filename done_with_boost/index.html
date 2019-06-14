@@ -1,0 +1,244 @@
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap');
+
+        div.post{
+            font-family: 'Slabo 27px', serif;
+            margin-top: 50px;
+            padding-left: 40px;
+            width: 70%;
+        }
+
+        div.post-title{
+            font-family: 'Alegreya SC', serif;
+            padding: 30px;
+            font-size: 40px;
+            padding-left: 0px;
+        }
+
+        a{
+            color: #346ac1;
+            text-decoration: none;
+        }
+
+        a.to-index{
+            font-family: 'Inconsolata', monospace;
+        }
+
+        div.mail-drop{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        span.mail{
+            font-weight: bold;
+        }
+
+        .image, figure img, img {                                                       
+            width: 50%;
+            display: block;                                                                                                                
+        }                                                                               
+                                                                                
+        .full-image, figure.full img, img[src*="full"] {                                
+            width: 70%;                                                                                                              
+        }
+
+        blockquote {                                                                    
+            margin: 1em;                                                                  
+            border-left: solid 0.1em #cecece;   
+            padding: 1px;                                          
+            padding-left: 20px;                                                           
+            position: relative;                                                           
+            background-color: #efefef;     
+            width: 70%;                                                                               
+        }
+
+</style>
+<link rel="stylesheet" href="https://hellozee.github.io/css/syntax.css" />
+<div class="post">
+    <a href="https://hellozee.github.io" class="to-index">← [Index]</a> 
+<div class="post-title">Done with boost</div>
+<h6>Sat, Jun 15, 2019 - hellozee -                                                                
+                                  
+                                              
+        <a href="https://hellozee.github.io/tags/krita/">#krita</a>             
+                                  
+        ,                                       
+        <a href="https://hellozee.github.io/tags/gsoc/">#gsoc</a>             
+                                  
+        ,                                       
+        <a href="https://hellozee.github.io/tags/open-source/">#open-source</a>             
+                                  
+        ,                                       
+        <a href="https://hellozee.github.io/tags/kde/">#kde</a>             
+                                  
+        ,                                       
+        <a href="https://hellozee.github.io/tags/boost/">#boost</a>             
+                                  
+        ,                                       
+        <a href="https://hellozee.github.io/tags/cpp/">#cpp</a>             
+    
+</h6>
+
+
+<p>This would start with a quote:</p>
+
+<blockquote>
+<p>Documentation is like sex: when it is good, it is very, very good; and when it is bad, it is better than nothing.</p>
+
+<p><code>- Dick Brandon (Honestly, I have no idea who this is)</code></p>
+</blockquote>
+
+<p>One of the so called pillar of the <code>c++</code> world, <code>boost</code>, sucks a lot when it comes to documentation, I wouldn&rsquo;t have to write more than one blog post if they had their documentation in place. It has been almost a month that I have started working on the Magnetic Lasso and I wasted most of the time fighting with <code>boost</code> instead of working on my algorithm. Okay, fine I am getting paid for it, I shouldn&rsquo;t complain.</p>
+
+<p>Now the good sides, learnt a lot about how to read template errors and also how to reduce all the gibberish which the compilers throw when they get one, so the key take ways from the fight would be,</p>
+
+<ul>
+<li>learnt about <code>BOOST_CONCEPT_ASSERT</code>, this thing deserves a separate blog post, such a cool thing it is</li>
+<li><code>clang</code> provides much better error messages than <code>gcc</code>, switching compilers can help sometime</li>
+<li>C++ traits, another sweet thing which go hand in hand with concepts</li>
+</ul>
+
+<p>As I was discussing in <a href="https://hellozee.github.io/boost_astar/">this</a> post, that <code>boost::astar_search</code> requires a bunch of maps, turns out, I was underestimating their number, let me list them one by one here,</p>
+
+<ul>
+<li>Predecessor Map</li>
+<li>Distance Map</li>
+<li>Rank Map</li>
+<li>Vertex Index Map</li>
+<li>Weight Map</li>
+<li>Color Map</li>
+<li>Some more, but I won&rsquo;t be talking about them</li>
+</ul>
+
+<p>Shit, I feel like an atlas now, too many maps. Anyway, thankfully, I got around most of them using <code>std::map</code> but some needed a little bit of special attention, because of you know, <code>traits</code>.</p>
+
+<h3 id="predecessor-map">Predecessor Map</h3>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="n">PredecessorMap</span><span class="p">{</span>
+    <span class="n">PredecessorMap</span><span class="p">()</span>
+    <span class="p">{</span> <span class="p">}</span>
+
+    <span class="n">PredecessorMap</span><span class="p">(</span><span class="n">PredecessorMap</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">that</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">m_map</span><span class="p">(</span><span class="n">that</span><span class="p">.</span><span class="n">m_map</span><span class="p">)</span>
+    <span class="p">{</span> <span class="p">}</span>
+
+    <span class="k">typedef</span> <span class="n">VertexDescriptor</span> <span class="n">key_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="n">VertexDescriptor</span> <span class="n">value_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="n">VertexDescriptor</span> <span class="o">&amp;</span> <span class="n">reference_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="n">boost</span><span class="o">::</span><span class="n">read_write_property_map_tag</span> <span class="n">category</span><span class="p">;</span>
+</code></pre></div>
+<p>See those <code>typedef</code>&rsquo;s these are the respective traits, honestly it feels like magic on how they work mostly, but once you get their point, it feels natural, embedding instead of inheriting, though I may be wrong as this things are still fairly new to me.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++">    <span class="n">VertexDescriptor</span> <span class="o">&amp;</span><span class="k">operator</span><span class="p">[](</span><span class="n">VertexDescriptor</span> <span class="n">v</span><span class="p">){</span>
+        <span class="k">return</span> <span class="n">m_map</span><span class="p">[</span><span class="n">v</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">VertexDescriptor</span><span class="p">,</span> <span class="n">VertexDescriptor</span><span class="o">&gt;</span> <span class="n">m_map</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>Wrapping up square brackets operator to play nice with <code>std::map</code>. I wish if C++ had features like Go has when it comes to embedding types, or probably it has and I have never looked for one.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">VertexDescriptor</span> <span class="nf">get</span><span class="p">(</span><span class="n">PredecessorMap</span> <span class="k">const</span> <span class="o">&amp;</span><span class="n">m</span><span class="p">,</span> <span class="n">VertexDescriptor</span> <span class="n">v</span><span class="p">){</span>
+    <span class="k">typename</span> <span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">VertexDescriptor</span><span class="p">,</span> <span class="n">VertexDescriptor</span><span class="o">&gt;::</span><span class="n">const_iterator</span> <span class="n">found</span> <span class="o">=</span> <span class="n">m</span><span class="p">.</span><span class="n">m_map</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">v</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">found</span> <span class="o">!=</span> <span class="n">m</span><span class="p">.</span><span class="n">m_map</span><span class="p">.</span><span class="n">end</span><span class="p">()</span> <span class="o">?</span> <span class="n">found</span><span class="o">-&gt;</span><span class="nl">second</span> <span class="p">:</span> <span class="n">v</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">put</span><span class="p">(</span><span class="n">PredecessorMap</span> <span class="o">&amp;</span><span class="n">m</span><span class="p">,</span> <span class="n">VertexDescriptor</span> <span class="n">key</span><span class="p">,</span> <span class="n">VertexDescriptor</span> <span class="n">value</span><span class="p">){</span>
+    <span class="n">m</span><span class="p">.</span><span class="n">m_map</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Why did I overload the square brackets? I don&rsquo;t know, typical stuff, when you just try adapting an example someone wrote for their own code, though having an extra function doesn&rsquo;t hurt, so I would let it be like these for the moment.</p>
+
+<h3 id="distance-map">Distance Map</h3>
+
+<p>This one was more forgiving,</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="n">DistanceMap</span> <span class="p">{</span>
+    <span class="k">typedef</span> <span class="n">VertexDescriptor</span> <span class="n">key_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="kt">double</span> <span class="n">data_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">key_type</span><span class="p">,</span> <span class="n">data_type</span><span class="o">&gt;</span> <span class="n">value_type</span><span class="p">;</span>
+
+    <span class="n">DistanceMap</span><span class="p">(</span><span class="kt">double</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">dval</span><span class="p">)</span>
+            <span class="o">:</span> <span class="n">m_default</span><span class="p">(</span><span class="n">dval</span><span class="p">)</span>
+    <span class="p">{</span> <span class="p">}</span>
+
+    <span class="n">data_type</span> <span class="o">&amp;</span><span class="k">operator</span><span class="p">[](</span><span class="n">key_type</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">k</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">m</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="o">==</span> <span class="n">m</span><span class="p">.</span><span class="n">end</span><span class="p">())</span>
+            <span class="n">m</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">m_default</span><span class="p">;</span>
+        <span class="k">return</span> <span class="n">m</span><span class="p">[</span><span class="n">k</span><span class="p">];</span>
+    <span class="p">}</span>
+
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">key_type</span><span class="p">,</span> <span class="n">data_type</span><span class="o">&gt;</span> <span class="n">m</span><span class="p">;</span>
+    <span class="n">data_type</span> <span class="k">const</span> <span class="n">m_default</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>3 traits and again wrapping up <code>std::map</code> .</p>
+
+<h3 id="weight-map">Weight Map</h3>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="n">WeightMap</span><span class="p">{</span>
+    <span class="k">typedef</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">VertexDescriptor</span><span class="p">,</span> <span class="n">VertexDescriptor</span><span class="o">&gt;</span> <span class="n">key_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="kt">double</span> <span class="n">data_type</span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">key_type</span><span class="p">,</span> <span class="n">data_type</span><span class="o">&gt;</span> <span class="n">value_type</span><span class="p">;</span>
+
+    <span class="n">WeightMap</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
+
+    <span class="n">WeightMap</span><span class="p">(</span><span class="n">KisMagneticGraph</span> <span class="n">g</span><span class="p">)</span><span class="o">:</span>
+        <span class="n">m_graph</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+    <span class="p">{</span> <span class="p">}</span>
+
+    <span class="n">data_type</span><span class="o">&amp;</span> <span class="k">operator</span><span class="p">[](</span><span class="n">key_type</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">k</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">m_map</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="o">==</span> <span class="n">m_map</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> <span class="p">{</span>
+            <span class="kt">double</span> <span class="n">edge_gradient</span> <span class="o">=</span> <span class="n">m_graph</span><span class="p">.</span><span class="n">getIntensity</span><span class="p">((</span><span class="n">k</span><span class="p">.</span><span class="n">first</span><span class="p">))</span> <span class="o">+</span> <span class="n">m_graph</span><span class="p">.</span><span class="n">getIntensity</span><span class="p">((</span><span class="n">k</span><span class="p">.</span><span class="n">second</span><span class="p">))</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+            <span class="n">m_map</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">EuclideanDistance</span><span class="p">(</span><span class="n">k</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">k</span><span class="p">.</span><span class="n">second</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">edge_gradient</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">m_map</span><span class="p">[</span><span class="n">k</span><span class="p">];</span>
+    <span class="p">}</span>
+
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">key_type</span><span class="p">,</span> <span class="n">data_type</span><span class="o">&gt;</span> <span class="n">m_map</span><span class="p">;</span>
+    <span class="n">KisMagneticGraph</span> <span class="n">m_graph</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>I wish I just could have used a single generic map class for both Distance and Weight Maps but I just can&rsquo;t due that pesky weight function, which takes the euclidean distance as well the edge gradient.</p>
+
+<p>For the rest of the maps, it was just using the regular <code>std::map</code> with proper types and leave the grunt work of adding traits and functions to boost and at the end the function call looked like this,</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">boost</span><span class="o">::</span><span class="n">astar_search_no_init</span><span class="p">(</span>
+     <span class="n">g</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">heuristic</span>
+    <span class="p">,</span><span class="n">boost</span><span class="o">::</span><span class="n">visitor</span><span class="p">(</span><span class="n">AStarGoalVisitor</span><span class="p">(</span><span class="n">goal</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">distance_map</span><span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">DistanceMap</span><span class="o">&gt;</span><span class="p">(</span><span class="n">dmap</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">predecessor_map</span><span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">ref</span><span class="p">(</span><span class="n">pmap</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">weight_map</span><span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">WeightMap</span><span class="o">&gt;</span><span class="p">(</span><span class="n">wmap</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">vertex_index_map</span><span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">VertexDescriptor</span><span class="p">,</span><span class="kt">unsigned</span><span class="o">&gt;&gt;</span><span class="p">(</span><span class="n">imap</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">rank_map</span><span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">VertexDescriptor</span><span class="p">,</span> <span class="kt">unsigned</span><span class="o">&gt;&gt;</span><span class="p">(</span><span class="n">rmap</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">color_map</span><span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">map</span><span class="o">&lt;</span><span class="n">VertexDescriptor</span><span class="p">,</span> <span class="n">boost</span><span class="o">::</span><span class="n">default_color_type</span><span class="o">&gt;&gt;</span><span class="p">(</span><span class="n">cmap</span><span class="p">))</span>
+    <span class="p">.</span><span class="n">distance_combine</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">plus</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="p">())</span>
+    <span class="p">.</span><span class="n">distance_compare</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">less</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="p">())</span>
+<span class="p">);</span>
+</code></pre></div>
+<p>Man, thats a spaghetti but can&rsquo;t help, it is <code>boost</code> we are talking about, fully generic stuff.</p>
+
+<p>I really like some aspects of <code>boost</code>, for example embedding instead of inheritance, it is similar to how like that no exception thing in Qt. This things do help a lot in writing more maintainable and legible code.</p>
+
+<p>All the commits along with the description can be found <a href="https://phabricator.kde.org/T10894">here</a>.</p>
+
+<p>And again lets hope by the time I am writing the next post, I am done with algorithm, cause the first evaluation is also approaching pretty fast. After all then you get to brag about that you have at least earned something, thanks Google Summer of Code, <code>:wq</code> for now.</p>
+
+[<a href="#top">Back To Top</a>]
+<div class="mail-drop">Have something to say about the post? Drop a mail on <span class="mail">hellozee at disroot.org</span></div>
+</div>
+<style>
+    div.post-footer{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-top: 1px solid #dbdbdb;
+        margin-left: 20px;
+    }
+
+    a{
+        color: #346ac1;
+        text-decoration: none;
+    }
+</style>
+<div class="post-footer">
+Contents © 2019 hellozee - Powered by <a href="https://gohugo.io/">Hugo</a> | Liked the theme? Get it <a href="https://github.com/hellozee/plain-n-simple">here</a>
+</div>
+</body>
+</html>

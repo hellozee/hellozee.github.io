@@ -8,10 +8,20 @@
     <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
     <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sun, 09 Jun 2019 13:29:33 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:16:56 +0530</lastBuildDate>
     
 	<atom:link href="https://hellozee.github.io/categories/krita/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Done with boost</title>
+      <link>https://hellozee.github.io/done_with_boost/</link>
+      <pubDate>Sat, 15 Jun 2019 00:16:56 +0530</pubDate>
+      <author>hellozee at disroot.org (hellozee)</author>
+      <guid>https://hellozee.github.io/done_with_boost/</guid>
+      <description>This would start with a quote:
+ Documentation is like sex: when it is good, it is very, very good; and when it is bad, it is better than nothing.</description>
+    </item>
     
     <item>
       <title>Another Week with boost::graph</title>
