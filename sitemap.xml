@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hellozee.github.io/deliverable_one_checked/</loc>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hellozee.github.io/done_with_boost/</loc>
     <lastmod>2019-06-15T00:16:56+05:30</lastmod>
   </url>
@@ -104,7 +109,7 @@
   
   <url>
     <loc>https://hellozee.github.io/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -181,7 +186,7 @@
   
   <url>
     <loc>https://hellozee.github.io/tags/cpp/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -228,13 +233,13 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/fun/</loc>
+    <loc>https://hellozee.github.io/tags/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/tags/fun/</loc>
+    <loc>https://hellozee.github.io/categories/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -252,20 +257,20 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/golang/</loc>
-    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hellozee.github.io/tags/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://hellozee.github.io/categories/golang/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hellozee.github.io/tags/gsoc/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -289,7 +294,7 @@
   
   <url>
     <loc>https://hellozee.github.io/tags/kde/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -300,14 +305,14 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/krita/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <loc>https://hellozee.github.io/tags/krita/</loc>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/tags/krita/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <loc>https://hellozee.github.io/categories/krita/</loc>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -318,25 +323,25 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/learning/</loc>
-    <lastmod>2018-12-21T08:39:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hellozee.github.io/tags/learning/</loc>
     <lastmod>2018-12-24T16:49:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/linux/</loc>
-    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
+    <loc>https://hellozee.github.io/categories/learning/</loc>
+    <lastmod>2018-12-21T08:39:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hellozee.github.io/tags/linux/</loc>
+    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hellozee.github.io/categories/linux/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -372,14 +377,14 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/open-source/</loc>
-    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
+    <loc>https://hellozee.github.io/tags/open-source/</loc>
+    <lastmod>2019-06-19T00:48:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/tags/open-source/</loc>
-    <lastmod>2019-06-15T00:16:56+05:30</lastmod>
+    <loc>https://hellozee.github.io/categories/open-source/</loc>
+    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -408,25 +413,25 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/pycon/</loc>
-    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hellozee.github.io/tags/pycon/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/python/</loc>
-    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <loc>https://hellozee.github.io/categories/pycon/</loc>
+    <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hellozee.github.io/tags/python/</loc>
+    <lastmod>2018-12-10T15:07:59+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hellozee.github.io/categories/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -450,13 +455,13 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/self/</loc>
+    <loc>https://hellozee.github.io/tags/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/tags/self/</loc>
+    <loc>https://hellozee.github.io/categories/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -516,13 +521,13 @@
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/categories/youtube/</loc>
+    <loc>https://hellozee.github.io/tags/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hellozee.github.io/tags/youtube/</loc>
+    <loc>https://hellozee.github.io/categories/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
