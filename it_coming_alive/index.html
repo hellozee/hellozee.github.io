@@ -57,8 +57,8 @@
 <link rel="stylesheet" href="https://hellozee.github.io/css/syntax.css" />
 <div class="post">
     <a href="https://hellozee.github.io" class="to-index">← [Index]</a> 
-<div class="post-title">Topsy-turvy 5th Week</div>
-<h6>Tue, Jul 2, 2019 - hellozee -                                                                
+<div class="post-title">It is coming alive</div>
+<h6>Thu, Jul 11, 2019 - hellozee -                                                                
                                   
                                               
         <a href="https://hellozee.github.io/tags/krita/">#krita</a>             
@@ -76,21 +76,30 @@
         <a href="https://hellozee.github.io/tags/cpp/">#cpp</a>             
     
 </h6>
-<p>Finally, I can write myself as a professional developer, cause for the first time I got paid, that also by cash, for writing code. So after the <code>boost</code> battle of last month, it was time to test the algorithm out in the wild and not limit it to the confined boundary of the tests.</p>
 
-<p>Didn&rsquo;t play much with the code, this week, took a break and just relaxed. To point out a couple of things, I did get hold of the mouse events, how they are passed and evaluated by the tool subsystem of Krita. A couple of discussions around how it would be implemented. And a little bit of optimizing the algorithm. And for all, I got a small gif of the tool in action which I requested 4 years back, though it still needs a lot of work. Not that accurate to be honest and at the same time there are places where it can be optimized</p>
 
-<p><img src="https://hellozee.github.io/img/mlasso1.gif" alt="Magnetic Lasso gif" /></p>
+<p>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say. Though it still demands a lot of work to be done, so it will be just polishing the existing code into perfection for the next one and half month.</p>
 
-<p>Honestly converting a screen capture to gif, didn&rsquo;t work quite well. Would try to post a full video by the end of the month after I get the tool working properly.</p>
-
-<p>If I sum up the whole week,</p>
+<h3 id="what-did-i-do">What did I do?</h3>
 
 <ul>
-<li>slept a lot</li>
-<li>started a new hobby, cooking</li>
-<li>created a new c++ library, which I wanted for so long, you can find it out <a href="https://github.com/hellozee/errors">here</a>.</li>
+<li>Implemented a checkpoint based edge calculation, obviously if you know the edge points from A to B and you need to find out the edge points between A to C, you don&rsquo;t need to recalculate the whole thing, saving a lot of computation.</li>
+<li>Filtering and copying happens while initializing, so the tool would definitely be slow to start on bigger canvases, but once that is done, there is no such drop in performance.</li>
+<li>And yes, we can complete the selection by clicking on the starting point and use them.</li>
 </ul>
+
+<h3 id="what-is-left-to-be-done">What is left to be done?</h3>
+
+<ul>
+<li>Paint the checkpoints while making the selection, honestly I already tried to do it, probably missed something.</li>
+<li>Delete checkpoints on right click, this also seems trivial to implement, but yet to try, so no idea what kind of challenge it would be.</li>
+<li>Working on the algorithm, one thing I notice was the accuracy got down as soon as I started copying the stuff, need to take a look at it.</li>
+<li>An options dialog to mess with the parameters.</li>
+</ul>
+
+<p>And as boud says, I got to add some spaces to the code. 😆</p>
+
+<p>That should be enough for the week, <code>:wq</code> for now.</p>
 
 [<a href="#top">Back To Top</a>]
 <div class="mail-drop">Have something to say about the post? Drop a mail on <span class="mail">hellozee at disroot.org</span></div>
