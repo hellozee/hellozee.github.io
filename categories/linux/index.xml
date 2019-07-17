@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.github.io/categories/linux/</link>
+    <link>https://hellozee.dev/categories/linux/</link>
     <description>Recent content in Linux on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Fri, 17 May 2019 19:46:48 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hellozee.dev/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>This is the year of Linux Desktop</title>
-      <link>https://hellozee.github.io/linux-desktop/</link>
+      <link>https://hellozee.dev/linux-desktop/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/linux-desktop/</guid>
+      <guid>https://hellozee.dev/linux-desktop/</guid>
       <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
  Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>

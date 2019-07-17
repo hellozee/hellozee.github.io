@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New Year on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.github.io/categories/new-year/</link>
+    <link>https://hellozee.dev/categories/new-year/</link>
     <description>Recent content in New Year on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Fri, 04 Jan 2019 23:31:58 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.github.io/categories/new-year/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hellozee.dev/categories/new-year/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It is New Year my dudes</title>
-      <link>https://hellozee.github.io/new-year-bois/</link>
+      <link>https://hellozee.dev/new-year-bois/</link>
       <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/new-year-bois/</guid>
+      <guid>https://hellozee.dev/new-year-bois/</guid>
       <description>If you don&amp;rsquo;t get the meme reference from the title, here is one more for you :
  Enough of memes, lets talk about something trendy, something that everyone is talking about cause January 2019 is all about setting up goals and resolutions, I am not being punny here.</description>
     </item>

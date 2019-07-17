@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kde on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.github.io/tags/kde/</link>
+    <link>https://hellozee.dev/tags/kde/</link>
     <description>Recent content in Kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
@@ -10,91 +10,91 @@
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Thu, 11 Jul 2019 06:25:42 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.github.io/tags/kde/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It is coming alive</title>
-      <link>https://hellozee.github.io/it_coming_alive/</link>
+      <link>https://hellozee.dev/it_coming_alive/</link>
       <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/it_coming_alive/</guid>
+      <guid>https://hellozee.dev/it_coming_alive/</guid>
       <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say.</description>
     </item>
     
     <item>
       <title>Topsy-turvy 5th Week</title>
-      <link>https://hellozee.github.io/topsy_turvy_5th_week/</link>
+      <link>https://hellozee.dev/topsy_turvy_5th_week/</link>
       <pubDate>Tue, 02 Jul 2019 19:32:50 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/topsy_turvy_5th_week/</guid>
+      <guid>https://hellozee.dev/topsy_turvy_5th_week/</guid>
       <description>Finally, I can write myself as a professional developer, cause for the first time I got paid, that also by cash, for writing code. So after the boost battle of last month, it was time to test the algorithm out in the wild and not limit it to the confined boundary of the tests.</description>
     </item>
     
     <item>
       <title>Deliverable 1 : [✓]</title>
-      <link>https://hellozee.github.io/deliverable_one_checked/</link>
+      <link>https://hellozee.dev/deliverable_one_checked/</link>
       <pubDate>Wed, 19 Jun 2019 00:48:42 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/deliverable_one_checked/</guid>
+      <guid>https://hellozee.dev/deliverable_one_checked/</guid>
       <description>Finally done with the first phase of the feature I wanted, 4 years back. Though just the unit test for the algorithm is implemented. At least for now, we can detect edges and stick to it.</description>
     </item>
     
     <item>
       <title>Done with boost</title>
-      <link>https://hellozee.github.io/done_with_boost/</link>
+      <link>https://hellozee.dev/done_with_boost/</link>
       <pubDate>Sat, 15 Jun 2019 00:16:56 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/done_with_boost/</guid>
+      <guid>https://hellozee.dev/done_with_boost/</guid>
       <description>This would start with a quote:
  Documentation is like sex: when it is good, it is very, very good; and when it is bad, it is better than nothing.</description>
     </item>
     
     <item>
       <title>Another Week with boost::graph</title>
-      <link>https://hellozee.github.io/another_week_with_boost/</link>
+      <link>https://hellozee.dev/another_week_with_boost/</link>
       <pubDate>Sun, 09 Jun 2019 13:29:33 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/another_week_with_boost/</guid>
+      <guid>https://hellozee.dev/another_week_with_boost/</guid>
       <description>&amp;lt;prelude&amp;gt;
 In the previous post, I discussed boost::astar_search and ignored the most important part of the whole setup, the graph itself. This I would say is a little harder to comprehend than boost::astar_search.</description>
     </item>
     
     <item>
       <title>Dissecting boost::astar_search</title>
-      <link>https://hellozee.github.io/boost_astar/</link>
+      <link>https://hellozee.dev/boost_astar/</link>
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/boost_astar/</guid>
+      <guid>https://hellozee.dev/boost_astar/</guid>
       <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
       <title>This is the year of Linux Desktop</title>
-      <link>https://hellozee.github.io/linux-desktop/</link>
+      <link>https://hellozee.dev/linux-desktop/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/linux-desktop/</guid>
+      <guid>https://hellozee.dev/linux-desktop/</guid>
       <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
  Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>
     
     <item>
       <title>Summer is coming...</title>
-      <link>https://hellozee.github.io/summer-is-coming/</link>
+      <link>https://hellozee.dev/summer-is-coming/</link>
       <pubDate>Tue, 07 May 2019 14:18:32 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/summer-is-coming/</guid>
+      <guid>https://hellozee.dev/summer-is-coming/</guid>
       <description>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
  This will be a story, so get prepared to be bored, 😸.</description>
     </item>
     
     <item>
       <title>How Design Works?</title>
-      <link>https://hellozee.github.io/how-design-works/</link>
+      <link>https://hellozee.dev/how-design-works/</link>
       <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
       <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.github.io/how-design-works/</guid>
+      <guid>https://hellozee.dev/how-design-works/</guid>
       <description>Note: The title may be misleading, 😛
  I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&amp;rsquo;t hurt anyone, let that be so.</description>
     </item>
