@@ -2,238 +2,237 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.dev/categories/</link>
+    <link>https://www.hellozee.dev/categories/</link>
     <description>Recent content in Categories on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
-    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
+    <lastBuildDate>Thu, 11 Jul 2019 06:25:42 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Celebration</title>
-      <link>https://hellozee.dev/categories/celebration/</link>
-      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/celebration/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>Conference</title>
-      <link>https://hellozee.dev/categories/conference/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cool Stuff</title>
-      <link>https://hellozee.dev/categories/cool-stuff/</link>
-      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/cool-stuff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://hellozee.dev/categories/design/</link>
-      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Engineering</title>
-      <link>https://hellozee.dev/categories/engineering/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Event</title>
-      <link>https://hellozee.dev/categories/event/</link>
-      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/event/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Free Ka Gyan</title>
-      <link>https://hellozee.dev/categories/free-ka-gyan/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/free-ka-gyan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fun</title>
-      <link>https://hellozee.dev/categories/fun/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://hellozee.dev/categories/golang/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge</title>
-      <link>https://hellozee.dev/categories/knowledge/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/knowledge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Krita</title>
-      <link>https://hellozee.dev/categories/krita/</link>
+      <title>krita</title>
+      <link>https://www.hellozee.dev/categories/krita/</link>
       <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/krita/</guid>
+      
+      <guid>https://www.hellozee.dev/categories/krita/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning</title>
-      <link>https://hellozee.dev/categories/learning/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://hellozee.dev/categories/linux/</link>
+      <title>linux</title>
+      <link>https://www.hellozee.dev/categories/linux/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/linux/</guid>
+      
+      <guid>https://www.hellozee.dev/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Meme</title>
-      <link>https://hellozee.dev/categories/meme/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/meme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New Year</title>
-      <link>https://hellozee.dev/categories/new-year/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/new-year/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://hellozee.dev/categories/open-source/</link>
+      <title>open-source</title>
+      <link>https://www.hellozee.dev/categories/open-source/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/open-source/</guid>
+      
+      <guid>https://www.hellozee.dev/categories/open-source/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://hellozee.dev/categories/projects/</link>
-      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pycon</title>
-      <link>https://hellozee.dev/categories/pycon/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/pycon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://hellozee.dev/categories/python/</link>
-      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ranting</title>
-      <link>https://hellozee.dev/categories/ranting/</link>
+      <title>ranting</title>
+      <link>https://www.hellozee.dev/categories/ranting/</link>
       <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/ranting/</guid>
+      
+      <guid>https://www.hellozee.dev/categories/ranting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Self</title>
-      <link>https://hellozee.dev/categories/self/</link>
-      <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self Satisfaction</title>
-      <link>https://hellozee.dev/categories/self-satisfaction/</link>
-      <pubDate>Wed, 27 Jun 2018 12:47:54 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/self-satisfaction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://hellozee.dev/categories/windows/</link>
+      <title>windows</title>
+      <link>https://www.hellozee.dev/categories/windows/</link>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/windows/</guid>
+      
+      <guid>https://www.hellozee.dev/categories/windows/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Year End</title>
-      <link>https://hellozee.dev/categories/year-end/</link>
-      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/year-end/</guid>
+      <title>design</title>
+      <link>https://www.hellozee.dev/categories/design/</link>
+      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Youtube</title>
-      <link>https://hellozee.dev/categories/youtube/</link>
+      <title>engineering</title>
+      <link>https://www.hellozee.dev/categories/engineering/</link>
       <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/categories/youtube/</guid>
+      
+      <guid>https://www.hellozee.dev/categories/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://www.hellozee.dev/categories/youtube/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self</title>
+      <link>https://www.hellozee.dev/categories/self/</link>
+      <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://www.hellozee.dev/categories/conference/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://www.hellozee.dev/categories/golang/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pycon</title>
+      <link>https://www.hellozee.dev/categories/pycon/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/pycon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>https://www.hellozee.dev/categories/fun/</link>
+      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meme</title>
+      <link>https://www.hellozee.dev/categories/meme/</link>
+      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/meme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new-year</title>
+      <link>https://www.hellozee.dev/categories/new-year/</link>
+      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/new-year/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>year-end</title>
+      <link>https://www.hellozee.dev/categories/year-end/</link>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/year-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>free-ka-gyan</title>
+      <link>https://www.hellozee.dev/categories/free-ka-gyan/</link>
+      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/free-ka-gyan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knowledge</title>
+      <link>https://www.hellozee.dev/categories/knowledge/</link>
+      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://www.hellozee.dev/categories/learning/</link>
+      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cool-stuff</title>
+      <link>https://www.hellozee.dev/categories/cool-stuff/</link>
+      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/cool-stuff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.hellozee.dev/categories/python/</link>
+      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>celebration</title>
+      <link>https://www.hellozee.dev/categories/celebration/</link>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/celebration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>event</title>
+      <link>https://www.hellozee.dev/categories/event/</link>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-satisfaction</title>
+      <link>https://www.hellozee.dev/categories/self-satisfaction/</link>
+      <pubDate>Wed, 27 Jun 2018 12:47:54 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/self-satisfaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://www.hellozee.dev/categories/projects/</link>
+      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/projects/</guid>
       <description></description>
     </item>
     

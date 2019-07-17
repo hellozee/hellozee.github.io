@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anniversary on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.dev/tags/anniversary/</link>
-    <description>Recent content in Anniversary on A Nerd&#39;s Tale</description>
+    <title>anniversary on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/anniversary/</link>
+    <description>Recent content in anniversary on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
-    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Mon, 29 Oct 2018 12:58:13 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.dev/tags/anniversary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/tags/anniversary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Another year, nice one</title>
-      <link>https://hellozee.dev/ilugd-birthday/</link>
+      <link>https://www.hellozee.dev/ilugd-birthday/</link>
       <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/ilugd-birthday/</guid>
+      
+      <guid>https://www.hellozee.dev/ilugd-birthday/</guid>
       <description>So apparently one of the oldest community in probably the whole India, celebrated its 2nd anniversary on 28th after it was revived back on 2016. And you know what, this time it was a Capture The Flag event, something new tried by the new group of people who joined hands to not let this community go in hibernation again.</description>
     </item>
     

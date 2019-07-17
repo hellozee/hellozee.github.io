@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ranting on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.dev/categories/ranting/</link>
-    <description>Recent content in Ranting on A Nerd&#39;s Tale</description>
+    <title>ranting on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/categories/ranting/</link>
+    <description>Recent content in ranting on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
-    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Mon, 18 Mar 2019 01:01:34 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.dev/categories/ranting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/categories/ranting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Alight</title>
-      <link>https://hellozee.dev/getting-alight/</link>
+      <link>https://www.hellozee.dev/getting-alight/</link>
       <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/getting-alight/</guid>
+      
+      <guid>https://www.hellozee.dev/getting-alight/</guid>
       <description>Would start this one with a quote,
  Information is free - You have to know
 People are not - You have to pay

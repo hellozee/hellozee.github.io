@@ -2,401 +2,399 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.dev/tags/</link>
+    <link>https://www.hellozee.dev/tags/</link>
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
-    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 22 Feb 2019 15:31:30 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 06:25:42 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Adobe</title>
-      <link>https://hellozee.dev/tags/adobe/</link>
-      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/adobe/</guid>
+      <title>cpp</title>
+      <link>https://www.hellozee.dev/tags/cpp/</link>
+      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/cpp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Anniversary</title>
-      <link>https://hellozee.dev/tags/anniversary/</link>
-      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/anniversary/</guid>
+      <title>gsoc</title>
+      <link>https://www.hellozee.dev/tags/gsoc/</link>
+      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/gsoc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Boost</title>
-      <link>https://hellozee.dev/tags/boost/</link>
+      <title>kde</title>
+      <link>https://www.hellozee.dev/tags/kde/</link>
+      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>krita</title>
+      <link>https://www.hellozee.dev/tags/krita/</link>
+      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>https://www.hellozee.dev/tags/open-source/</link>
+      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boost</title>
+      <link>https://www.hellozee.dev/tags/boost/</link>
       <pubDate>Sat, 15 Jun 2019 00:16:56 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/boost/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/boost/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bored</title>
-      <link>https://hellozee.dev/tags/bored/</link>
-      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/bored/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Build System</title>
-      <link>https://hellozee.dev/tags/build-system/</link>
-      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/build-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>https://hellozee.dev/tags/c/</link>
-      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://hellozee.dev/tags/c&#43;&#43;/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cool</title>
-      <link>https://hellozee.dev/tags/cool/</link>
-      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/cool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cpp</title>
-      <link>https://hellozee.dev/tags/cpp/</link>
-      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/cpp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Critique</title>
-      <link>https://hellozee.dev/tags/critique/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/critique/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Foss</title>
-      <link>https://hellozee.dev/tags/foss/</link>
+      <title>foss</title>
+      <link>https://www.hellozee.dev/tags/foss/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/foss/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/foss/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Freedom</title>
-      <link>https://hellozee.dev/tags/freedom/</link>
-      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/freedom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fun</title>
-      <link>https://hellozee.dev/tags/fun/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gnome</title>
-      <link>https://hellozee.dev/tags/gnome/</link>
+      <title>gnome</title>
+      <link>https://www.hellozee.dev/tags/gnome/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/gnome/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/gnome/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Goals</title>
-      <link>https://hellozee.dev/tags/goals/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/goals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://hellozee.dev/tags/golang/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gsoc</title>
-      <link>https://hellozee.dev/tags/gsoc/</link>
-      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/gsoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ilugd</title>
-      <link>https://hellozee.dev/tags/ilugd/</link>
-      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/ilugd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inkscape</title>
-      <link>https://hellozee.dev/tags/inkscape/</link>
-      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/inkscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://hellozee.dev/tags/javascript/</link>
-      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kde</title>
-      <link>https://hellozee.dev/tags/kde/</link>
-      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Krita</title>
-      <link>https://hellozee.dev/tags/krita/</link>
-      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/krita/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Languages</title>
-      <link>https://hellozee.dev/tags/languages/</link>
-      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/languages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>https://hellozee.dev/tags/learning/</link>
-      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://hellozee.dev/tags/linux/</link>
+      <title>linux</title>
+      <link>https://www.hellozee.dev/tags/linux/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/linux/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Marvel</title>
-      <link>https://hellozee.dev/tags/marvel/</link>
-      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/marvel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New Things</title>
-      <link>https://hellozee.dev/tags/new-things/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/new-things/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nuke</title>
-      <link>https://hellozee.dev/tags/nuke/</link>
-      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/nuke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://hellozee.dev/tags/open-source/</link>
-      <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photoshop</title>
-      <link>https://hellozee.dev/tags/photoshop/</link>
-      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/photoshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://hellozee.dev/tags/programming/</link>
-      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>https://hellozee.dev/tags/project/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pycon</title>
-      <link>https://hellozee.dev/tags/pycon/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/pycon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://hellozee.dev/tags/python/</link>
-      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rant</title>
-      <link>https://hellozee.dev/tags/rant/</link>
+      <title>rant</title>
+      <link>https://www.hellozee.dev/tags/rant/</link>
       <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/rant/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/rant/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Resolve</title>
-      <link>https://hellozee.dev/tags/resolve/</link>
+      <title>adobe</title>
+      <link>https://www.hellozee.dev/tags/adobe/</link>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/resolve/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/adobe/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Self</title>
-      <link>https://hellozee.dev/tags/self/</link>
+      <title>bored</title>
+      <link>https://www.hellozee.dev/tags/bored/</link>
+      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/bored/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freedom</title>
+      <link>https://www.hellozee.dev/tags/freedom/</link>
+      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/freedom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resolve</title>
+      <link>https://www.hellozee.dev/tags/resolve/</link>
+      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/resolve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>https://www.hellozee.dev/tags/video/</link>
+      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inkscape</title>
+      <link>https://www.hellozee.dev/tags/inkscape/</link>
+      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/inkscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photoshop</title>
+      <link>https://www.hellozee.dev/tags/photoshop/</link>
+      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/photoshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>critique</title>
+      <link>https://www.hellozee.dev/tags/critique/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/critique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://www.hellozee.dev/tags/tech/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trash</title>
+      <link>https://www.hellozee.dev/tags/trash/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/trash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://www.hellozee.dev/tags/youtube/</link>
+      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self</title>
+      <link>https://www.hellozee.dev/tags/self/</link>
       <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/self/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/self/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tech</title>
-      <link>https://hellozee.dev/tags/tech/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/tech/</guid>
+      <title>golang</title>
+      <link>https://www.hellozee.dev/tags/golang/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Throwback</title>
-      <link>https://hellozee.dev/tags/throwback/</link>
+      <title>project</title>
+      <link>https://www.hellozee.dev/tags/project/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pycon</title>
+      <link>https://www.hellozee.dev/tags/pycon/</link>
+      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/pycon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://www.hellozee.dev/tags/c&#43;&#43;/</link>
+      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>https://www.hellozee.dev/tags/fun/</link>
+      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goals</title>
+      <link>https://www.hellozee.dev/tags/goals/</link>
+      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/goals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cool</title>
+      <link>https://www.hellozee.dev/tags/cool/</link>
       <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/throwback/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/cool/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Trash</title>
-      <link>https://hellozee.dev/tags/trash/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/trash/</guid>
+      <title>learning</title>
+      <link>https://www.hellozee.dev/tags/learning/</link>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vfx</title>
-      <link>https://hellozee.dev/tags/vfx/</link>
+      <title>throwback</title>
+      <link>https://www.hellozee.dev/tags/throwback/</link>
+      <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/throwback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new-things</title>
+      <link>https://www.hellozee.dev/tags/new-things/</link>
+      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/new-things/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marvel</title>
+      <link>https://www.hellozee.dev/tags/marvel/</link>
       <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/vfx/</guid>
+      
+      <guid>https://www.hellozee.dev/tags/marvel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Video</title>
-      <link>https://hellozee.dev/tags/video/</link>
-      <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/video/</guid>
+      <title>nuke</title>
+      <link>https://www.hellozee.dev/tags/nuke/</link>
+      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/nuke/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Youtube</title>
-      <link>https://hellozee.dev/tags/youtube/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/tags/youtube/</guid>
+      <title>programming</title>
+      <link>https://www.hellozee.dev/tags/programming/</link>
+      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.hellozee.dev/tags/python/</link>
+      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vfx</title>
+      <link>https://www.hellozee.dev/tags/vfx/</link>
+      <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/vfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ILUGD</title>
+      <link>https://www.hellozee.dev/tags/ilugd/</link>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/ilugd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anniversary</title>
+      <link>https://www.hellozee.dev/tags/anniversary/</link>
+      <pubDate>Mon, 29 Oct 2018 12:58:13 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/anniversary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c</title>
+      <link>https://www.hellozee.dev/tags/c/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.hellozee.dev/tags/javascript/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>languages</title>
+      <link>https://www.hellozee.dev/tags/languages/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>build system</title>
+      <link>https://www.hellozee.dev/tags/build-system/</link>
+      <pubDate>Tue, 05 Jun 2018 22:04:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/build-system/</guid>
       <description></description>
     </item>
     

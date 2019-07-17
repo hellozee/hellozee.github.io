@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Critique on A Nerd&#39;s Tale</title>
-    <link>https://hellozee.dev/tags/critique/</link>
-    <description>Recent content in Critique on A Nerd&#39;s Tale</description>
+    <title>critique on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/critique/</link>
+    <description>Recent content in critique on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hellozee at disroot.org (hellozee)</managingEditor>
-    <webMaster>hellozee at disroot.org (hellozee)</webMaster>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sun, 03 Feb 2019 20:46:42 +0530</lastBuildDate>
     
-	<atom:link href="https://hellozee.dev/tags/critique/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/tags/critique/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enough of Youtube</title>
-      <link>https://hellozee.dev/video-review-1/</link>
+      <link>https://www.hellozee.dev/video-review-1/</link>
       <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      <author>hellozee at disroot.org (hellozee)</author>
-      <guid>https://hellozee.dev/video-review-1/</guid>
+      
+      <guid>https://www.hellozee.dev/video-review-1/</guid>
       <description>&amp;ldquo;Youtube&amp;rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&amp;rsquo;t have the required setup to record videos nor the time to invest in making videos.</description>
     </item>
     
