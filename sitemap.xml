@@ -4,61 +4,66 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.hellozee.dev/a_few_more_steps/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/cpp/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/gsoc/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/kde/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/krita/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/krita/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/open-source/</loc>
+    <lastmod>2019-07-18T09:01:28+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/it_coming_alive/</loc>
     <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/cpp/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/gsoc/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/kde/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/krita/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/krita/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/open-source/</loc>
-    <lastmod>2019-07-11T06:25:42+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

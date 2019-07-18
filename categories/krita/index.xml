@@ -6,10 +6,19 @@
     <description>Recent content in krita on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Thu, 11 Jul 2019 06:25:42 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 09:01:28 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/krita/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A few more steps</title>
+      <link>https://www.hellozee.dev/a_few_more_steps/</link>
+      <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+    </item>
     
     <item>
       <title>It is coming alive</title>

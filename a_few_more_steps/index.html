@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/a_few_more_steps/" />
+  <link rel="canonical" href="https://www.hellozee.dev/a_few_more_steps/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "A few more steps",
+      "headline" : "A few more steps",
+      "description" : "Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop\x26rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-07-18 09:01:28 \x2b0530 IST",
+      "dateModified" : "2019-07-18 09:01:28 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/a_few_more_steps\/",
+      "keywords" : [ "krita","gsoc","open-source","kde","cpp", ]
+  }
+</script>
+<title>A few more steps - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="A few more steps - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+</head>
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">hellozee</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">A few more steps</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2019-07-18 09:01:28 IST">
+                18, Jul, 2019
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a target="_blank" href="">@hellozee</a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="post-content markdown-body">
+          <p>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place. Which, made me aware of some facts related to it,</p>
+
+<ul>
+<li>The anchor points are placed if there is a certain variation in the straightness of the edge</li>
+<li>The frequency decides the threshold of the variation and not after how many points an anchor will be placed</li>
+<li>There is a sub procedure inside it, cause the edge is not calculated from the anchors</li>
+<li>It checks the last best possible edge point and confirms the selection up to that point</li>
+<li>And proceeds to calculate the edge from that point until it finds another point like it</li>
+</ul>
+
+<p>Well, those were some really cool observations and fortunately I have implemented all of them except that variance thing, seems complicated. I would keep it as an extended goal for now, cause the tool still works pretty nice even without it.</p>
+
+<p>On top of that after a little bit of debugging, taking almost a day of mine, found out that, the Laplacian of Gaussian algorithm had an offset over the original image, the result gravitated towards the deeper sides of the edge. After a little chat with Dmitry, he confirms that we are using the wrong output of the algorithm. So if I consider that fixed, I might be able to put up a video or GIF showing the tool in action in the coming week.</p>
+
+<p>See you next week, <code>:wq</code> for now, :)</p>
+
+          <h5>have something to share about the blog? drop an email to hellozee at disroot dot org</h5>
+        </div>
+
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/it_coming_alive/">It is coming alive</a></li>
+    
+    <li><a href="https://www.hellozee.dev/topsy_turvy_5th_week/">Topsy-turvy 5th Week</a></li>
+    
+    <li><a href="https://www.hellozee.dev/deliverable_one_checked/">Deliverable 1 : [✓]</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://invent.kde.org/kuntalmajumder" target="_blank">Invent</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>
