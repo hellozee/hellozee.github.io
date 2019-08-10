@@ -6,10 +6,19 @@
     <description>Recent content in kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 02 Aug 2019 20:58:38 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2019 00:18:20 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Sprint 2019</title>
+      <link>https://www.hellozee.dev/krita_sprint_2019/</link>
+      <pubDate>Sun, 11 Aug 2019 00:18:20 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/krita_sprint_2019/</guid>
+      <description>The sprint has officially ended yesterday and most of the participants have already left, except me, Ivan, Wolthera and Jouni. Well I would have also left as planned but I read my flight timings wrong and it would leave after 3 hours of what I thought the departure time was.</description>
+    </item>
     
     <item>
       <title>Sprint ahoy</title>
