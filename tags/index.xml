@@ -57,15 +57,6 @@
     </item>
     
     <item>
-      <title>ILUGD</title>
-      <link>https://www.hellozee.dev/tags/ilugd/</link>
-      <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/ilugd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>adafruit</title>
       <link>https://www.hellozee.dev/tags/adafruit/</link>
       <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
@@ -89,6 +80,15 @@
       <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ilugd</title>
+      <link>https://www.hellozee.dev/tags/ilugd/</link>
+      <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/ilugd/</guid>
       <description></description>
     </item>
     
