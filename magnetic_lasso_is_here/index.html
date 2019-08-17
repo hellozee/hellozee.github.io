@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/magnetic_lasso_is_here/" />
+  <link rel="canonical" href="https://www.hellozee.dev/magnetic_lasso_is_here/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "Magnetic Lasso for Krita is here",
+      "headline" : "Magnetic Lasso for Krita is here",
+      "description" : "I won\x26rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-08-17 16:27:27 \x2b0530 IST",
+      "dateModified" : "2019-08-17 16:27:27 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/magnetic_lasso_is_here\/",
+      "keywords" : [ "krita","gsoc","open-source","kde","cpp", ]
+  }
+</script>
+<title>Magnetic Lasso for Krita is here - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="Magnetic Lasso for Krita is here - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="I won&rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did," />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+</head>
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">hellozee</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Magnetic Lasso for Krita is here</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2019-08-17 16:27:27 IST">
+                17, Aug, 2019
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a target="_blank" href="">@hellozee</a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="post-content markdown-body">
+          <p>I won&rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/nhT3cbzBpOk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p><br></p>
+
+<p>Looks pretty cool right? But there is a little bit of offset between the selection and the edge, which on the first thought, made me think of writing a better filter such as the Canny Filter for a better approximation. To my surprise, Dmitry added some magic code to the LoG filter and countered the offset. Of course, he wrote the filter, knows far better than me how the thing works. And this is the current state of the tool.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/VA3pRSm4HxQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p><br></p>
+
+<p>Looks fine, but it still has many places where we need to add some bits to make it more complete,</p>
+
+<ul>
+<li><code>Ctrl + Z</code> to undo the last point is kind of broken, cause the tool undoes the last stroke instead of undoing the last point during a selection. It is possible to make it work, though the whole selection tool subsystem would require a little bit of refactoring to make it possible, also right now, there are 3 different shortcuts to undo anchors, would have to make them uniform across tools though.</li>
+<li>No auto-scroll available, well, I thought this would be easy as overriding a virtual function, but it seems like, auto-scroll only works when a mouse-button is pressed, so this would again fall in the refactoring job.</li>
+<li>Compress mouse signals, right now for every mouse move event, it tries to guess an edge, this is technically useless if you move your mouse too fast, then it would be wise to ignore the events in the middle, saving a lot of computation.</li>
+<li>Caching of pre-filtering, we pre filter the image for initial guess at the edges, for now, it happens when you switch to the magnetic lasso or change the radius of the kernel in the tool options. If the image is big, it might take a lot of time to pre-filter the image. Caching the results and do filtering only when requested would surely improve the speed of the tool.</li>
+<li>We of course need some better cursors for the tool, right now, it doesn&rsquo;t look bad but at the same time it is not good looking as the one PS has, ehhhh.</li>
+<li>Last one, sometime ago I thought I have to write a new edge detection filter, but since Dmitry patched his filter for the tool, I don&rsquo;t think, I would need to write a new one for it in the near future. Though, would definitely try it out once I am done with all of the above.</li>
+</ul>
+
+          <h5>have something to share about the blog? drop an email to hellozee at disroot dot org</h5>
+        </div>
+
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/krita_sprint_2019/">Krita Sprint 2019</a></li>
+    
+    <li><a href="https://www.hellozee.dev/sprint_is_here/">Sprint ahoy</a></li>
+    
+    <li><a href="https://www.hellozee.dev/somewhat_usable/">Somewhat Usable</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://invent.kde.org/kuntalmajumder" target="_blank">Invent</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>

@@ -4,13 +4,60 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/magnetic_lasso_is_here/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/cpp/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/gsoc/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/kde/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/krita/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/krita/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/open-source/</loc>
+    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20,44 +67,8 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/cpp/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/gsoc/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/kde/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/krita/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/krita/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/open-source/</loc>
-    <lastmod>2019-08-11T00:18:20+05:30</lastmod>
+    <loc>https://www.hellozee.dev/tags/ilugd/</loc>
+    <lastmod>2019-08-05T19:47:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -80,12 +91,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/tags/hardware/</loc>
-    <lastmod>2019-08-05T19:47:02+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/ilugd/</loc>
     <lastmod>2019-08-05T19:47:02+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -165,13 +170,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/linux/</loc>
+    <loc>https://www.hellozee.dev/categories/linux/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/linux/</loc>
+    <loc>https://www.hellozee.dev/tags/linux/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -298,13 +303,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/youtube/</loc>
+    <loc>https://www.hellozee.dev/categories/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/youtube/</loc>
+    <loc>https://www.hellozee.dev/tags/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -315,13 +320,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/self/</loc>
+    <loc>https://www.hellozee.dev/categories/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/self/</loc>
+    <loc>https://www.hellozee.dev/tags/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -338,13 +343,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/golang/</loc>
+    <loc>https://www.hellozee.dev/categories/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/golang/</loc>
+    <loc>https://www.hellozee.dev/tags/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -356,13 +361,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/pycon/</loc>
+    <loc>https://www.hellozee.dev/categories/pycon/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/pycon/</loc>
+    <loc>https://www.hellozee.dev/tags/pycon/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -379,13 +384,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/fun/</loc>
+    <loc>https://www.hellozee.dev/categories/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/fun/</loc>
+    <loc>https://www.hellozee.dev/tags/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -496,13 +501,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/python/</loc>
+    <loc>https://www.hellozee.dev/categories/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/python/</loc>
+    <loc>https://www.hellozee.dev/tags/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>

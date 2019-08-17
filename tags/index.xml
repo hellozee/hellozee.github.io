@@ -6,7 +6,7 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sun, 11 Aug 2019 00:18:20 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2019 16:27:27 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>cpp</title>
       <link>https://www.hellozee.dev/tags/cpp/</link>
-      <pubDate>Sun, 11 Aug 2019 00:18:20 +0530</pubDate>
+      <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/cpp/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>gsoc</title>
       <link>https://www.hellozee.dev/tags/gsoc/</link>
-      <pubDate>Sun, 11 Aug 2019 00:18:20 +0530</pubDate>
+      <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/gsoc/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>kde</title>
       <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Sun, 11 Aug 2019 00:18:20 +0530</pubDate>
+      <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/kde/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>krita</title>
       <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Sun, 11 Aug 2019 00:18:20 +0530</pubDate>
+      <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/krita/</guid>
       <description></description>
@@ -50,9 +50,18 @@
     <item>
       <title>open-source</title>
       <link>https://www.hellozee.dev/tags/open-source/</link>
-      <pubDate>Sun, 11 Aug 2019 00:18:20 +0530</pubDate>
+      <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ILUGD</title>
+      <link>https://www.hellozee.dev/tags/ilugd/</link>
+      <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/ilugd/</guid>
       <description></description>
     </item>
     
@@ -80,15 +89,6 @@
       <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ilugd</title>
-      <link>https://www.hellozee.dev/tags/ilugd/</link>
-      <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/ilugd/</guid>
       <description></description>
     </item>
     
