@@ -75,11 +75,12 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 80px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .site-footer-item {
-  margin-right: 12px;
+  margin: 12px;
 }
 
 /* post */
