@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>competition on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/competition/</link>
+    <description>Recent content in competition on A Nerd&#39;s Tale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
+    <lastBuildDate>Fri, 30 Aug 2019 19:07:36 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.hellozee.dev/tags/competition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to crack GSoC</title>
+      <link>https://www.hellozee.dev/cracking_gsoc/</link>
+      <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/cracking_gsoc/</guid>
+      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&amp;rsquo;s How to crack Open Source. He sums it up in the best way possible,
+ Take a hammer.</description>
+    </item>
+    
+  </channel>
+</rss>
