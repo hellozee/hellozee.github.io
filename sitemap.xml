@@ -4,25 +4,66 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-08-30T19:07:36+05:30</lastmod>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-08-30T19:07:36+05:30</lastmod>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/finding_the_edge/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/cpp/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/gsoc/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/kde/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/krita/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/krita/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/open-source/</loc>
+    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/cracking_gsoc/</loc>
     <lastmod>2019-08-30T19:07:36+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-08-30T19:07:36+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -44,44 +85,8 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/open-source/</loc>
-    <lastmod>2019-08-30T19:07:36+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hellozee.dev/magnetic_lasso_is_here/</loc>
     <lastmod>2019-08-17T16:27:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/cpp/</loc>
-    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/gsoc/</loc>
-    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/kde/</loc>
-    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/krita/</loc>
-    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/krita/</loc>
-    <lastmod>2019-08-17T16:27:27+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
