@@ -6,10 +6,55 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sun, 08 Sep 2019 17:12:20 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 15:20:04 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://www.hellozee.dev/tags/c&#43;&#43;/</link>
+      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concepts</title>
+      <link>https://www.hellozee.dev/tags/concepts/</link>
+      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/concepts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>languages</title>
+      <link>https://www.hellozee.dev/tags/languages/</link>
+      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://www.hellozee.dev/tags/templates/</link>
+      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>types</title>
+      <link>https://www.hellozee.dev/tags/types/</link>
+      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/types/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cpp</title>
@@ -291,15 +336,6 @@
     </item>
     
     <item>
-      <title>c&#43;&#43;</title>
-      <link>https://www.hellozee.dev/tags/c&#43;&#43;/</link>
-      <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>fun</title>
       <link>https://www.hellozee.dev/tags/fun/</link>
       <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
@@ -422,15 +458,6 @@
       <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>languages</title>
-      <link>https://www.hellozee.dev/tags/languages/</link>
-      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/languages/</guid>
       <description></description>
     </item>
     

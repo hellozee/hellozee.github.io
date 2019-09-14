@@ -4,25 +4,66 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/duck_typing/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/c&#43;&#43;/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/concepts/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/languages/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/languages/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/templates/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/types/</loc>
+    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/finding_the_edge/</loc>
     <lastmod>2019-09-08T17:12:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-09-08T17:12:20+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -406,12 +447,6 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/c&#43;&#43;/</loc>
-    <lastmod>2019-01-04T23:31:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hellozee.dev/categories/fun/</loc>
     <lastmod>2019-01-04T23:31:58+05:30</lastmod>
     <priority>0</priority>
@@ -581,12 +616,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/tags/javascript/</loc>
-    <lastmod>2018-07-05T19:27:47+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/languages/</loc>
     <lastmod>2018-07-05T19:27:47+05:30</lastmod>
     <priority>0</priority>
   </url>

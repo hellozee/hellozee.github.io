@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/duck_typing/" />
+  <link rel="canonical" href="https://www.hellozee.dev/duck_typing/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "Duck typing",
+      "headline" : "Duck typing",
+      "description" : "Definition: Duck typing in computer programming is an application of the duck test—\x26rdquo;If it walks like a duck and it quacks like a duck, then it must be a duck\x26rdquo;—to determine if an object can be used for a particular purpose.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-09-14 15:20:04 \x2b0530 IST",
+      "dateModified" : "2019-09-14 15:20:04 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/duck_typing\/",
+      "keywords" : [ "types","languages","c\x2b\x2b","concepts","templates", ]
+  }
+</script>
+<title>Duck typing - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="Duck typing - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="Definition: Duck typing in computer programming is an application of the duck test—&rdquo;If it walks like a duck and it quacks like a duck, then it must be a duck&rdquo;—to determine if an object can be used for a particular purpose." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+</head>
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">A Nerd&#39;s Tale</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Duck typing</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2019-09-14 15:20:04 IST">
+                14, Sep, 2019
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a href="https://www.hellozee.dev/">@hellozee</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+                                            
+                                                      
+                <a href="https://www.hellozee.dev/tags/types/">#types</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/languages/">#languages</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/c&#43;&#43;/">#c&#43;&#43;</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/concepts/">#concepts</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/templates/">#templates</a>             
+              
+            </div>
+        </header>
+
+        <div class="post-content markdown-body">
+          <blockquote>
+<p><strong>Definition</strong>: <strong>Duck typing</strong> in computer programming is an application of the <a href="https://en.wikipedia.org/wiki/Duck_test">duck test</a>—&rdquo;If it walks like a duck and it quacks like a duck, then it must be a duck&rdquo;—to determine if an <a href="https://en.wikipedia.org/wiki/Object_(computer_science)">object</a> can be used for a particular purpose.</p>
+
+<p><code>- Dr. WikiPedia</code></p>
+</blockquote>
+
+<p>Seems simple, can be complicated. Why all of a sudden, I am writing about this? As most of you would know, I mostly write and rant about <code>C++</code>, <code>C++11</code> introduced a magic keyword called <code>auto</code> for automatically inferring data types. And was having a <em>discussion</em> whether it should be used or not. While the other person was aggressively promoting the usage of auto,  I was more into using it only when I absolutely required. The sole reason I hate most scripting languages is their dynamic typing.</p>
+
+<p>Coming back to <code>auto</code>, I recalled one situation which made me regret for using it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-C++" data-lang="C++"><span class="k">auto</span> <span class="n">size_qvector</span> <span class="o">=</span> <span class="n">qvector_object</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="c1">// returns an int
+</span><span class="c1"></span><span class="k">auto</span> <span class="n">size_vector</span> <span class="o">=</span> <span class="n">std_vector_object</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="c1">// returns an unsigned long
+</span></code></pre></div>
+<p><code>qvector_object</code> is an object of <code>QVector</code> class, which <code>Qt</code> provides, <code>std_vector_object</code> is an object of <code>std::vector</code> available in the standard library. Both of them function almost in the same way and both of them have a size method to get the current size of the vector. But the <code>QVector</code> one returns an <code>int</code> while the <code>std::vector</code> one returns an <code>unsigned long</code>. To be honest it doesn&rsquo;t look that harmful in the first sight. But the moment you start decrementing both, the story changes. Well, I was kind of responsible for the situation too, cause I used <code>-1</code> to show the object hasn&rsquo;t been used at all and when you give a negative value to an unsigned variable, we all know what kind of ugly stuff can happen. On top that, this thing can go entirely unnoticed while writing the code, if not properly tested can also land into production some day.</p>
+
+<p>Okay now, more about duck typing and obviously everything is going to be in <code>C++</code>. Lets try a traditional example,</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;                                                              </span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;memory&gt;                                                               </span><span class="cp">
+</span><span class="cp"></span>                                                                                
+<span class="k">struct</span> <span class="n">duck</span> <span class="p">{</span>                                                                   
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">quack</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span>                                                  
+<span class="p">};</span>                                                                              
+                                                                                
+<span class="k">struct</span> <span class="nl">random_animal</span> <span class="p">:</span> <span class="k">public</span> <span class="n">duck</span> <span class="p">{</span>                                            
+    <span class="kt">void</span> <span class="n">quack</span><span class="p">()</span> <span class="p">{</span>                                                              
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;animal quack&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>                                      
+    <span class="p">}</span>                                                                           
+<span class="p">};</span>
+
+<span class="k">struct</span> <span class="nl">random_bird</span> <span class="p">:</span> <span class="k">public</span> <span class="n">duck</span> <span class="p">{</span>                                            
+    <span class="kt">void</span> <span class="n">quack</span><span class="p">()</span> <span class="p">{</span>                                                              
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;bird quack&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>                                      
+    <span class="p">}</span>                                                                           
+<span class="p">};</span> 
+                                                                                
+<span class="kt">void</span> <span class="nf">make_quack</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">shared_ptr</span><span class="o">&lt;</span><span class="n">duck</span><span class="o">&gt;</span> <span class="n">d</span><span class="p">){</span>                                       
+    <span class="n">d</span><span class="o">-&gt;</span><span class="n">quack</span><span class="p">();</span>                                                                 
+<span class="p">}</span>                                                                               
+                                                                                
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>                                                                     
+    <span class="c1">// one of the cases where it is safe to use auto                               
+</span><span class="c1"></span>    <span class="k">auto</span> <span class="n">animal</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">random_animal</span><span class="o">&gt;</span><span class="p">();</span>
+    <span class="k">auto</span> <span class="n">bird</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">random_bird</span><span class="o">&gt;</span><span class="p">();</span>
+    <span class="n">make_quack</span><span class="p">(</span><span class="n">animal</span><span class="p">);</span>        
+    <span class="n">make_quack</span><span class="p">(</span><span class="n">bird</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nl">Output</span><span class="p">:</span>
+<span class="n">animal</span> <span class="n">quack</span>
+<span class="n">bird</span> <span class="n">quack</span>
+</code></pre></div>
+<p>If that was a traditional example what would a non traditional example look like? lets see that too,</p>
+<div class="highlight"><pre class="chroma"><code class="language-C++" data-lang="C++"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;iomanip&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">Shape</span><span class="o">&gt;</span>
+<span class="k">struct</span> <span class="n">base_shape</span> <span class="p">{</span>
+    <span class="k">typedef</span> <span class="kt">int</span> <span class="n">perimeter_type</span><span class="p">;</span>
+<span class="p">};</span>
+ 
+<span class="k">struct</span> <span class="n">triangle</span><span class="p">{</span>
+    <span class="kt">int</span> <span class="n">_a</span><span class="p">,</span> <span class="n">_b</span><span class="p">,</span> <span class="n">_c</span><span class="p">;</span>
+    <span class="n">triangle</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">,</span> <span class="kt">int</span> <span class="n">c</span><span class="p">)</span><span class="o">:</span>
+        <span class="n">_a</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="n">_b</span><span class="p">(</span><span class="n">b</span><span class="p">),</span> <span class="n">_c</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+    <span class="p">{</span> <span class="p">}</span>
+ 
+    <span class="kt">int</span> <span class="n">perimeter</span><span class="p">(){</span>
+        <span class="k">return</span> <span class="n">_a</span> <span class="o">+</span> <span class="n">_b</span> <span class="o">+</span> <span class="n">_c</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+ 
+<span class="k">template</span><span class="o">&lt;&gt;</span>
+<span class="k">struct</span> <span class="n">base_shape</span><span class="o">&lt;</span><span class="n">triangle</span><span class="o">&gt;</span><span class="p">{</span>
+    <span class="k">typedef</span> <span class="kt">int</span> <span class="n">perimeter_type</span><span class="p">;</span>
+<span class="p">};</span>
+ 
+<span class="k">struct</span> <span class="n">rect</span><span class="p">{</span>
+    <span class="kt">int</span> <span class="n">_a</span><span class="p">,</span> <span class="n">_b</span><span class="p">;</span>
+    <span class="n">rect</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span><span class="o">:</span>
+        <span class="n">_a</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="n">_b</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span> <span class="p">}</span>
+ 
+    <span class="kt">double</span> <span class="n">perimeter</span><span class="p">(){</span>
+        <span class="k">return</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">_a</span> <span class="o">+</span> <span class="n">_b</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+ 
+<span class="k">template</span><span class="o">&lt;&gt;</span>
+<span class="k">struct</span> <span class="n">base_shape</span><span class="o">&lt;</span><span class="n">rect</span><span class="o">&gt;</span><span class="p">{</span>
+    <span class="k">typedef</span> <span class="kt">double</span> <span class="n">perimeter_type</span><span class="p">;</span>
+<span class="p">};</span>
+ 
+<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span><span class="err"> </span><span class="nc">Shape</span><span class="o">&gt;</span>
+<span class="k">typename</span> <span class="n">base_shape</span><span class="o">&lt;</span><span class="n">Shape</span><span class="o">&gt;::</span><span class="n">perimeter_type</span> <span class="n">get_perimeter</span><span class="p">(</span><span class="n">Shape</span> <span class="n">s</span><span class="p">){</span>
+    <span class="k">return</span> <span class="n">s</span><span class="p">.</span><span class="n">perimeter</span><span class="p">();</span>
+<span class="p">}</span>
+ 
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">fixed</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">setprecision</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+    <span class="n">triangle</span> <span class="nf">t</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">get_perimeter</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="n">rect</span> <span class="nf">r</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">get_perimeter</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nl">Output</span><span class="p">:</span>
+<span class="mi">15</span>
+<span class="mf">20.00000</span>
+</code></pre></div>
+<p>In the above case it was more if it has a perimeter, it is a shape instead of if it quacks like a duck it is a duck.</p>
+
+<p>But the most important part is, both of them show the same thing, that is Interface Based Programming, with one showing runtime polymorphism and another compile time polymorphism. The first example is pretty easy to understand and also can be seen in &ldquo;Introductory C++&rdquo; courses, the second one is kind of hard to get at the first sight, but it is far more efficient than the first one. The types are decided while the program is compiling in the second example, instead of the runtime which makes compiling take a little bit more time but that is more reliable and faster during runtime.</p>
+
+<p>I am darn sure most of the folks reading this post would be like, but hey, have you ever seen the how the compiler behaves on finding a template error? Yes, a definitely yes, I have wasted not a day but a whole week debugging one of such errors. The errors are pretty disheartening and depressing, it is hard to make sense out of them, even though we can&rsquo;t fully take care of that, we can tackle the situation up to a state where it can be tolerated by using <code>concepts</code>. And thankfully I won&rsquo;t go blabbering anymore, cause there are some wonderful blogs for understanding concepts, you can find them <a href="https://akrzemi1.wordpress.com/2016/03/21/concepts-without-concepts/">here</a> and <a href="https://kukuruku.co/post/boost-concepts/">here</a>.</p>
+
+          <h5>have something to share about the blog? drop an email to hellozee at disroot dot org</h5>
+        </div>
+
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/languages/">Languages are just tools, you idiot</a></li>
+    
+    <li><a href="https://www.hellozee.dev/new-year-bois/">It is New Year my dudes</a></li>
+    
+    <li><a href="https://www.hellozee.dev/cook/">Do it, you may learn something new</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://invent.kde.org/kuntalmajumder" target="_blank">Invent</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>
