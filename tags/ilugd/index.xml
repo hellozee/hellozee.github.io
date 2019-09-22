@@ -6,10 +6,19 @@
     <description>Recent content in ILUGD on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Mon, 05 Aug 2019 19:47:02 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2019 08:45:00 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/ilugd/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Not that much of an eventful week</title>
+      <link>https://www.hellozee.dev/eventful_week/</link>
+      <pubDate>Sun, 22 Sep 2019 08:45:00 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/eventful_week/</guid>
+      <description>To be fair, my speaking skills probably haven&amp;rsquo;t improved that much, but I no longer feel nervous while on the stage, like I used to feel earlier, thanks to the session that I took on the recent ILUGD meetup.</description>
+    </item>
     
     <item>
       <title>The CircuitPython Act</title>
