@@ -6,10 +6,46 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sun, 22 Sep 2019 08:45:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:00:28 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>conan</title>
+      <link>https://www.hellozee.dev/tags/conan/</link>
+      <pubDate>Mon, 30 Sep 2019 20:00:28 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/conan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cpp</title>
+      <link>https://www.hellozee.dev/tags/cpp/</link>
+      <pubDate>Mon, 30 Sep 2019 20:00:28 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>languages</title>
+      <link>https://www.hellozee.dev/tags/languages/</link>
+      <pubDate>Mon, 30 Sep 2019 20:00:28 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package-manager</title>
+      <link>https://www.hellozee.dev/tags/package-manager/</link>
+      <pubDate>Mon, 30 Sep 2019 20:00:28 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/package-manager/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ILUGD</title>
@@ -48,15 +84,6 @@
     </item>
     
     <item>
-      <title>languages</title>
-      <link>https://www.hellozee.dev/tags/languages/</link>
-      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/languages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>templates</title>
       <link>https://www.hellozee.dev/tags/templates/</link>
       <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
@@ -71,15 +98,6 @@
       <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/types/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cpp</title>
-      <link>https://www.hellozee.dev/tags/cpp/</link>
-      <pubDate>Sun, 08 Sep 2019 17:12:20 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/cpp/</guid>
       <description></description>
     </item>
     

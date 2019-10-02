@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/a_week_with_conan/" />
+  <link rel="canonical" href="https://www.hellozee.dev/a_week_with_conan/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "A Week with Conan",
+      "headline" : "A Week with Conan",
+      "description" : "If someone has been following my posts, they would sure know, I write C\x2b\x2b for most of the time, I spent to write any piece of code. The reaction to which most people resonate is, \x26ldquo;ouch, you write c\x2b\x2b, that must be really tough\x26rdquo;.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-09-30 20:00:28 \x2b0530 IST",
+      "dateModified" : "2019-09-30 20:00:28 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/a_week_with_conan\/",
+      "keywords" : [ "cpp","conan","package-manager","languages", ]
+  }
+</script>
+<title>A Week with Conan - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="A Week with Conan - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="If someone has been following my posts, they would sure know, I write C&#43;&#43; for most of the time, I spent to write any piece of code. The reaction to which most people resonate is, &ldquo;ouch, you write c&#43;&#43;, that must be really tough&rdquo;." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+</head>
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">A Nerd&#39;s Tale</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">A Week with Conan</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2019-09-30 20:00:28 IST">
+                30, Sep, 2019
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a href="https://www.hellozee.dev/">@hellozee</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+                                            
+                                                      
+                <a href="https://www.hellozee.dev/tags/cpp/">#cpp</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/conan/">#conan</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/package-manager/">#package-manager</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/languages/">#languages</a>             
+              
+            </div>
+        </header>
+
+        <div class="post-content markdown-body">
+          <p>If someone has been following my posts, they would sure know, I write <code>C++</code> for most of the time, I spent to write any piece of code. The reaction to which most people resonate is, &ldquo;ouch, you write c++, that must be really tough&rdquo;. To all of the people with this reaction, to be writing python is harder than <code>C++</code>. Okay, enough, lets come to today&rsquo;s topic, <code>conan</code>, a lot of times, I find people using the argument that, <code>C++</code> doesn&rsquo;t have any package manager like the other languages. Wrong, <code>C++</code> has a bunch of package managers, just no standard ones and <code>conan</code> is one of them. Last week, I took it for a test drive, since up to now, what I did was pulled in dependencies with the help of git submodules.</p>
+
+<p><code>conan</code> is developed using python, so it is available in PyPI. But the first thing I noticed, was that, they didn&rsquo;t have an IRC channel for queries, that is not something astonishing in this decade, but instead they had a Slack channel, which, to be fair, I don&rsquo;t understand. Other than I didn&rsquo;t find any real time chat for support, 😯. Ohh, <code>conan</code> being written in python saves a lot of hassle to install it, just a <code>pip3 install conan --user</code> will suffice.</p>
+
+<p>The getting started page of the manual, listed an example of using poco library, easy to follow and replicate. And to be fair, I was remotely interested in reading the manual, I was more into getting a basic <code>Qt</code> project to work and increment the number of libraries one at a time.</p>
+
+<p>Getting a basic Qt project was easy, also, the ability to use Python to write the configuration files, was a bonus. But as soon as I added GTest, the python configuration just, blew up. I had to resort the generic <code>txt</code> configuration format, for the fact that, it was not able to find the headers for GTest in the python configuration file, why, I don&rsquo;t know. But anyway, the best part was I could hook it up in my build system without any changes to CMake files. The configuration file looked liked this,</p>
+
+<pre><code>[requires]                                                                      
+qt/5.12.5@bincrafters/stable                                                    
+gtest/1.8.1@bincrafters/stable                                                  
+                                                                                
+[generators]                                                                    
+cmake                                                                           
+                                                                                
+[options]                                                                       
+qt:shared=True                                                                  
+</code></pre>
+
+<p>And just a couple more lines, to the top level <code>CMakeLists.txt</code> file,</p>
+<div class="highlight"><pre class="chroma"><code class="language-cmake" data-lang="cmake"> <span class="nb">include</span><span class="p">(</span><span class="o">${</span><span class="nv">CMAKE_BINARY_DIR</span><span class="o">}</span><span class="s">/conanbuildinfo.cmake</span><span class="p">)</span><span class="err">
+</span><span class="err"></span> <span class="nb">conan_basic_setup</span><span class="p">()</span></code></pre></div>
+<p>If I want to add more stuff then, I just do a <code>conan search &lt;library name&gt; --remote=&lt;remote&gt;</code> and add that under the <code>[requires]</code> section. I was told that <code>conan</code> had some problems with the KDE stuff, like platform specific plugins and all, but I am yet to try that, <code>:wq</code> for now, 🙂.</p>
+
+          <h5>have something to share about the blog? drop an email to hellozee at disroot dot org</h5>
+        </div>
+
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/duck_typing/">Duck typing</a></li>
+    
+    <li><a href="https://www.hellozee.dev/finding_the_edge/">Finding the Edge</a></li>
+    
+    <li><a href="https://www.hellozee.dev/magnetic_lasso_is_here/">Magnetic Lasso for Krita is here</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://invent.kde.org/kuntalmajumder" target="_blank">Invent</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>

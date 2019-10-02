@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conan on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/conan/</link>
+    <description>Recent content in conan on A Nerd&#39;s Tale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
+    <lastBuildDate>Mon, 30 Sep 2019 20:00:28 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.hellozee.dev/tags/conan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Week with Conan</title>
+      <link>https://www.hellozee.dev/a_week_with_conan/</link>
+      <pubDate>Mon, 30 Sep 2019 20:00:28 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/a_week_with_conan/</guid>
+      <description>If someone has been following my posts, they would sure know, I write C++ for most of the time, I spent to write any piece of code. The reaction to which most people resonate is, &amp;ldquo;ouch, you write c++, that must be really tough&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
