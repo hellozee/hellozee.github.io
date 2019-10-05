@@ -6,10 +6,20 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 20:00:28 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2019 02:38:35 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>October Begins</title>
+      <link>https://www.hellozee.dev/october_begins/</link>
+      <pubDate>Sun, 06 Oct 2019 02:38:35 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/october_begins/</guid>
+      <description>So my mid semester break begins next week, finally I can take sometime off my academics and get some shit done.
+To start off the weekend, I started working on the Magnetic Lasso again, it is almost complete, there are still some UX issues remaining, but I don&amp;rsquo;t think it won&amp;rsquo;t take much time, considering that most of the work is done.</description>
+    </item>
     
     <item>
       <title>A Week with Conan</title>

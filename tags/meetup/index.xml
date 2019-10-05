@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pycon on A Nerd&#39;s Tale</title>
-    <link>https://www.hellozee.dev/tags/pycon/</link>
-    <description>Recent content in pycon on A Nerd&#39;s Tale</description>
+    <title>meetup on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/meetup/</link>
+    <description>Recent content in meetup on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Sun, 06 Oct 2019 02:38:35 +0530</lastBuildDate>
     
-	<atom:link href="https://www.hellozee.dev/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://www.hellozee.dev/october_begins/</guid>
       <description>So my mid semester break begins next week, finally I can take sometime off my academics and get some shit done.
 To start off the weekend, I started working on the Magnetic Lasso again, it is almost complete, there are still some UX issues remaining, but I don&amp;rsquo;t think it won&amp;rsquo;t take much time, considering that most of the work is done.</description>
-    </item>
-    
-    <item>
-      <title>Caring about the directories</title>
-      <link>https://www.hellozee.dev/dexer/</link>
-      <pubDate>Sat, 19 Jan 2019 20:05:44 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/dexer/</guid>
-      <description>The story begins in PyCon India 2018, I, with a tired soul (registration desk is not a quite nice place for resting), shivering in freezing cold, after a dosage of Paracetamol, asked fhackdroid to tell me about any project which uses Go, so that I can also put some patches during devsprint.</description>
     </item>
     
   </channel>
