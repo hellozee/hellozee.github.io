@@ -6,10 +6,19 @@
     <description>Recent content in krita on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sun, 08 Sep 2019 17:12:20 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 22:14:03 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/krita/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>To be Merged in master</title>
+      <link>https://www.hellozee.dev/to_be_merged_in_master/</link>
+      <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/to_be_merged_in_master/</guid>
+      <description>So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as Boud told me. Lets how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up.</description>
+    </item>
     
     <item>
       <title>Finding the Edge</title>
