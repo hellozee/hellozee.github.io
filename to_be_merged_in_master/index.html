@@ -19,7 +19,7 @@
       "articleSection" : "",
       "name" : "To be Merged in master",
       "headline" : "To be Merged in master",
-      "description" : "So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as Boud told me. Lets how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up.",
+      "description" : "So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as Boud told me. Lets see how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up.",
       "inLanguage" : "en-US",
       "author" : "hellozee",
       "creator" : "hellozee",
@@ -36,7 +36,7 @@
 <title>To be Merged in master - A Nerd&#39;s Tale</title>
   <meta property="og:title" content="To be Merged in master - A Nerd&#39;s Tale" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as Boud told me. Lets how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up." />
+  <meta name="description" content="So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as Boud told me. Lets see how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up." />
 
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
   <link rel="stylesheet"
@@ -111,14 +111,14 @@
         </header>
 
         <div class="post-content markdown-body">
-          <p>So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as <a href="https://valdyas.org/">Boud</a> told me. Lets how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up. This post is mainly for to document how the Magnetic Lasso works, since I am too good to make an entry in the manual.</p>
+          <p>So, finally it seems like, after crossing the deadline by a couple months, Magnetic Lasso is going to get merged, as <a href="https://valdyas.org/">Boud</a> told me. Lets see how many more weeks it takes, so presumably it is complete feature wise but who knows from where a bug might pop up. This post is mainly for documenting how the Magnetic Lasso works, since I am too good to make an entry in the manual.</p>
 
-<p>Initially, I started writing the tool as almost one to one copy of the Photoshop one, but as it has always been, Krita is not Photoshop. A small quirk in the code-base, unknown to me, threw me off the deadline though to be honest, I was never going to make it by the estimated deadline, given how miscalculated the effort required for doing the job. Oh, btw do you know Adobe is deactivating all the user accounts in Venezuela to comply with an executive order? It is high time to switch to free software, 😄.</p>
+<p>Initially, I started writing the tool as almost one to one copy of the Photoshop one, but as it has always been, Krita is not Photoshop. A small quirk in the code-base, unknown to me, threw me off the deadline, though to be honest, I was never going to make it by the estimated deadline, given how I miscalculated the effort required for doing the job. Oh, btw do you know Adobe is deactivating all the user accounts in Venezuela to comply with an executive order? It is high time to switch to free software, 😄.</p>
 
 <p>Anyway, the first thing to note is, it no longer works like the PS one, and what I mean by it is, fundamentally both do the same thing, but the User Experience or the UX is different. In Photoshop,</p>
 
 <ol>
-<li>We click on a image and make an anchor.</li>
+<li>We click on a image and make an anchor. Beware I use point/anchor in the post interchangeably, don&rsquo;t worry both mean the same thing.</li>
 <li>Then hover around the edge present in the image and the selection sticks to the edge.</li>
 <li>We keep on selecting, until we complete the selection by clicking on the initial point which we made in the Step 1.</li>
 </ol>
@@ -135,14 +135,14 @@
 
 <ol>
 <li>You press on a part on the image.</li>
-<li>Then drag the mouse while keeping your left mouse button pressed along the edge.</li>
+<li>Then drag the mouse while keeping your left mouse button pressed, along the edge.</li>
 <li>Release the mouse when done, the path would automatically stick to the edges present in the image</li>
 <li>Now we can either click on the initial point to close the loop and press <code>Enter</code> or simply press <code>Enter</code> to make a selection and we will call this approach the interactive mode.</li>
 </ol>
 
 <p>Now the craziest part is both of the approaches can be used interchangeably, in whatever way we want. Both will result similar kind of selections depending on how you place the points in the first approach, since the points are placed automatically by the algorithm in the second approach.</p>
 
-<p>But what is the point of creating anchors? There is not only a point but a bunch of them, well in short cause they are editable,</p>
+<p>But what is the reason of creating anchors? There is not only one reason but a bunch of them, well in short cause they are editable,</p>
 
 <ul>
 <li>To delete an anchor you can either double click on the anchor or click drag it out of the canvas.</li>
