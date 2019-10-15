@@ -4,19 +4,54 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-10-09T22:14:03+05:30</lastmod>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.hellozee.dev/pycon_2019/</loc>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-10-09T22:14:03+05:30</lastmod>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-10-09T22:14:03+05:30</lastmod>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/chennai/</loc>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/conference/</loc>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/meetup/</loc>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/meetup/</loc>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/pycon/</loc>
+    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,18 +99,6 @@
   <url>
     <loc>https://www.hellozee.dev/october_begins/</loc>
     <lastmod>2019-10-06T02:38:35+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/meetup/</loc>
-    <lastmod>2019-10-06T02:38:35+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/pycon/</loc>
-    <lastmod>2019-10-06T02:38:35+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -228,12 +251,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/tags/hardware/</loc>
-    <lastmod>2019-08-05T19:47:02+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/meetup/</loc>
     <lastmod>2019-08-05T19:47:02+05:30</lastmod>
     <priority>0</priority>
   </url>

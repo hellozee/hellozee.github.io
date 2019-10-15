@@ -6,10 +6,46 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Wed, 09 Oct 2019 22:14:03 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 00:55:24 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>chennai</title>
+      <link>https://www.hellozee.dev/tags/chennai/</link>
+      <pubDate>Wed, 16 Oct 2019 00:55:24 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/chennai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://www.hellozee.dev/tags/conference/</link>
+      <pubDate>Wed, 16 Oct 2019 00:55:24 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>https://www.hellozee.dev/tags/meetup/</link>
+      <pubDate>Wed, 16 Oct 2019 00:55:24 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pycon</title>
+      <link>https://www.hellozee.dev/tags/pycon/</link>
+      <pubDate>Wed, 16 Oct 2019 00:55:24 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/pycon/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cpp</title>
@@ -53,24 +89,6 @@
       <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meetup</title>
-      <link>https://www.hellozee.dev/tags/meetup/</link>
-      <pubDate>Sun, 06 Oct 2019 02:38:35 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/meetup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pycon</title>
-      <link>https://www.hellozee.dev/tags/pycon/</link>
-      <pubDate>Sun, 06 Oct 2019 02:38:35 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/pycon/</guid>
       <description></description>
     </item>
     
