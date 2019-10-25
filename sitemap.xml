@@ -4,25 +4,54 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/hell_of_october/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/krita/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/pycon/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/twitter/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/update/</loc>
+    <lastmod>2019-10-25T20:32:56+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/pycon_2019/</loc>
     <lastmod>2019-10-16T00:55:24+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -45,12 +74,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/tags/meetup/</loc>
-    <lastmod>2019-10-16T00:55:24+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/pycon/</loc>
     <lastmod>2019-10-16T00:55:24+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -85,12 +108,6 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/krita/</loc>
-    <lastmod>2019-10-09T22:14:03+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hellozee.dev/tags/open-source/</loc>
     <lastmod>2019-10-09T22:14:03+05:30</lastmod>
     <priority>0</priority>
@@ -99,12 +116,6 @@
   <url>
     <loc>https://www.hellozee.dev/october_begins/</loc>
     <lastmod>2019-10-06T02:38:35+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/update/</loc>
-    <lastmod>2019-10-06T02:38:35+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Wed, 16 Oct 2019 00:55:24 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 20:32:56 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>update</title>
+      <link>https://www.hellozee.dev/categories/update/</link>
+      <pubDate>Fri, 25 Oct 2019 20:32:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/update/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>meetup</title>
@@ -26,15 +35,6 @@
       <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/categories/krita/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>update</title>
-      <link>https://www.hellozee.dev/categories/update/</link>
-      <pubDate>Sun, 06 Oct 2019 02:38:35 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/update/</guid>
       <description></description>
     </item>
     

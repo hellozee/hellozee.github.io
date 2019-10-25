@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twitter on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/twitter/</link>
+    <description>Recent content in twitter on A Nerd&#39;s Tale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
+    <lastBuildDate>Fri, 25 Oct 2019 20:32:56 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.hellozee.dev/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One hell of a October</title>
+      <link>https://www.hellozee.dev/hell_of_october/</link>
+      <pubDate>Fri, 25 Oct 2019 20:32:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/hell_of_october/</guid>
+      <description>October has been really great for me this year. It started with the Ada Lovelace Day meetup, or better, the after meetup party. The following week, my 6 months of effort got merged to master.</description>
+    </item>
+    
+  </channel>
+</rss>

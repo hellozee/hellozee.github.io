@@ -6,10 +6,37 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Wed, 16 Oct 2019 00:55:24 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 20:32:56 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>krita</title>
+      <link>https://www.hellozee.dev/tags/krita/</link>
+      <pubDate>Fri, 25 Oct 2019 20:32:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pycon</title>
+      <link>https://www.hellozee.dev/tags/pycon/</link>
+      <pubDate>Fri, 25 Oct 2019 20:32:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/pycon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://www.hellozee.dev/tags/twitter/</link>
+      <pubDate>Fri, 25 Oct 2019 20:32:56 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/twitter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chennai</title>
@@ -39,15 +66,6 @@
     </item>
     
     <item>
-      <title>pycon</title>
-      <link>https://www.hellozee.dev/tags/pycon/</link>
-      <pubDate>Wed, 16 Oct 2019 00:55:24 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/pycon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cpp</title>
       <link>https://www.hellozee.dev/tags/cpp/</link>
       <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
@@ -71,15 +89,6 @@
       <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>krita</title>
-      <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/krita/</guid>
       <description></description>
     </item>
     
