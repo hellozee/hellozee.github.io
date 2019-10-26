@@ -67,13 +67,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/meetup/</loc>
+    <loc>https://www.hellozee.dev/tags/meetup/</loc>
     <lastmod>2019-10-16T00:55:24+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/meetup/</loc>
+    <loc>https://www.hellozee.dev/categories/meetup/</loc>
     <lastmod>2019-10-16T00:55:24+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -335,13 +335,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/linux/</loc>
+    <loc>https://www.hellozee.dev/tags/linux/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/linux/</loc>
+    <loc>https://www.hellozee.dev/categories/linux/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -468,13 +468,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/youtube/</loc>
+    <loc>https://www.hellozee.dev/tags/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/youtube/</loc>
+    <loc>https://www.hellozee.dev/categories/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -485,13 +485,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/self/</loc>
+    <loc>https://www.hellozee.dev/tags/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/self/</loc>
+    <loc>https://www.hellozee.dev/categories/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -508,13 +508,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/golang/</loc>
+    <loc>https://www.hellozee.dev/tags/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/golang/</loc>
+    <loc>https://www.hellozee.dev/categories/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -642,13 +642,13 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/python/</loc>
+    <loc>https://www.hellozee.dev/tags/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/python/</loc>
+    <loc>https://www.hellozee.dev/categories/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
     <priority>0</priority>
   </url>
