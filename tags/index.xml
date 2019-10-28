@@ -6,17 +6,44 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 25 Oct 2019 20:32:56 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 17:58:03 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>foss</title>
+      <link>https://www.hellozee.dev/tags/foss/</link>
+      <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kde</title>
+      <link>https://www.hellozee.dev/tags/kde/</link>
+      <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>krita</title>
       <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Fri, 25 Oct 2019 20:32:56 +0530</pubDate>
+      <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>https://www.hellozee.dev/tags/open-source/</link>
+      <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/open-source/</guid>
       <description></description>
     </item>
     
@@ -80,24 +107,6 @@
       <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/gsoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open-source</title>
-      <link>https://www.hellozee.dev/tags/open-source/</link>
-      <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/open-source/</guid>
       <description></description>
     </item>
     
@@ -233,15 +242,6 @@
       <pubDate>Sat, 15 Jun 2019 00:16:56 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/boost/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>foss</title>
-      <link>https://www.hellozee.dev/tags/foss/</link>
-      <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/foss/</guid>
       <description></description>
     </item>
     
