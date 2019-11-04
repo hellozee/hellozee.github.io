@@ -6,10 +6,20 @@
     <description>Recent content in krita-weekly on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Mon, 28 Oct 2019 17:58:03 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 13:46:10 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/krita-weekly/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JPEG 2K, Auto Precision and lot more, KW #2</title>
+      <link>https://www.hellozee.dev/kw2/</link>
+      <pubDate>Mon, 04 Nov 2019 13:46:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw2/</guid>
+      <description>This week in Krita has been more around features, rather than bug fixing. We had around 18 bug reports but at the same time 18 bugs were fixed too.
+We can now import jpeg2000 files into Krita.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #1</title>
