@@ -170,6 +170,12 @@
   </url>
   
   <url>
+    <loc>https://www.hellozee.dev/tags/ilugd/</loc>
+    <lastmod>2019-09-22T08:45:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hellozee.dev/eventful_week/</loc>
     <lastmod>2019-09-22T08:45:00+05:30</lastmod>
   </url>
@@ -182,12 +188,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/categories/fun/</loc>
-    <lastmod>2019-09-22T08:45:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/ilugd/</loc>
     <lastmod>2019-09-22T08:45:00+05:30</lastmod>
     <priority>0</priority>
   </url>
