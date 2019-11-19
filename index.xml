@@ -6,10 +6,19 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Mon, 11 Nov 2019 18:33:19 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 21:22:14 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #4</title>
+      <link>https://www.hellozee.dev/kw4/</link>
+      <pubDate>Tue, 19 Nov 2019 21:22:14 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw4/</guid>
+      <description>Phew, I am late this week for the update, kudos to my university exams nevertheless better be late than never. One more week passed, we are now closing on the 4.</description>
+    </item>
     
     <item>
       <title>Tons of Bug Fixes | Krita Weekly #3</title>
