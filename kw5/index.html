@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/kw5/" />
+  <link rel="canonical" href="https://www.hellozee.dev/kw5/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "Krita Weekly #5",
+      "headline" : "Krita Weekly #5",
+      "description" : "This week we got 13 new bug reports while 22 got fixed, a net decrease of 9 bugs. The bug tracker says that there are about 415 bugs remaining, so still a long way to go.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-11-26 09:11:28 \x2b0530 IST",
+      "dateModified" : "2019-11-26 09:11:28 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/kw5\/",
+      "keywords" : [ "krita","foss","open-source","kde", ]
+  }
+</script>
+<title>Krita Weekly #5 - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="Krita Weekly #5 - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="This week we got 13 new bug reports while 22 got fixed, a net decrease of 9 bugs. The bug tracker says that there are about 415 bugs remaining, so still a long way to go." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+
+    
+    <script type="text/javascript">
+      var _paq = window._paq || [];
+       
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://hellozee.mooo.com/analytics/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    
+
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">A Nerd&#39;s Tale</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Krita Weekly #5</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2019-11-26 09:11:28 IST">
+                26, Nov, 2019
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a href="https://www.hellozee.dev/">@hellozee</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+                                            
+                                                      
+                <a href="https://www.hellozee.dev/tags/krita/">#krita</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/foss/">#foss</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/open-source/">#open-source</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/kde/">#kde</a>             
+              
+            </div>
+        </header>
+        <div class="post-content markdown-body">
+          <p>This week we got 13 new bug reports while 22 got fixed, a net decrease of 9 bugs. The bug tracker says that there are about 415 bugs remaining, so still a long way to go. And last week the 4.2.8 beta was released. Thanks to all the folks who participated in testing it. You can expect the 4.2.8 release this Wednesday.</p>
+
+<p><img src="https://www.hellozee.dev/img/kw5.png" alt="the bug graph" /></p>
+
+<p>If we take a look at the commit history, Dmitry can be seen busy fixing bugs as usual. There were a lot of new changes introduced but to mention some of them: the constness in KisLocklessStack got fixed, crashes when moving a layer under a transformation mask as well and KisDecorationsWrapperLayer was made to set up default bounds correctly.</p>
+
+<p>Ivan fixed some inconsistency in the visuals of the line endings. And coming to the resource rewrite, Boud has been working on to make document storage work like bundles. Tiar has been busy with tagging, a working combobox can be found in the corresponding branch to filter resources. And Wolthera has been dabbing with the storage widget ui. Collectively they also fixed some missing parts of the API involved with the resources.</p>
+
+<p>Also thank you Carl for helping us to setup a funding platform for Krita similar to that of Blender. Here is an early preview of what he is into.</p>
+
+<p><img src="https://www.hellozee.dev/img/fund.png" alt=" screenshot of the fund website " /></p>
+
+<p><code>:wq</code> for now, see you next week, and don&rsquo;t hesitate to drop a message in any of the social media links below, if you have anything related to Krita, 🙂.</p>
+
+        </div>      
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/kw4/">Krita Weekly #4</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw3/">Tons of Bug Fixes | Krita Weekly #3</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw2/">JPEG 2K, Auto Precision | Krita Weekly #2</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://invent.kde.org/kuntalmajumder" target="_blank">Invent</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a rel="me" href="https://fosstodon.org/@hellozee">Mastodon</a>
+  </div>
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>
