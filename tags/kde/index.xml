@@ -187,16 +187,6 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
     </item>
     
     <item>
-      <title>This is the year of Linux Desktop</title>
-      <link>https://www.hellozee.dev/linux-desktop/</link>
-      <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/linux-desktop/</guid>
-      <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
- Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
-    </item>
-    
-    <item>
       <title>Summer is coming...</title>
       <link>https://www.hellozee.dev/summer-is-coming/</link>
       <pubDate>Tue, 07 May 2019 14:18:32 +0530</pubDate>
@@ -204,16 +194,6 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <guid>https://www.hellozee.dev/summer-is-coming/</guid>
       <description>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
  This will be a story, so get prepared to be bored, 😸.</description>
-    </item>
-    
-    <item>
-      <title>How Design Works?</title>
-      <link>https://www.hellozee.dev/how-design-works/</link>
-      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/how-design-works/</guid>
-      <description>Note: The title may be misleading, 😛
- I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&amp;rsquo;t hurt anyone, let that be so.</description>
     </item>
     
   </channel>
