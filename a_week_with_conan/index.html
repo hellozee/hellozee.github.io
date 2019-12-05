@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.60.1" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -125,14 +125,10 @@
             </div>
         </header>
         <div class="post-content markdown-body">
-          <p>If someone has been following my posts, they would sure know, I write <code>C++</code> for most of the time, I spent to write any piece of code. The reaction to which most people resonate is, &ldquo;ouch, you write c++, that must be really tough&rdquo;. To all of the people with this reaction, to be writing python is harder than <code>C++</code>. Okay, enough, lets come to today&rsquo;s topic, <code>conan</code>, a lot of times, I find people using the argument that, <code>C++</code> doesn&rsquo;t have any package manager like the other languages. Wrong, <code>C++</code> has a bunch of package managers, just no standard ones and <code>conan</code> is one of them. Last week, I took it for a test drive, since up to now, what I did was pulled in dependencies with the help of git submodules.</p>
-
-<p><code>conan</code> is developed using python, so it is available in PyPI. But the first thing I noticed, was that, they didn&rsquo;t have an IRC channel for queries, that is not something astonishing in this decade, but instead they had a Slack channel, which, to be fair, I don&rsquo;t understand. Other than I didn&rsquo;t find any real time chat for support, 😯. Ohh, <code>conan</code> being written in python saves a lot of hassle to install it, just a <code>pip3 install conan --user</code> will suffice.</p>
-
+          <p>If someone has been following my posts, they would sure know, I write <code>C++</code> for most of the time, I spent to write any piece of code. The reaction to which most people resonate is, &ldquo;ouch, you write c++, that must be really tough&rdquo;. To all of the people with this reaction, to be writing python is harder than <code>C++</code>. Okay, enough, lets come to today's topic, <code>conan</code>, a lot of times, I find people using the argument that, <code>C++</code> doesn't have any package manager like the other languages. Wrong, <code>C++</code> has a bunch of package managers, just no standard ones and <code>conan</code> is one of them. Last week, I took it for a test drive, since up to now, what I did was pulled in dependencies with the help of git submodules.</p>
+<p><code>conan</code> is developed using python, so it is available in PyPI. But the first thing I noticed, was that, they didn't have an IRC channel for queries, that is not something astonishing in this decade, but instead they had a Slack channel, which, to be fair, I don't understand. Other than I didn't find any real time chat for support, 😯. Ohh, <code>conan</code> being written in python saves a lot of hassle to install it, just a <code>pip3 install conan --user</code> will suffice.</p>
 <p>The getting started page of the manual, listed an example of using poco library, easy to follow and replicate. And to be fair, I was remotely interested in reading the manual, I was more into getting a basic <code>Qt</code> project to work and increment the number of libraries one at a time.</p>
-
-<p>Getting a basic Qt project was easy, also, the ability to use Python to write the configuration files, was a bonus. But as soon as I added GTest, the python configuration just, blew up. I had to resort the generic <code>txt</code> configuration format, for the fact that, it was not able to find the headers for GTest in the python configuration file, why, I don&rsquo;t know. But anyway, the best part was I could hook it up in my build system without any changes to CMake files. The configuration file looked liked this,</p>
-
+<p>Getting a basic Qt project was easy, also, the ability to use Python to write the configuration files, was a bonus. But as soon as I added GTest, the python configuration just, blew up. I had to resort the generic <code>txt</code> configuration format, for the fact that, it was not able to find the headers for GTest in the python configuration file, why, I don't know. But anyway, the best part was I could hook it up in my build system without any changes to CMake files. The configuration file looked liked this,</p>
 <pre><code>[requires]                                                                      
 qt/5.12.5@bincrafters/stable                                                    
 gtest/1.8.1@bincrafters/stable                                                  
@@ -142,12 +138,10 @@ cmake
                                                                                 
 [options]                                                                       
 qt:shared=True                                                                  
-</code></pre>
-
-<p>And just a couple more lines, to the top level <code>CMakeLists.txt</code> file,</p>
+</code></pre><p>And just a couple more lines, to the top level <code>CMakeLists.txt</code> file,</p>
 <div class="highlight"><pre class="chroma"><code class="language-cmake" data-lang="cmake"> <span class="nb">include</span><span class="p">(</span><span class="o">${</span><span class="nv">CMAKE_BINARY_DIR</span><span class="o">}</span><span class="s">/conanbuildinfo.cmake</span><span class="p">)</span><span class="err">
-</span><span class="err"></span> <span class="nb">conan_basic_setup</span><span class="p">()</span></code></pre></div>
-<p>If I want to add more stuff then, I just do a <code>conan search &lt;library name&gt; --remote=&lt;remote&gt;</code> and add that under the <code>[requires]</code> section. I was told that <code>conan</code> had some problems with the KDE stuff, like platform specific plugins and all, but I am yet to try that, <code>:wq</code> for now, 🙂.</p>
+</span><span class="err"></span> <span class="nb">conan_basic_setup</span><span class="p">(</span><span class="p">)</span><span class="err">
+</span></code></pre></div><p>If I want to add more stuff then, I just do a <code>conan search &lt;library name&gt; --remote=&lt;remote&gt;</code> and add that under the <code>[requires]</code> section. I was told that <code>conan</code> had some problems with the KDE stuff, like platform specific plugins and all, but I am yet to try that, <code>:wq</code> for now, 🙂.</p>
 
         </div>      
         

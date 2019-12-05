@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on A Nerd&#39;s Tale</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Categories on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 26 Nov 2019 09:11:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 22:09:22 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>krita-weekly</title>
       <link>https://www.hellozee.dev/categories/krita-weekly/</link>
-      <pubDate>Tue, 26 Nov 2019 09:11:28 +0530</pubDate>
+      <pubDate>Thu, 05 Dec 2019 22:09:22 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/categories/krita-weekly/</guid>
       <description></description>

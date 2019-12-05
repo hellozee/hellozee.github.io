@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Nerd&#39;s Tale</title>
@@ -6,10 +6,19 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 26 Nov 2019 09:11:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 22:09:22 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #6</title>
+      <link>https://www.hellozee.dev/kw6/</link>
+      <pubDate>Thu, 05 Dec 2019 22:09:22 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw6/</guid>
+      <description>We had a release last week and boy, I would just skip talking about bugs for this one. But we currently have 429 open bugs, 14 more from what I reported last week.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #5</title>
@@ -54,7 +63,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw1/</guid>
-      <description>Preface Okay, so recently one of Boud&amp;rsquo;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
+      <description>Preface Okay, so recently one of Boud&#39;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
     </item>
     
     <item>
@@ -91,7 +100,7 @@ We can now import jpeg2000 files into Krita.</description>
       
       <guid>https://www.hellozee.dev/october_begins/</guid>
       <description>So my mid semester break begins next week, finally I can take sometime off my academics and get some shit done.
-To start off the weekend, I started working on the Magnetic Lasso again, it is almost complete, there are still some UX issues remaining, but I don&amp;rsquo;t think it won&amp;rsquo;t take much time, considering that most of the work is done.</description>
+To start off the weekend, I started working on the Magnetic Lasso again, it is almost complete, there are still some UX issues remaining, but I don&#39;t think it won&#39;t take much time, considering that most of the work is done.</description>
     </item>
     
     <item>
@@ -109,7 +118,7 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Sun, 22 Sep 2019 08:45:00 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/eventful_week/</guid>
-      <description>To be fair, my speaking skills probably haven&amp;rsquo;t improved that much, but I no longer feel nervous while on the stage, like I used to feel earlier, thanks to the session that I took on the recent ILUGD meetup.</description>
+      <description>To be fair, my speaking skills probably haven&#39;t improved that much, but I no longer feel nervous while on the stage, like I used to feel earlier, thanks to the session that I took on the recent ILUGD meetup.</description>
     </item>
     
     <item>
@@ -118,7 +127,7 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/duck_typing/</guid>
-      <description>Definition: Duck typing in computer programming is an application of the duck test—&amp;rdquo;If it walks like a duck and it quacks like a duck, then it must be a duck&amp;rdquo;—to determine if an object can be used for a particular purpose.</description>
+      <description>Definition: Duck typing in computer programming is an application of the duck test—&amp;ldquo;If it walks like a duck and it quacks like a duck, then it must be a duck&amp;rdquo;—to determine if an object can be used for a particular purpose.</description>
     </item>
     
     <item>
@@ -136,8 +145,8 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/cracking_gsoc/</guid>
-      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&amp;rsquo;s How to crack Open Source. He sums it up in the best way possible,
- Take a hammer.</description>
+      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&#39;s How to crack Open Source. He sums it up in the best way possible,
+ Take a hammer. Open GitHub in your laptop.</description>
     </item>
     
     <item>
@@ -146,7 +155,7 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/magnetic_lasso_is_here/</guid>
-      <description>I won&amp;rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
+      <description>I won&#39;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
     </item>
     
     <item>
@@ -192,7 +201,7 @@ Context I had a flight for Amsterdam to catch, was a long flight, writing a post
       <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
-      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
     </item>
     
     <item>
@@ -201,7 +210,7 @@ Context I had a flight for Amsterdam to catch, was a long flight, writing a post
       <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/it_coming_alive/</guid>
-      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say.</description>
+      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say. Though it still demands a lot of work to be done, so it will be just polishing the existing code into perfection for the next one and half month.</description>
     </item>
     
     <item>
@@ -248,7 +257,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/boost_astar/</guid>
-      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+      <description>Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
@@ -257,7 +266,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/linux-desktop/</guid>
-      <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
+      <description>The title is a running joke now, please don&#39;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&#39;s retrospect the situation.
  Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>
     
@@ -289,7 +298,7 @@ Contributors are priceless - You have to be</description>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/windows/</guid>
-      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&amp;rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
+      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&#39;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
     </item>
     
     <item>
@@ -299,7 +308,7 @@ Contributors are priceless - You have to be</description>
       
       <guid>https://www.hellozee.dev/how-design-works/</guid>
       <description>Note: The title may be misleading, 😛
- I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&amp;rsquo;t hurt anyone, let that be so.</description>
+ I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&#39;t hurt anyone, let that be so.</description>
     </item>
     
     <item>
@@ -308,7 +317,7 @@ Contributors are priceless - You have to be</description>
       <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/video-review-1/</guid>
-      <description>&amp;ldquo;Youtube&amp;rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&amp;rsquo;t have the required setup to record videos nor the time to invest in making videos.</description>
+      <description>&amp;ldquo;Youtube&amp;rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&#39;t have the required setup to record videos nor the time to invest in making videos.</description>
     </item>
     
     <item>
@@ -317,7 +326,7 @@ Contributors are priceless - You have to be</description>
       <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/no-please/</guid>
-      <description>Speaking from a normal person&amp;rsquo;s point of view, do praises hurt? or if I can phrase it better, what hurts more, praise or criticism? An appropriate answer would be none, if you can take praise with your head held high you must be able to take criticism with the same attitude, right?</description>
+      <description>Speaking from a normal person&#39;s point of view, do praises hurt? or if I can phrase it better, what hurts more, praise or criticism? An appropriate answer would be none, if you can take praise with your head held high you must be able to take criticism with the same attitude, right?</description>
     </item>
     
     <item>
@@ -335,7 +344,7 @@ Contributors are priceless - You have to be</description>
       <pubDate>Fri, 04 Jan 2019 23:31:58 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/new-year-bois/</guid>
-      <description>If you don&amp;rsquo;t get the meme reference from the title, here is one more for you :
+      <description>If you don&#39;t get the meme reference from the title, here is one more for you :
  Enough of memes, lets talk about something trendy, something that everyone is talking about cause January 2019 is all about setting up goals and resolutions, I am not being punny here.</description>
     </item>
     
@@ -392,7 +401,7 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
       <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/languages/</guid>
-      <description>Note: Don&amp;rsquo;t take the title onto your ego
+      <description>Note: Don&#39;t take the title onto your ego
  For sake of clarity, I would like to make some terms used in the post clear, it may mean something other to you but for the simplicity of the post, I would be using them in a particular way:</description>
     </item>
     

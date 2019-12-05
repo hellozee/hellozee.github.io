@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kde on A Nerd&#39;s Tale</title>
@@ -6,10 +6,19 @@
     <description>Recent content in kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 26 Nov 2019 09:11:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 22:09:22 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #6</title>
+      <link>https://www.hellozee.dev/kw6/</link>
+      <pubDate>Thu, 05 Dec 2019 22:09:22 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw6/</guid>
+      <description>We had a release last week and boy, I would just skip talking about bugs for this one. But we currently have 429 open bugs, 14 more from what I reported last week.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #5</title>
@@ -54,7 +63,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw1/</guid>
-      <description>Preface Okay, so recently one of Boud&amp;rsquo;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
+      <description>Preface Okay, so recently one of Boud&#39;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
     </item>
     
     <item>
@@ -73,7 +82,7 @@ We can now import jpeg2000 files into Krita.</description>
       
       <guid>https://www.hellozee.dev/october_begins/</guid>
       <description>So my mid semester break begins next week, finally I can take sometime off my academics and get some shit done.
-To start off the weekend, I started working on the Magnetic Lasso again, it is almost complete, there are still some UX issues remaining, but I don&amp;rsquo;t think it won&amp;rsquo;t take much time, considering that most of the work is done.</description>
+To start off the weekend, I started working on the Magnetic Lasso again, it is almost complete, there are still some UX issues remaining, but I don&#39;t think it won&#39;t take much time, considering that most of the work is done.</description>
     </item>
     
     <item>
@@ -91,7 +100,7 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/magnetic_lasso_is_here/</guid>
-      <description>I won&amp;rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
+      <description>I won&#39;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
     </item>
     
     <item>
@@ -127,7 +136,7 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
-      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
     </item>
     
     <item>
@@ -136,7 +145,7 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
       <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/it_coming_alive/</guid>
-      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say.</description>
+      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say. Though it still demands a lot of work to be done, so it will be just polishing the existing code into perfection for the next one and half month.</description>
     </item>
     
     <item>
@@ -183,7 +192,17 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/boost_astar/</guid>
-      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+      <description>Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+    </item>
+    
+    <item>
+      <title>This is the year of Linux Desktop</title>
+      <link>https://www.hellozee.dev/linux-desktop/</link>
+      <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/linux-desktop/</guid>
+      <description>The title is a running joke now, please don&#39;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&#39;s retrospect the situation.
+ Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>
     
     <item>
@@ -194,6 +213,16 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <guid>https://www.hellozee.dev/summer-is-coming/</guid>
       <description>Note: Not a Game of Thrones fan, yet to watch even a single episode, but I wanted a catchy title
  This will be a story, so get prepared to be bored, 😸.</description>
+    </item>
+    
+    <item>
+      <title>How Design Works?</title>
+      <link>https://www.hellozee.dev/how-design-works/</link>
+      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/how-design-works/</guid>
+      <description>Note: The title may be misleading, 😛
+ I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&#39;t hurt anyone, let that be so.</description>
     </item>
     
   </channel>

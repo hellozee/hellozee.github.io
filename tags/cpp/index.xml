@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cpp on A Nerd&#39;s Tale</title>
@@ -44,7 +44,7 @@
       <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/magnetic_lasso_is_here/</guid>
-      <description>I won&amp;rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
+      <description>I won&#39;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
-      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@
       <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/it_coming_alive/</guid>
-      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say.</description>
+      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say. Though it still demands a lot of work to be done, so it will be just polishing the existing code into perfection for the next one and half month.</description>
     </item>
     
     <item>
@@ -136,7 +136,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/boost_astar/</guid>
-      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+      <description>Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
   </channel>

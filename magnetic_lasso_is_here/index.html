@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.60.1" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +19,7 @@
       "articleSection" : "",
       "name" : "Magnetic Lasso for Krita is here",
       "headline" : "Magnetic Lasso for Krita is here",
-      "description" : "I won\x26rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,",
+      "description" : "I won\x27t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,",
       "inLanguage" : "en-US",
       "author" : "hellozee",
       "creator" : "hellozee",
@@ -36,7 +36,7 @@
 <title>Magnetic Lasso for Krita is here - A Nerd&#39;s Tale</title>
   <meta property="og:title" content="Magnetic Lasso for Krita is here - A Nerd&#39;s Tale" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="I won&rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did," />
+  <meta name="description" content="I won&#39;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did," />
 
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
   <link rel="stylesheet"
@@ -128,35 +128,28 @@
             </div>
         </header>
         <div class="post-content markdown-body">
-          <p>I won&rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</p>
-
+          <p>I won't say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/nhT3cbzBpOk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/nhT3cbzBpOk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <p>Looks pretty cool right? But there is a little bit of offset between the selection and the edge, which on the first thought, made me think of writing a better filter such as the Canny Filter for a better approximation. To my surprise, Dmitry added some magic code to the LoG filter and countered the offset. Of course, he wrote the filter, knows far better than me how the thing works. And this is the current state of the tool.</p>
 
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/VA3pRSm4HxQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/VA3pRSm4HxQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <p>Looks fine, but it still has many places where we need to add some bits to make it more complete,</p>
-
 <ul>
 <li><code>Ctrl + Z</code> to undo the last point is kind of broken, cause the tool undoes the last stroke instead of undoing the last point during a selection. It is possible to make it work, though the whole selection tool subsystem would require a little bit of refactoring to make it possible, also right now, there are 3 different shortcuts to undo anchors, would have to make them uniform across tools though.</li>
 <li>No auto-scroll available, well, I thought this would be easy as overriding a virtual function, but it seems like, auto-scroll only works when a mouse-button is pressed, so this would again fall in the refactoring job.</li>
 <li>Compress mouse signals, right now for every mouse move event, it tries to guess an edge, this is technically useless if you move your mouse too fast, then it would be wise to ignore the events in the middle, saving a lot of computation.</li>
 <li>Caching of pre-filtering, we pre filter the image for initial guess at the edges, for now, it happens when you switch to the magnetic lasso or change the radius of the kernel in the tool options. If the image is big, it might take a lot of time to pre-filter the image. Caching the results and do filtering only when requested would surely improve the speed of the tool.</li>
-<li>We of course need some better cursors for the tool, right now, it doesn&rsquo;t look bad but at the same time it is not good looking as the one PS has, ehhhh.</li>
-<li>Last one, sometime ago I thought I have to write a new edge detection filter, but since Dmitry patched his filter for the tool, I don&rsquo;t think, I would need to write a new one for it in the near future. Though, would definitely try it out once I am done with all of the above.</li>
+<li>We of course need some better cursors for the tool, right now, it doesn't look bad but at the same time it is not good looking as the one PS has, ehhhh.</li>
+<li>Last one, sometime ago I thought I have to write a new edge detection filter, but since Dmitry patched his filter for the tool, I don't think, I would need to write a new one for it in the near future. Though, would definitely try it out once I am done with all of the above.</li>
 </ul>
 
         </div>      

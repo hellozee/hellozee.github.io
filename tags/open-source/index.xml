@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>open-source on A Nerd&#39;s Tale</title>
@@ -6,10 +6,19 @@
     <description>Recent content in open-source on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 26 Nov 2019 09:11:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 22:09:22 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #6</title>
+      <link>https://www.hellozee.dev/kw6/</link>
+      <pubDate>Thu, 05 Dec 2019 22:09:22 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw6/</guid>
+      <description>We had a release last week and boy, I would just skip talking about bugs for this one. But we currently have 429 open bugs, 14 more from what I reported last week.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #5</title>
@@ -54,7 +63,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw1/</guid>
-      <description>Preface Okay, so recently one of Boud&amp;rsquo;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
+      <description>Preface Okay, so recently one of Boud&#39;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
     </item>
     
     <item>
@@ -81,8 +90,8 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/cracking_gsoc/</guid>
-      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&amp;rsquo;s How to crack Open Source. He sums it up in the best way possible,
- Take a hammer.</description>
+      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&#39;s How to crack Open Source. He sums it up in the best way possible,
+ Take a hammer. Open GitHub in your laptop.</description>
     </item>
     
     <item>
@@ -91,7 +100,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/magnetic_lasso_is_here/</guid>
-      <description>I won&amp;rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
+      <description>I won&#39;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</description>
     </item>
     
     <item>
@@ -127,7 +136,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
-      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
     </item>
     
     <item>
@@ -136,7 +145,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Thu, 11 Jul 2019 06:25:42 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/it_coming_alive/</guid>
-      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say.</description>
+      <description>After digging for around a month and a half, I can finally do some selections with the Magnetic Lasso tool, which I wrote with utter laziness as I would say. Though it still demands a lot of work to be done, so it will be just polishing the existing code into perfection for the next one and half month.</description>
     </item>
     
     <item>
@@ -183,7 +192,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/boost_astar/</guid>
-      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+      <description>Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
@@ -214,7 +223,7 @@ Contributors are priceless - You have to be</description>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/windows/</guid>
-      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&amp;rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
+      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&#39;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
     </item>
     
     <item>

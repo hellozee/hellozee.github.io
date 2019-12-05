@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>competition on A Nerd&#39;s Tale</title>
@@ -17,8 +17,8 @@
       <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/cracking_gsoc/</guid>
-      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&amp;rsquo;s How to crack Open Source. He sums it up in the best way possible,
- Take a hammer.</description>
+      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&#39;s How to crack Open Source. He sums it up in the best way possible,
+ Take a hammer. Open GitHub in your laptop.</description>
     </item>
     
   </channel>

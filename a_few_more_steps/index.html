@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.60.1" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +19,7 @@
       "articleSection" : "",
       "name" : "A few more steps",
       "headline" : "A few more steps",
-      "description" : "Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop\x26rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.",
+      "description" : "Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop\x27s Magnetic Lasso, cause that was the one which made me write this thing in the first place.",
       "inLanguage" : "en-US",
       "author" : "hellozee",
       "creator" : "hellozee",
@@ -36,7 +36,7 @@
 <title>A few more steps - A Nerd&#39;s Tale</title>
   <meta property="og:title" content="A few more steps - A Nerd&#39;s Tale" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place." />
+  <meta name="description" content="Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place." />
 
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
   <link rel="stylesheet"
@@ -128,8 +128,7 @@
             </div>
         </header>
         <div class="post-content markdown-body">
-          <p>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place. Which, made me aware of some facts related to it,</p>
-
+          <p>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop's Magnetic Lasso, cause that was the one which made me write this thing in the first place. Which, made me aware of some facts related to it,</p>
 <ul>
 <li>The anchor points are placed if there is a certain variation in the straightness of the edge</li>
 <li>The frequency decides the threshold of the variation and not after how many points an anchor will be placed</li>
@@ -137,11 +136,8 @@
 <li>It checks the last best possible edge point and confirms the selection up to that point</li>
 <li>And proceeds to calculate the edge from that point until it finds another point like it</li>
 </ul>
-
 <p>Well, those were some really cool observations and fortunately I have implemented all of them except that variance thing, seems complicated. I would keep it as an extended goal for now, cause the tool still works pretty nice even without it.</p>
-
 <p>On top of that after a little bit of debugging, taking almost a day of mine, found out that, the Laplacian of Gaussian algorithm had an offset over the original image, the result gravitated towards the deeper sides of the edge. After a little chat with Dmitry, he confirms that we are using the wrong output of the algorithm. So if I consider that fixed, I might be able to put up a video or GIF showing the tool in action in the coming week.</p>
-
 <p>See you next week, <code>:wq</code> for now, :)</p>
 
         </div>      

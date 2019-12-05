@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.60.1" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +19,7 @@
       "articleSection" : "",
       "name" : "Dissecting boost::astar_search",
       "headline" : "Dissecting boost::astar_search",
-      "description" : "Right now, I am having a hard time understanding BGL\x26rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.",
+      "description" : "Right now, I am having a hard time understanding BGL\x27s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.",
       "inLanguage" : "en-US",
       "author" : "hellozee",
       "creator" : "hellozee",
@@ -36,7 +36,7 @@
 <title>Dissecting boost::astar_search - A Nerd&#39;s Tale</title>
   <meta property="og:title" content="Dissecting boost::astar_search - A Nerd&#39;s Tale" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="Right now, I am having a hard time understanding BGL&rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way." />
+  <meta name="description" content="Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way." />
 
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
   <link rel="stylesheet"
@@ -131,17 +131,11 @@
             </div>
         </header>
         <div class="post-content markdown-body">
-          
-
-<p>Right now, I am having a hard time understanding BGL&rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</p>
-
+          <p>Right now, I am having a hard time understanding BGL's (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</p>
 <h1 id="day-1">Day 1</h1>
-
-<p><a href="https://invent.kde.org/dkazakov">Dmitry</a> told me that I can most likely reuse the <code>KisLazyFillGraph</code> class in my astar search instead of trying to wrap <code>KisPaintDevice</code> to boost::graph since the former was already wrapped for the purpose of utilizing the graph algorithms that boost provide. Most of the code didn&rsquo;t make any sense to me, but I will be optimistic and assume that by the end of the month, I would get hold of most of it. So let me ignore that for the moment will come back as I make some progress.</p>
-
-<p><strong>First Stop:</strong> The <a href="https://www.boost.org/doc/libs/1_70_0/libs/graph/doc/astar_search.html">documentation</a> of <code>boost::astar_search</code> of course. There are 3 kinds of <code>boost::astar_search</code> here, though I am yet to take a look at the source code, but I bet 2 of them just wrap the first one in some way. On a closer look, they have a lot of parameters, enough to scare any idiot like me. The versions which don&rsquo;t initialize the maps (wild guess from the _no_init suffix) use an <code>IncidenceGraph</code> whereas the other versions use <code>VertexListGraph</code>.  Looking at my heuristic function, I will probably need to use a <code>VertexListGraph</code>, since I need three points to calculate the cost, the previous point, the final point and the point in question.</p>
-
-<p>Time to choose one of the interfaces to proceed further in the dissection, I am going with this one as the first choice, will try other if this didn&rsquo;t work, reasons? use <code>VertexListGraph</code>, non named parameters and simpler than its sibling who also satisfies the first 2 reasons and I don&rsquo;t think I would need <code>VertexIndexMap</code> or <code>ColorMap</code> but I might be wrong too.</p>
+<p><a href="https://invent.kde.org/dkazakov">Dmitry</a> told me that I can most likely reuse the <code>KisLazyFillGraph</code> class in my astar search instead of trying to wrap <code>KisPaintDevice</code> to boost::graph since the former was already wrapped for the purpose of utilizing the graph algorithms that boost provide. Most of the code didn't make any sense to me, but I will be optimistic and assume that by the end of the month, I would get hold of most of it. So let me ignore that for the moment will come back as I make some progress.</p>
+<p><strong>First Stop:</strong> The <a href="https://www.boost.org/doc/libs/1_70_0/libs/graph/doc/astar_search.html">documentation</a> of <code>boost::astar_search</code> of course. There are 3 kinds of <code>boost::astar_search</code> here, though I am yet to take a look at the source code, but I bet 2 of them just wrap the first one in some way. On a closer look, they have a lot of parameters, enough to scare any idiot like me. The versions which don't initialize the maps (wild guess from the _no_init suffix) use an <code>IncidenceGraph</code> whereas the other versions use <code>VertexListGraph</code>.  Looking at my heuristic function, I will probably need to use a <code>VertexListGraph</code>, since I need three points to calculate the cost, the previous point, the final point and the point in question.</p>
+<p>Time to choose one of the interfaces to proceed further in the dissection, I am going with this one as the first choice, will try other if this didn't work, reasons? use <code>VertexListGraph</code>, non named parameters and simpler than its sibling who also satisfies the first 2 reasons and I don't think I would need <code>VertexIndexMap</code> or <code>ColorMap</code> but I might be wrong too.</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">VertexListGraph</span><span class="p">,</span> <span class="k">typename</span> <span class="n">AStarHeuristic</span><span class="p">,</span>
           <span class="k">typename</span> <span class="n">AStarVisitor</span><span class="p">,</span> <span class="k">typename</span> <span class="n">PredecessorMap</span><span class="p">,</span>
           <span class="k">typename</span> <span class="n">CostMap</span><span class="p">,</span> <span class="k">typename</span> <span class="n">DistanceMap</span><span class="p">,</span>
@@ -151,32 +145,27 @@
 <span class="kr">inline</span> <span class="kt">void</span>
 <span class="n">astar_search_tree</span>
   <span class="p">(</span><span class="k">const</span> <span class="n">VertexListGraph</span> <span class="o">&amp;</span><span class="n">g</span><span class="p">,</span>
-   <span class="k">typename</span> <span class="n">graph_traits</span><span class="o">&lt;</span><span class="n">VertexListGraph</span><span class="o">&gt;::</span><span class="n">vertex_descriptor</span> <span class="n">s</span><span class="p">,</span>
+   <span class="k">typename</span> <span class="n">graph_traits</span><span class="o">&lt;</span><span class="n">VertexListGraph</span><span class="o">&gt;</span><span class="o">:</span><span class="o">:</span><span class="n">vertex_descriptor</span> <span class="n">s</span><span class="p">,</span>
    <span class="n">AStarHeuristic</span> <span class="n">h</span><span class="p">,</span> <span class="n">AStarVisitor</span> <span class="n">vis</span><span class="p">,</span>
    <span class="n">PredecessorMap</span> <span class="n">predecessor</span><span class="p">,</span> <span class="n">CostMap</span> <span class="n">cost</span><span class="p">,</span>
    <span class="n">DistanceMap</span> <span class="n">distance</span><span class="p">,</span> <span class="n">WeightMap</span> <span class="n">weight</span><span class="p">,</span>
    <span class="n">CompareFunction</span> <span class="n">compare</span><span class="p">,</span> <span class="n">CombineFunction</span> <span class="n">combine</span><span class="p">,</span>
-   <span class="n">CostInf</span> <span class="n">inf</span><span class="p">,</span> <span class="n">CostZero</span> <span class="n">zero</span><span class="p">);</span>
-</code></pre></div>
-<p>Parameters which matter:</p>
-
+   <span class="n">CostInf</span> <span class="n">inf</span><span class="p">,</span> <span class="n">CostZero</span> <span class="n">zero</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>Parameters which matter:</p>
 <ul>
 <li><code>AStarHeuristic</code>: Interface for the heuristic function</li>
 <li><code>AStarVisitor</code>: Interface for the visitor</li>
 <li><code>PredecessorMap</code>: Vertex to Vertex mapping.</li>
 <li><code>CostMap</code> : Cost calculated at each vertex by the heuristic function?  I guess</li>
 <li><code>DistanceMap</code> : Vertex to Distance mapping.</li>
-<li><code>WeightMap</code>: Seems similar to DistanceMap, to be fair I can&rsquo;t tell.</li>
+<li><code>WeightMap</code>: Seems similar to DistanceMap, to be fair I can't tell.</li>
 <li><code>CompareFunction</code> : No idea, there is no page describing it.</li>
 <li><code>CombineFunction</code> : Same for this one.</li>
 <li><code>CostInf</code>: Okay, probably the maximum cost assigned before a vertex is discovered.</li>
 <li><code>CostZero</code> : Opposite of <code>ConstInf</code> I guess</li>
 </ul>
-
-<p>Coming from <code>Qt</code>, <code>boost</code> has one of the horrible documentation to reckon with, it might be that I am looking at the wrong place, but well at least having some color scheme for the code doesn&rsquo;t hurt, if not the broken/missing links. That should be enough for the day.</p>
-
+<p>Coming from <code>Qt</code>, <code>boost</code> has one of the horrible documentation to reckon with, it might be that I am looking at the wrong place, but well at least having some color scheme for the code doesn't hurt, if not the broken/missing links. That should be enough for the day.</p>
 <h1 id="day-2">Day 2</h1>
-
 <p>Probably the choice I made yesterday of which interface to choose from was wrong, so going with the named parameter interface, today.</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">VertexListGraph</span><span class="p">,</span>
           <span class="k">typename</span> <span class="n">AStarHeuristic</span><span class="p">,</span>
@@ -184,155 +173,128 @@
 <span class="kt">void</span>
 <span class="n">astar_search</span>
   <span class="p">(</span><span class="k">const</span> <span class="n">VertexListGraph</span> <span class="o">&amp;</span><span class="n">g</span><span class="p">,</span>
-   <span class="k">typename</span> <span class="n">graph_traits</span><span class="o">&lt;</span><span class="n">VertexListGraph</span><span class="o">&gt;::</span><span class="n">vertex_descriptor</span> <span class="n">s</span><span class="p">,</span>
-   <span class="n">AStarHeuristic</span> <span class="n">h</span><span class="p">,</span> <span class="k">const</span> <span class="n">bgl_named_params</span><span class="o">&lt;</span><span class="n">P</span><span class="p">,</span> <span class="n">T</span><span class="p">,</span> <span class="n">R</span><span class="o">&gt;&amp;</span> <span class="n">params</span><span class="p">);</span>
-</code></pre></div>
-<p>What is the that <code>bgl_named_params&lt;P, T, R&gt;</code> ? A little bit of toing and froing around the web, I found out the docs, voila, guess what, it is just template magic, here is an example from the docs.</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="kt">bool</span> <span class="n">r</span> <span class="o">=</span> <span class="n">boost</span><span class="o">::</span><span class="n">bellman_ford_shortest_paths</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="kt">int</span><span class="p">(</span><span class="n">N</span><span class="p">),</span> 
-    <span class="n">boost</span><span class="o">::</span><span class="n">weight_map</span><span class="p">(</span><span class="n">weight</span><span class="p">).</span> <span class="c1">//Notice the period
-</span><span class="c1"></span>    <span class="n">distance_map</span><span class="p">(</span><span class="o">&amp;</span><span class="n">distance</span><span class="p">[</span><span class="mi">0</span><span class="p">]).</span> <span class="c1">//It is here too
-</span><span class="c1"></span>    <span class="n">predecessor_map</span><span class="p">(</span><span class="o">&amp;</span><span class="n">parent</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span>
-</code></pre></div>
-<p>Not enough to deduce what should I put into the <code>boost::astar_search</code>, probably have to look at an example of <code>boost::astar_search</code>. I hope whatever the search engine has pointed me to as an <a href="https://www.boost.org/doc/libs/1_70_0/libs/graph/example/astar_maze.cpp">example</a>, is up-to-date with the latest versions.</p>
-
+   <span class="k">typename</span> <span class="n">graph_traits</span><span class="o">&lt;</span><span class="n">VertexListGraph</span><span class="o">&gt;</span><span class="o">:</span><span class="o">:</span><span class="n">vertex_descriptor</span> <span class="n">s</span><span class="p">,</span>
+   <span class="n">AStarHeuristic</span> <span class="n">h</span><span class="p">,</span> <span class="k">const</span> <span class="n">bgl_named_params</span><span class="o">&lt;</span><span class="n">P</span><span class="p">,</span> <span class="n">T</span><span class="p">,</span> <span class="n">R</span><span class="o">&gt;</span><span class="o">&amp;</span> <span class="n">params</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>What is the that <code>bgl_named_params&lt;P, T, R&gt;</code> ? A little bit of toing and froing around the web, I found out the docs, voila, guess what, it is just template magic, here is an example from the docs.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="kt">bool</span> <span class="n">r</span> <span class="o">=</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">bellman_ford_shortest_paths</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="kt">int</span><span class="p">(</span><span class="n">N</span><span class="p">)</span><span class="p">,</span> 
+    <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">weight_map</span><span class="p">(</span><span class="n">weight</span><span class="p">)</span><span class="p">.</span> <span class="c1">//Notice the period
+</span><span class="c1"></span>    <span class="n">distance_map</span><span class="p">(</span><span class="o">&amp;</span><span class="n">distance</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span><span class="p">.</span> <span class="c1">//It is here too
+</span><span class="c1"></span>    <span class="n">predecessor_map</span><span class="p">(</span><span class="o">&amp;</span><span class="n">parent</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>Not enough to deduce what should I put into the <code>boost::astar_search</code>, probably have to look at an example of <code>boost::astar_search</code>. I hope whatever the search engine has pointed me to as an <a href="https://www.boost.org/doc/libs/1_70_0/libs/graph/example/astar_maze.cpp">example</a>, is up-to-date with the latest versions.</p>
 <p>The most important part of that example is the call to the <code>boost::astar_search</code> function,</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">astar_search</span><span class="p">(</span><span class="n">m_barrier_grid</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">heuristic</span><span class="p">,</span>
-    <span class="n">boost</span><span class="o">::</span><span class="n">weight_map</span><span class="p">(</span><span class="n">weight</span><span class="p">).</span>
-    <span class="n">predecessor_map</span><span class="p">(</span><span class="n">pred_pmap</span><span class="p">).</span>
-    <span class="n">distance_map</span><span class="p">(</span><span class="n">dist_pmap</span><span class="p">).</span>
-    <span class="n">visitor</span><span class="p">(</span><span class="n">visitor</span><span class="p">)</span> <span class="p">);</span>
-</code></pre></div>
-<p>What do those arguments mean?, lets follow the symbols,</p>
-
-<h3 id="boost-weight-map-weight">boost::weight_map(weight)</h3>
-
+    <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">weight_map</span><span class="p">(</span><span class="n">weight</span><span class="p">)</span><span class="p">.</span>
+    <span class="n">predecessor_map</span><span class="p">(</span><span class="n">pred_pmap</span><span class="p">)</span><span class="p">.</span>
+    <span class="n">distance_map</span><span class="p">(</span><span class="n">dist_pmap</span><span class="p">)</span><span class="p">.</span>
+    <span class="n">visitor</span><span class="p">(</span><span class="n">visitor</span><span class="p">)</span> <span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>What do those arguments mean?, lets follow the symbols,</p>
+<h3 id="boostweightmapweight">boost::weight_map(weight)</h3>
 <p>Okay, following the variable <code>weight</code>, it is declared like,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">boost</span><span class="o">::</span><span class="n">static_property_map</span><span class="o">&lt;</span><span class="n">distance</span><span class="o">&gt;</span> <span class="n">weight</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-</code></pre></div>
-<p>Trusting every ounce of the <code>boost</code> documentation, <code>boost::static_property_map</code> says, &ldquo;<strong>This property map wraps a copy of some particular object, and returns a copy of that object whenever a key object is input</strong>&rdquo;, thats easy, no fancy mutation magic of course. And that distance type is just a facade,</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">static_property_map</span><span class="o">&lt;</span><span class="n">distance</span><span class="o">&gt;</span> <span class="n">weight</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>Trusting every ounce of the <code>boost</code> documentation, <code>boost::static_property_map</code> says, &ldquo;<strong>This property map wraps a copy of some particular object, and returns a copy of that object whenever a key object is input</strong>&quot;, thats easy, no fancy mutation magic of course. And that distance type is just a facade,</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="kt">double</span> <span class="n">distance</span><span class="p">;</span>
-</code></pre></div>
-<h3 id="predecessor-map-pred-pmap">predecessor_map(pred_pmap)</h3>
-
+</code></pre></div><h3 id="predecessormappredpmap">predecessor_map(pred_pmap)</h3>
 <p>Following <code>pred_pmap</code>,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">::</span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span>
                                <span class="n">vertex_descriptor</span><span class="p">,</span>
                                <span class="n">vertex_hash</span><span class="o">&gt;</span> <span class="n">pred_map</span><span class="p">;</span>
 <span class="n">pred_map</span> <span class="n">predecessor</span><span class="p">;</span>
-<span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">pred_map</span><span class="o">&gt;</span> <span class="n">pred_pmap</span><span class="p">(</span><span class="n">predecessor</span><span class="p">);</span>
-</code></pre></div>
-<p><img src="https://www.hellozee.dev/img/boost-confusion.jpg" alt="boost-confusion" /></p>
-
+<span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">pred_map</span><span class="o">&gt;</span> <span class="n">pred_pmap</span><span class="p">(</span><span class="n">predecessor</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p><img src="https://www.hellozee.dev/img/boost-confusion.jpg" alt="boost-confusion"></p>
 <p>Documentation of <code>boost::associative_property_map</code> please,</p>
-
-<p>&ldquo;<strong>This property map is an adaptor that converts any type that is a model of both Pair Associative Container and Unique Associative Container such as std::map into a mutable Lvalue Property Map. Note that the adaptor only retains a reference to the container, so the lifetime of the container must encompass the use of the adaptor.</strong>&ldquo;</p>
-
+<p>&ldquo;<strong>This property map is an adaptor that converts any type that is a model of both Pair Associative Container and Unique Associative Container such as std::map into a mutable Lvalue Property Map. Note that the adaptor only retains a reference to the container, so the lifetime of the container must encompass the use of the adaptor.</strong>&rdquo;</p>
 <p>Okay, in short mutation magic for maps, which we can see as it takes in a <code>boost::unordered_map</code> and maps a vertex to another vertex, and that <code>vertex_hash</code> is just a hash function for the vertices,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="nl">vertex_hash</span><span class="p">:</span><span class="n">std</span><span class="o">::</span><span class="n">unary_function</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">size_t</span><span class="o">&gt;</span> <span class="p">{</span>
-  <span class="n">std</span><span class="o">::</span><span class="n">size_t</span> <span class="k">operator</span><span class="p">()(</span><span class="n">vertex_descriptor</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">u</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">size_t</span> <span class="n">seed</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-    <span class="n">boost</span><span class="o">::</span><span class="n">hash_combine</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="n">u</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
-    <span class="n">boost</span><span class="o">::</span><span class="n">hash_combine</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="n">u</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="nc">vertex_hash</span><span class="o">:</span><span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">unary_function</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span> <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">size_t</span><span class="o">&gt;</span> <span class="p">{</span>
+  <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">size_t</span> <span class="k">operator</span><span class="p">(</span><span class="p">)</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">u</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+    <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">size_t</span> <span class="n">seed</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">hash_combine</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="n">u</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
+    <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">hash_combine</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="n">u</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
     <span class="k">return</span> <span class="n">seed</span><span class="p">;</span>
   <span class="p">}</span>
-<span class="p">};</span>
-</code></pre></div>
-<h3 id="distance-map-dist-pmap">distance_map(dist_pmap)</h3>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">::</span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span>
+<span class="p">}</span><span class="p">;</span>
+</code></pre></div><h3 id="distancemapdistpmap">distance_map(dist_pmap)</h3>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span>
                              <span class="n">distance</span><span class="p">,</span>
                              <span class="n">vertex_hash</span><span class="o">&gt;</span> <span class="n">dist_map</span><span class="p">;</span>
 <span class="n">dist_map</span> <span class="n">distance</span><span class="p">;</span>
-<span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">dist_map</span><span class="o">&gt;</span> <span class="n">dist_pmap</span><span class="p">(</span><span class="n">distance</span><span class="p">);</span>
-</code></pre></div>
-<p>Similar to the previous one, but this time instead of mapping to vertices to other vertices, it is now mapping distance to vertices, easy-peasy.</p>
-
-<h3 id="visitor-visitor">visitor(visitor)</h3>
-
+<span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">dist_map</span><span class="o">&gt;</span> <span class="n">dist_pmap</span><span class="p">(</span><span class="n">distance</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>Similar to the previous one, but this time instead of mapping to vertices to other vertices, it is now mapping distance to vertices, easy-peasy.</p>
+<h3 id="visitorvisitor">visitor(visitor)</h3>
 <p>Something new, following <code>visitor</code>, we get</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">astar_goal_visitor</span> <span class="nf">visitor</span><span class="p">(</span><span class="n">g</span><span class="p">);</span>
-</code></pre></div>
-<p>What is that <code>astar_goal_visitor</code> ?</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="nl">astar_goal_visitor</span><span class="p">:</span><span class="k">public</span> <span class="n">boost</span><span class="o">::</span><span class="n">default_astar_visitor</span> <span class="p">{</span>
-  <span class="n">astar_goal_visitor</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">goal</span><span class="p">)</span><span class="o">:</span><span class="n">m_goal</span><span class="p">(</span><span class="n">goal</span><span class="p">)</span> <span class="p">{};</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">astar_goal_visitor</span> <span class="nf">visitor</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>What is that <code>astar_goal_visitor</code> ?</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="nc">astar_goal_visitor</span><span class="o">:</span><span class="k">public</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">default_astar_visitor</span> <span class="p">{</span>
+  <span class="n">astar_goal_visitor</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">goal</span><span class="p">)</span><span class="o">:</span><span class="n">m_goal</span><span class="p">(</span><span class="n">goal</span><span class="p">)</span> <span class="p">{</span><span class="p">}</span><span class="p">;</span>
 
   <span class="kt">void</span> <span class="nf">examine_vertex</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">u</span><span class="p">,</span> <span class="k">const</span> <span class="n">filtered_grid</span><span class="o">&amp;</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">u</span> <span class="o">==</span> <span class="n">m_goal</span><span class="p">)</span>
-      <span class="k">throw</span> <span class="n">found_goal</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">u</span> <span class="o">=</span><span class="o">=</span> <span class="n">m_goal</span><span class="p">)</span>
+      <span class="k">throw</span> <span class="n">found_goal</span><span class="p">(</span><span class="p">)</span><span class="p">;</span>
   <span class="p">}</span>
 
 <span class="k">private</span><span class="o">:</span>
   <span class="n">vertex_descriptor</span> <span class="n">m_goal</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div>
-<p>Ahh it just throws an exception whenever it finds the goal, okay, nothing much interesting here and <code>g</code> is the goal or the final vertex.</p>
-
+<span class="p">}</span><span class="p">;</span>
+</code></pre></div><p>Ahh it just throws an exception whenever it finds the goal, okay, nothing much interesting here and <code>g</code> is the goal or the final vertex.</p>
 <p>I would say I am a little bit confident now, but there are chances that I am going in the wrong direction, with that being said, I think it should be enough for Day 2.</p>
-
 <h1 id="day-3">Day 3</h1>
-
 <p>Last day, I dissected the <code>bgl_name_params</code>, today, one more interesting thing to dissect will be the heuristic function, which would be used to have a guess on which vertex is nearer to the goal and perform a better search.</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">astar_search</span><span class="p">(</span><span class="n">m_barrier_grid</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">heuristic</span><span class="p">,</span>
-    <span class="n">boost</span><span class="o">::</span><span class="n">weight_map</span><span class="p">(</span><span class="n">weight</span><span class="p">).</span>
-    <span class="n">predecessor_map</span><span class="p">(</span><span class="n">pred_pmap</span><span class="p">).</span>
-    <span class="n">distance_map</span><span class="p">(</span><span class="n">dist_pmap</span><span class="p">).</span>
-    <span class="n">visitor</span><span class="p">(</span><span class="n">visitor</span><span class="p">)</span> <span class="p">);</span>
-</code></pre></div>
-<h3 id="heuristic">heuristic</h3>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">euclidean_heuristic</span> <span class="nf">heuristic</span><span class="p">(</span><span class="n">g</span><span class="p">);</span>
-</code></pre></div>
-<p>And then,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">class</span><span class="err"> </span><span class="nc">euclidean_heuristic</span><span class="o">:</span>
-      <span class="k">public</span> <span class="n">boost</span><span class="o">::</span><span class="n">astar_heuristic</span><span class="o">&lt;</span><span class="n">filtered_grid</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span>
+    <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">weight_map</span><span class="p">(</span><span class="n">weight</span><span class="p">)</span><span class="p">.</span>
+    <span class="n">predecessor_map</span><span class="p">(</span><span class="n">pred_pmap</span><span class="p">)</span><span class="p">.</span>
+    <span class="n">distance_map</span><span class="p">(</span><span class="n">dist_pmap</span><span class="p">)</span><span class="p">.</span>
+    <span class="n">visitor</span><span class="p">(</span><span class="n">visitor</span><span class="p">)</span> <span class="p">)</span><span class="p">;</span>
+</code></pre></div><h3 id="heuristic">heuristic</h3>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="n">euclidean_heuristic</span> <span class="nf">heuristic</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="p">;</span>
+</code></pre></div><p>And then,</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">euclidean_heuristic</span><span class="o">:</span>
+      <span class="k">public</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">astar_heuristic</span><span class="o">&lt;</span><span class="n">filtered_grid</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span>
 <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
-  <span class="n">euclidean_heuristic</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">goal</span><span class="p">)</span><span class="o">:</span><span class="n">m_goal</span><span class="p">(</span><span class="n">goal</span><span class="p">)</span> <span class="p">{};</span>
+  <span class="n">euclidean_heuristic</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">goal</span><span class="p">)</span><span class="o">:</span><span class="n">m_goal</span><span class="p">(</span><span class="n">goal</span><span class="p">)</span> <span class="p">{</span><span class="p">}</span><span class="p">;</span>
 
-  <span class="kt">double</span> <span class="nf">operator</span><span class="p">()(</span><span class="n">vertex_descriptor</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">pow</span><span class="p">(</span><span class="kt">double</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="n">pow</span><span class="p">(</span><span class="kt">double</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="mi">2</span><span class="p">));</span>
+  <span class="kt">double</span> <span class="nf">operator</span><span class="p">(</span><span class="p">)</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">pow</span><span class="p">(</span><span class="kt">double</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="n">pow</span><span class="p">(</span><span class="kt">double</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="p">)</span><span class="p">;</span>
   <span class="p">}</span>
 
 <span class="k">private</span><span class="o">:</span>
   <span class="n">vertex_descriptor</span> <span class="n">m_goal</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div>
-<p>First lets take a look at my proposed heuristic function,
-<img src="https://www.hellozee.dev/img/heuristic1.png" alt="heuristic1" />
+<span class="p">}</span><span class="p">;</span>
+</code></pre></div><p>First lets take a look at my proposed heuristic function,
+<img src="https://www.hellozee.dev/img/heuristic1.png" alt="heuristic1">
 The m-suffixed variables are part of the final point, while the 0-suffixed one is for the previous point and the i-suffixed ones are of the current point. Calculates the deviation from the base line.
-<img src="https://www.hellozee.dev/img/heuristic2.png" alt="heuristic2" />
+<img src="https://www.hellozee.dev/img/heuristic2.png" alt="heuristic2">
 Simple euclidean distance from the final point.
-<img src="https://www.hellozee.dev/img/heuristic3.png" alt="heuristic3" />
+<img src="https://www.hellozee.dev/img/heuristic3.png" alt="heuristic3">
 This one combines them both, with coefficients a and b, which is to be determined experimentally.
 Now that I think of it, we can further improove the equation by subtracting the distance of the previous point from the goal from dm, ending up with something like,
-<img src="https://www.hellozee.dev/img/heuristic4.png" alt="heuristic4" /></p>
-
+<img src="https://www.hellozee.dev/img/heuristic4.png" alt="heuristic4"></p>
 <p>I would be needing the previous vertex, the final vertex and the current vertex. The final and the current are obvious from the example, but not sure about the previous one. My wild guess, I should be using the <code>predecessor_map</code> and be done with it. Now if I modify the example function for the above equations,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">class</span><span class="err"> </span><span class="nc">euclidean_heuristic</span><span class="o">:</span>
-      <span class="k">public</span> <span class="n">boost</span><span class="o">::</span><span class="n">astar_heuristic</span><span class="o">&lt;</span><span class="n">filtered_grid</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">euclidean_heuristic</span><span class="o">:</span>
+      <span class="k">public</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">astar_heuristic</span><span class="o">&lt;</span><span class="n">filtered_grid</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span>
 <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
   <span class="n">euclidean_heuristic</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">goal</span><span class="p">,</span> 
-                      <span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">pred_map</span><span class="o">&gt;</span> <span class="n">pmap</span><span class="p">)</span><span class="o">:</span>
-          <span class="n">m_goal</span><span class="p">(</span><span class="n">goal</span><span class="p">),</span> <span class="n">m_pmap</span><span class="p">(</span><span class="n">pmap</span><span class="p">),</span> <span class="n">a</span><span class="p">(</span><span class="mf">0.5</span><span class="p">),</span> <span class="n">b</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span> <span class="c1">//experimental
+                      <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">pred_map</span><span class="o">&gt;</span> <span class="n">pmap</span><span class="p">)</span><span class="o">:</span>
+          <span class="n">m_goal</span><span class="p">(</span><span class="n">goal</span><span class="p">)</span><span class="p">,</span> <span class="n">m_pmap</span><span class="p">(</span><span class="n">pmap</span><span class="p">)</span><span class="p">,</span> <span class="n">a</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span><span class="p">,</span> <span class="n">b</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span> <span class="c1">//experimental
 </span><span class="c1"></span>          <span class="p">{</span> <span class="p">}</span>
 
-  <span class="kt">double</span> <span class="k">operator</span><span class="p">()(</span><span class="n">vertex_descriptor</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">auto</span> <span class="n">prev</span> <span class="o">=</span> <span class="n">m_pmap</span><span class="p">[</span><span class="n">v</span><span class="p">];</span>
-    <span class="k">auto</span> <span class="n">di</span> <span class="o">=</span> <span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">prev</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">*</span> <span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">prev</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">*</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
-    <span class="n">di</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">abs</span><span class="p">(</span><span class="n">di</span> <span class="o">+</span> <span class="n">prev</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">prev</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
-    <span class="k">auto</span> <span class="n">dz</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">sqrt</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">pred</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="n">std</span><span class="o">::</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="n">pred</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="mi">2</span><span class="p">));</span>
+  <span class="kt">double</span> <span class="nf">operator</span><span class="p">(</span><span class="p">)</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">auto</span> <span class="n">prev</span> <span class="o">=</span> <span class="n">m_pmap</span><span class="p">[</span><span class="n">v</span><span class="p">]</span><span class="p">;</span>
+    <span class="k">auto</span> <span class="n">di</span> <span class="o">=</span> <span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">prev</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">)</span> <span class="o">*</span> <span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">prev</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span> <span class="o">*</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">;</span>
+    <span class="n">di</span> <span class="o">=</span> <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">abs</span><span class="p">(</span><span class="n">di</span> <span class="o">+</span> <span class="n">prev</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">prev</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
+    <span class="k">auto</span> <span class="n">dz</span> <span class="o">=</span> <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">sqrt</span><span class="p">(</span><span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">pred</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="n">pred</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="p">)</span><span class="p">;</span>
     <span class="n">di</span> <span class="o">=</span> <span class="n">di</span><span class="o">/</span><span class="n">dz</span><span class="p">;</span>
-    <span class="k">auto</span> <span class="n">dm</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">sqrt</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="n">std</span><span class="o">::</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="mi">2</span><span class="p">));</span>
+    <span class="k">auto</span> <span class="n">dm</span> <span class="o">=</span> <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">sqrt</span><span class="p">(</span><span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">pow</span><span class="p">(</span><span class="n">m_goal</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="p">)</span><span class="p">;</span>
     
-    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">di</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="p">(</span><span class="n">dm</span> <span class="o">-</span> <span class="n">dz</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">di</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="p">(</span><span class="n">dm</span> <span class="o">-</span> <span class="n">dz</span><span class="p">)</span><span class="p">;</span>
   <span class="p">}</span>
 
 <span class="k">private</span><span class="o">:</span>
   <span class="n">vertex_descriptor</span> <span class="n">m_goal</span><span class="p">;</span>
-  <span class="n">boost</span><span class="o">::</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">pred_map</span><span class="o">&gt;</span> <span class="n">m_pmap</span><span class="p">;</span>
+  <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">associative_property_map</span><span class="o">&lt;</span><span class="n">pred_map</span><span class="o">&gt;</span> <span class="n">m_pmap</span><span class="p">;</span>
   <span class="kt">double</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div>
-<p>That should be enough for now, probably I can implement simply like this, but it surely requires some more research, which would be for some other blogpost. So, it is a <code>:wq</code> for today.</p>
+<span class="p">}</span><span class="p">;</span>
+</code></pre></div><p>That should be enough for now, probably I can implement simply like this, but it surely requires some more research, which would be for some other blogpost. So, it is a <code>:wq</code> for today.</p>
 
         </div>      
         
@@ -343,9 +305,9 @@ Now that I think of it, we can further improove the equation by subtracting the 
     
     <li><a href="https://www.hellozee.dev/summer-is-coming/">Summer is coming...</a></li>
     
-    <li><a href="https://www.hellozee.dev/getting-alight/">Getting Alight</a></li>
+    <li><a href="https://www.hellozee.dev/how-design-works/">How Design Works?</a></li>
     
-    <li><a href="https://www.hellozee.dev/windows/">Windows : A true nightmare</a></li>
+    <li><a href="https://www.hellozee.dev/linux-desktop/">This is the year of Linux Desktop</a></li>
     
   </ul>
 </div>

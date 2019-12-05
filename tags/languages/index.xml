@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>languages on A Nerd&#39;s Tale</title>
@@ -26,7 +26,7 @@
       <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/duck_typing/</guid>
-      <description>Definition: Duck typing in computer programming is an application of the duck test—&amp;rdquo;If it walks like a duck and it quacks like a duck, then it must be a duck&amp;rdquo;—to determine if an object can be used for a particular purpose.</description>
+      <description>Definition: Duck typing in computer programming is an application of the duck test—&amp;ldquo;If it walks like a duck and it quacks like a duck, then it must be a duck&amp;rdquo;—to determine if an object can be used for a particular purpose.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/languages/</guid>
-      <description>Note: Don&amp;rsquo;t take the title onto your ego
+      <description>Note: Don&#39;t take the title onto your ego
  For sake of clarity, I would like to make some terms used in the post clear, it may mean something other to you but for the simplicity of the post, I would be using them in a particular way:</description>
     </item>
     
