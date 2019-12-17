@@ -453,12 +453,12 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/youtube/</loc>
+    <loc>https://www.hellozee.dev/categories/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/youtube/</loc>
+    <loc>https://www.hellozee.dev/tags/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
   </url>
   
@@ -488,12 +488,12 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/golang/</loc>
+    <loc>https://www.hellozee.dev/tags/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/golang/</loc>
+    <loc>https://www.hellozee.dev/categories/golang/</loc>
     <lastmod>2019-01-19T20:05:44+05:30</lastmod>
   </url>
   
