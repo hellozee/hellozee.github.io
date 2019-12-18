@@ -4,12 +4,47 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-12-17T18:00:12+05:30</lastmod>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/cpp_rookie_on_csharp/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2019-12-17T18:00:12+05:30</lastmod>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/cpp/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/csharp/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/graphics/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/languages/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/ray-tracer/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
   </url>
   
   <url>
@@ -39,11 +74,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/tags/open-source/</loc>
-    <lastmod>2019-12-17T18:00:12+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
     <lastmod>2019-12-17T18:00:12+05:30</lastmod>
   </url>
   
@@ -123,11 +153,6 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/cpp/</loc>
-    <lastmod>2019-10-09T22:14:03+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hellozee.dev/tags/gsoc/</loc>
     <lastmod>2019-10-09T22:14:03+05:30</lastmod>
   </url>
@@ -204,11 +229,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/duck_typing/</loc>
-    <lastmod>2019-09-14T15:20:04+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/categories/languages/</loc>
     <lastmod>2019-09-14T15:20:04+05:30</lastmod>
   </url>
   
@@ -453,12 +473,12 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/youtube/</loc>
+    <loc>https://www.hellozee.dev/tags/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/youtube/</loc>
+    <loc>https://www.hellozee.dev/categories/youtube/</loc>
     <lastmod>2019-02-03T20:46:42+05:30</lastmod>
   </url>
   

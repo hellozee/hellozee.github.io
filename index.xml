@@ -6,10 +6,19 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 17 Dec 2019 18:00:12 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 14:54:00 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C&#43;&#43; Rookie tries C#</title>
+      <link>https://www.hellozee.dev/cpp_rookie_on_csharp/</link>
+      <pubDate>Wed, 18 Dec 2019 14:54:00 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/cpp_rookie_on_csharp/</guid>
+      <description>A little bit background, I am a final year undergrad student, looking for a job, which of course who isn&#39;t these days. With that being said, my job search isn&#39;t going quite well.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #7</title>

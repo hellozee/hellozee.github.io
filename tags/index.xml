@@ -6,10 +6,46 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 17 Dec 2019 18:00:12 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 14:54:00 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cpp</title>
+      <link>https://www.hellozee.dev/tags/cpp/</link>
+      <pubDate>Wed, 18 Dec 2019 14:54:00 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csharp</title>
+      <link>https://www.hellozee.dev/tags/csharp/</link>
+      <pubDate>Wed, 18 Dec 2019 14:54:00 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphics</title>
+      <link>https://www.hellozee.dev/tags/graphics/</link>
+      <pubDate>Wed, 18 Dec 2019 14:54:00 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/graphics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ray-tracer</title>
+      <link>https://www.hellozee.dev/tags/ray-tracer/</link>
+      <pubDate>Wed, 18 Dec 2019 14:54:00 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/ray-tracer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>foss</title>
@@ -89,15 +125,6 @@
       <pubDate>Wed, 16 Oct 2019 00:55:24 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/meetup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cpp</title>
-      <link>https://www.hellozee.dev/tags/cpp/</link>
-      <pubDate>Wed, 09 Oct 2019 22:14:03 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/cpp/</guid>
       <description></description>
     </item>
     

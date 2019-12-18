@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>languages on A Nerd&#39;s Tale</title>
-    <link>https://www.hellozee.dev/categories/languages/</link>
-    <description>Recent content in languages on A Nerd&#39;s Tale</description>
+    <title>graphics on A Nerd&#39;s Tale</title>
+    <link>https://www.hellozee.dev/tags/graphics/</link>
+    <description>Recent content in graphics on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
     <lastBuildDate>Wed, 18 Dec 2019 14:54:00 +0530</lastBuildDate>
     
-	<atom:link href="https://www.hellozee.dev/categories/languages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hellozee.dev/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.hellozee.dev/cpp_rookie_on_csharp/</guid>
       <description>A little bit background, I am a final year undergrad student, looking for a job, which of course who isn&#39;t these days. With that being said, my job search isn&#39;t going quite well.</description>
-    </item>
-    
-    <item>
-      <title>Duck typing</title>
-      <link>https://www.hellozee.dev/duck_typing/</link>
-      <pubDate>Sat, 14 Sep 2019 15:20:04 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/duck_typing/</guid>
-      <description>Definition: Duck typing in computer programming is an application of the duck test—&amp;ldquo;If it walks like a duck and it quacks like a duck, then it must be a duck&amp;rdquo;—to determine if an object can be used for a particular purpose.</description>
     </item>
     
   </channel>
