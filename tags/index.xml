@@ -6,10 +6,46 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Wed, 18 Dec 2019 14:54:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 21:12:14 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kde</title>
+      <link>https://www.hellozee.dev/tags/kde/</link>
+      <pubDate>Sat, 28 Dec 2019 21:12:14 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>krita</title>
+      <link>https://www.hellozee.dev/tags/krita/</link>
+      <pubDate>Sat, 28 Dec 2019 21:12:14 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.hellozee.dev/tags/linux/</link>
+      <pubDate>Sat, 28 Dec 2019 21:12:14 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photoshop</title>
+      <link>https://www.hellozee.dev/tags/photoshop/</link>
+      <pubDate>Sat, 28 Dec 2019 21:12:14 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/photoshop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cpp</title>
@@ -53,24 +89,6 @@
       <pubDate>Tue, 17 Dec 2019 18:00:12 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/foss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Tue, 17 Dec 2019 18:00:12 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>krita</title>
-      <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Tue, 17 Dec 2019 18:00:12 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/krita/</guid>
       <description></description>
     </item>
     
@@ -282,15 +300,6 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://www.hellozee.dev/tags/linux/</link>
-      <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>rant</title>
       <link>https://www.hellozee.dev/tags/rant/</link>
       <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
@@ -350,15 +359,6 @@
       <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/inkscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photoshop</title>
-      <link>https://www.hellozee.dev/tags/photoshop/</link>
-      <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/photoshop/</guid>
       <description></description>
     </item>
     

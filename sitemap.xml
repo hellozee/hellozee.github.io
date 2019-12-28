@@ -4,16 +4,51 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/cpp_rookie_on_csharp/</loc>
-    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/kde/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/krita/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/linux/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/linux_doesnt_have_photoshop/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/photoshop/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/categories/rant/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2019-12-28T21:12:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/cpp_rookie_on_csharp/</loc>
     <lastmod>2019-12-18T14:54:00+05:30</lastmod>
   </url>
   
@@ -43,22 +78,7 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/</loc>
-    <lastmod>2019-12-18T14:54:00+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hellozee.dev/tags/foss/</loc>
-    <lastmod>2019-12-17T18:00:12+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/kde/</loc>
-    <lastmod>2019-12-17T18:00:12+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/krita/</loc>
     <lastmod>2019-12-17T18:00:12+05:30</lastmod>
   </url>
   
@@ -353,11 +373,6 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/linux/</loc>
-    <lastmod>2019-05-17T19:46:48+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hellozee.dev/categories/linux/</loc>
     <lastmod>2019-05-17T19:46:48+05:30</lastmod>
   </url>
@@ -439,11 +454,6 @@
   
   <url>
     <loc>https://www.hellozee.dev/tags/inkscape/</loc>
-    <lastmod>2019-02-13T03:41:21+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hellozee.dev/tags/photoshop/</loc>
     <lastmod>2019-02-13T03:41:21+05:30</lastmod>
   </url>
   
