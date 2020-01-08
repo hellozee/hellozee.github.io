@@ -6,10 +6,20 @@
     <description>Recent content in open-source on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 17 Dec 2019 18:00:12 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 22:15:59 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #8</title>
+      <link>https://www.hellozee.dev/kw8/</link>
+      <pubDate>Tue, 07 Jan 2020 22:15:59 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw8/</guid>
+      <description>The number of bugs has risen to 457 as it was a vacation season. Also, Dmitry is on parental leave, so the increase is quite normal.
+As Boud is back from vacation, he is sharing his time between, bug fixing &amp;amp; triaging and administration stuff.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #7</title>
