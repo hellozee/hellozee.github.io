@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.60.1" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/kw9/" />
+  <link rel="canonical" href="https://www.hellozee.dev/kw9/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "Krita Weekly #9",
+      "headline" : "Krita Weekly #9",
+      "description" : "With everyone getting back into work, we have managed to control the number of bugs. There are 2 fewer bugs than what I reported last time. I know it is still not a lot, but with Dmitry not available for most of the time and team having to divide its time between the resource rewrite \x26amp; bug fixing, it is pretty good that the number is decreasing.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-01-21 21:38:26 \x2b0530 IST",
+      "dateModified" : "2020-01-21 21:38:26 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/kw9\/",
+      "keywords" : [ "krita","foss","open-source","kde", ]
+  }
+</script>
+<title>Krita Weekly #9 - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="Krita Weekly #9 - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="With everyone getting back into work, we have managed to control the number of bugs. There are 2 fewer bugs than what I reported last time. I know it is still not a lot, but with Dmitry not available for most of the time and team having to divide its time between the resource rewrite &amp; bug fixing, it is pretty good that the number is decreasing." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+
+    
+    <script type="text/javascript">
+      var _paq = window._paq || [];
+       
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://hellozee.mooo.com/analytics/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    
+
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">A Nerd&#39;s Tale</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Krita Weekly #9</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2020-01-21 21:38:26 IST">
+                21, Jan, 2020
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a href="https://www.hellozee.dev/">@hellozee</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+                                            
+                                                      
+                <a href="https://www.hellozee.dev/tags/krita/">#krita</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/foss/">#foss</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/open-source/">#open-source</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/kde/">#kde</a>             
+              
+            </div>
+        </header>
+        <div class="post-content markdown-body">
+          <p>With everyone getting back into work, we have managed to control the number of bugs. There are 2 fewer bugs than what I reported last time. I know it is still not a lot, but with Dmitry not available for most of the time and team having to divide its time between the resource rewrite &amp; bug fixing, it is pretty good that the number is decreasing.</p>
+<p><img src="https://www.hellozee.dev/img/kw9.png" alt="bug graph"></p>
+<p>The commit history surely tells that Boud did a <a href="https://scan.coverity.com/">Coverity</a> scan and fixed a lot of issues identified by it. Tiar is busy fixing OpenEXR. She also amended the manual a bit regarding all different logs and back-traces that one can get out of Krita. Other than she has also made herself available for documenting some of the code related to resource rewrite. As I said earlier Dmitry is on parental leave, but he still managed to pull off a couple of patches in the last two weeks while trying to fix the transform tool bugs.</p>
+<p>Ramon is gearing up for a new video about the brush engine for our <a href="https://www.youtube.com/channel/UCkIccKaHDGA8lYVmUerLhag">YouTube channel</a>, don't forget to subscribe so you won't miss. Ivan is deep into bug fixing and apart from that, he is also trying to get a multiple tip brush into play.</p>
+<p>Apart from those, as a part of Season of KDE, Amyspark would be working on fixing the floating-point operations on CMYK and Lab color-spaces. Also, there is a mixer slider docker in Krita now thanks to Tusooa which allows you to choose from the gradient between two colors.</p>
+
+        </div>      
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/kw8/">Krita Weekly #8</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw7/">Krita Weekly #7</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw6/">Krita Weekly #6</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.hellozee.dev/index.xml" target="_blank">RSS</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a rel="me" href="https://fosstodon.org/@hellozee">Mastodon</a>
+  </div>
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>

@@ -6,10 +6,19 @@
     <description>Recent content in krita-weekly on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 07 Jan 2020 22:15:59 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2020 21:38:26 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/krita-weekly/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #9</title>
+      <link>https://www.hellozee.dev/kw9/</link>
+      <pubDate>Tue, 21 Jan 2020 21:38:26 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw9/</guid>
+      <description>With everyone getting back into work, we have managed to control the number of bugs. There are 2 fewer bugs than what I reported last time. I know it is still not a lot, but with Dmitry not available for most of the time and team having to divide its time between the resource rewrite &amp;amp; bug fixing, it is pretty good that the number is decreasing.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #8</title>

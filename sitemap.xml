@@ -4,46 +4,51 @@
   
   <url>
     <loc>https://www.hellozee.dev/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/tags/foss/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/tags/kde/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/tags/krita/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/kw8/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <loc>https://www.hellozee.dev/kw9/</loc>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/categories/krita-weekly/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/tags/open-source/</loc>
-    <lastmod>2020-01-07T22:15:59+05:30</lastmod>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.hellozee.dev/tags/</loc>
+    <lastmod>2020-01-21T21:38:26+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hellozee.dev/kw8/</loc>
     <lastmod>2020-01-07T22:15:59+05:30</lastmod>
   </url>
   
@@ -503,12 +508,12 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/self/</loc>
+    <loc>https://www.hellozee.dev/tags/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/self/</loc>
+    <loc>https://www.hellozee.dev/categories/self/</loc>
     <lastmod>2019-02-02T23:11:17+05:30</lastmod>
   </url>
   
@@ -633,12 +638,12 @@
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/categories/python/</loc>
+    <loc>https://www.hellozee.dev/tags/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hellozee.dev/tags/python/</loc>
+    <loc>https://www.hellozee.dev/categories/python/</loc>
     <lastmod>2018-12-10T15:07:59+05:30</lastmod>
   </url>
   
