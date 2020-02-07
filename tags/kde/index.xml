@@ -6,10 +6,19 @@
     <description>Recent content in kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 21 Jan 2020 21:38:26 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 02:42:16 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #10</title>
+      <link>https://www.hellozee.dev/kw10/</link>
+      <pubDate>Sat, 08 Feb 2020 02:42:16 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw10/</guid>
+      <description>Honestly, you don&#39;t want to know the number of bugs in our bug tracker at this point. But I assure you these are just our broken unit tests rather than bugs.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #9</title>
