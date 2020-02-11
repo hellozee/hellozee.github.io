@@ -6,10 +6,20 @@
     <description>Recent content in kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sat, 08 Feb 2020 02:42:16 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 17:25:45 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A year as a KDE developer | The KUnity Setup</title>
+      <link>https://www.hellozee.dev/a_year_as_a_kde_developer/</link>
+      <pubDate>Tue, 11 Feb 2020 17:25:45 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/a_year_as_a_kde_developer/</guid>
+      <description>It has been more than a year that I had push rights for all the KDE repositories. So this is an obligatory anniversary post.
+I got introduced to Linux while searching for development environments that came with all sorts of compilers &amp;amp; interpreters by default and I don&#39;t have to manually install those stuff.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #10</title>
