@@ -6,15 +6,24 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 11 Feb 2020 17:25:45 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 22:16:35 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>foss</title>
+      <link>https://www.hellozee.dev/tags/foss/</link>
+      <pubDate>Thu, 27 Feb 2020 22:16:35 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>kde</title>
       <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Tue, 11 Feb 2020 17:25:45 +0530</pubDate>
+      <pubDate>Thu, 27 Feb 2020 22:16:35 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/kde/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>krita</title>
       <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Tue, 11 Feb 2020 17:25:45 +0530</pubDate>
+      <pubDate>Thu, 27 Feb 2020 22:16:35 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/krita/</guid>
       <description></description>
@@ -32,18 +41,9 @@
     <item>
       <title>open-source</title>
       <link>https://www.hellozee.dev/tags/open-source/</link>
-      <pubDate>Tue, 11 Feb 2020 17:25:45 +0530</pubDate>
+      <pubDate>Thu, 27 Feb 2020 22:16:35 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>foss</title>
-      <link>https://www.hellozee.dev/tags/foss/</link>
-      <pubDate>Sat, 08 Feb 2020 02:42:16 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/foss/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Tue, 11 Feb 2020 17:25:45 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 22:16:35 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>krita-weekly</title>
+      <link>https://www.hellozee.dev/categories/krita-weekly/</link>
+      <pubDate>Thu, 27 Feb 2020 22:16:35 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/krita-weekly/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>open-source</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 11 Feb 2020 17:25:45 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/categories/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>krita-weekly</title>
-      <link>https://www.hellozee.dev/categories/krita-weekly/</link>
-      <pubDate>Sat, 08 Feb 2020 02:42:16 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/krita-weekly/</guid>
       <description></description>
     </item>
     
