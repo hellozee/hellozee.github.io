@@ -6,10 +6,19 @@
     <description>Recent content in kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Thu, 12 Mar 2020 17:16:39 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 15:31:10 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OpenType, Harfbuzz, Qt : Not exactly a love story</title>
+      <link>https://www.hellozee.dev/freetype-harfbuzz-fonts/</link>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/freetype-harfbuzz-fonts/</guid>
+      <description>Was experimenting with rendering text in Qt, of course for trying to see if I can land some improvements over Krita&#39;s existing text tool. And now that as I have played with it a bit, jotting some notes over this blog post.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #12 | 4.2.9 beta released</title>

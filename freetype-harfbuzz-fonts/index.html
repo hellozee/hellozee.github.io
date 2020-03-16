@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.60.1" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/freetype-harfbuzz-fonts/" />
+  <link rel="canonical" href="https://www.hellozee.dev/freetype-harfbuzz-fonts/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "OpenType, Harfbuzz, Qt : Not exactly a love story",
+      "headline" : "OpenType, Harfbuzz, Qt : Not exactly a love story",
+      "description" : "Was experimenting with rendering text in Qt, of course for trying to see if I can land some improvements over Krita\x27s existing text tool. And now that as I have played with it a bit, jotting some notes over this blog post.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-03-15 15:31:10 \x2b0530 IST",
+      "dateModified" : "2020-03-15 15:31:10 \x2b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/freetype-harfbuzz-fonts\/",
+      "keywords" : [ "freetype","harfbuzz","text","font","krita","kde","opentype", ]
+  }
+</script>
+<title>OpenType, Harfbuzz, Qt : Not exactly a love story - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="OpenType, Harfbuzz, Qt : Not exactly a love story - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="Was experimenting with rendering text in Qt, of course for trying to see if I can land some improvements over Krita&#39;s existing text tool. And now that as I have played with it a bit, jotting some notes over this blog post." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+
+    
+    <script type="text/javascript">
+      var _paq = window._paq || [];
+       
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://hellozee.mooo.com/analytics/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    
+
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">A Nerd&#39;s Tale</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">OpenType, Harfbuzz, Qt : Not exactly a love story</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2020-03-15 15:31:10 IST">
+                15, Mar, 2020
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a href="https://www.hellozee.dev/">@hellozee</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+                                            
+                                                      
+                <a href="https://www.hellozee.dev/tags/freetype/">#freetype</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/harfbuzz/">#harfbuzz</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/text/">#text</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/font/">#font</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/krita/">#krita</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/kde/">#kde</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/opentype/">#opentype</a>             
+              
+            </div>
+        </header>
+        <div class="post-content markdown-body">
+          <p>Was experimenting with rendering text in Qt, of course for trying to see if I can land some improvements over Krita's existing text tool. And now that as I have played with it a bit, jotting some notes over this blog post.</p>
+<p>The text tool in Krita right now is pretty basic for doing advanced typography stuff. By basic I mean you get explicit controls for doing,</p>
+<ul>
+<li>Setting Font</li>
+<li>Setting Font Size</li>
+<li>Setting Font weight</li>
+<li>Adjusting alignment</li>
+<li>Setting Color of the text</li>
+<li>Adjusting letter-spacing and line-height</li>
+</ul>
+<p>And that's it, a complete list of controls would also include,</p>
+<ul>
+<li>Horizontal Kerning</li>
+<li>Vertical Shift</li>
+<li>Character Rotation</li>
+<li>TTB and RTL writing mode support</li>
+<li>Superscript and subscript</li>
+<li>Putting text on a path</li>
+<li>Flowing into a frame</li>
+<li>Support for OpenType features like ligatures</li>
+</ul>
+<p>So typically we would need complete SVG2 support or at least a part of it. I am sure more controls should be there for easily doing advanced typography but those, for now, are pretty out of scope, including some of the ones I mentioned.</p>
+<h3 id="why-am-i-calling-them-out-of-scope">Why am I calling them out of scope?</h3>
+<p>If I take a look at the SVG rendering engines available at this point, honestly I will get no better than what Chromium offers. And since Krita is a Qt application, we already have the best rendering engine which would be QtWebEngine but that's not usable. QtWebEngine can't draw on a QPaintDevice just like QtWebKit did. What else? If I take a look at the support offered by open source solutions, the next would be Inkscape.</p>
+<h3 id="why-not-just-do-what-inkscape-does">Why not just do what Inkscape does?</h3>
+<p>Umm, it is not that easy, since, like Inkscape, Krita doesn't only do vectors, we have a lot of things to take care of. Also, Inkscape's codebase is quite complicated to understand and since it uses a different stack, Gtk+ + cairo + pango, it is even harder to adapt.</p>
+<p>For now, it is quite impossible to get to the ideal situation, that is of course unless someone can patch QtSvg to support SVG2, which for now nobody is interested in doing.</p>
+<p>Reducing that down to what is required at this point of time,</p>
+<ul>
+<li>Superscript and subscript</li>
+<li>Ligatures</li>
+<li>TTB and RTL writing mode support</li>
+</ul>
+<p>Wait wait wait, where are the other features? They couldn't be implemented, to be honest, and shouldn't be, first as I already said they are difficult and second, the code to render them is easier compared to the code which is required to edit them. Why? only for a single thing, where will you place the cursor in case two glyphs overlap each other? Inkscape does implement them but editing such text is just a nightmare to handle. Browsers render them quite well, of course, they don't have to edit them interactively.</p>
+<p>Just FYI, Microsoft which co-authored the OpenType Format has yet to completely support OpenType features in its office suite, so you can guess how hard it is.</p>
+<h3 id="how-i-plan-it-to-do-for-krita">How I plan it to do for Krita?</h3>
+<p>As far as ideas go there are a couple of approaches one is to follow the way Scribus does, which offloads the rendering to something like <code>cairo</code> which could handle this in a much better way. That would also require us to develop a couple of intermediate data structures that could hold the info, but that is not the biggest challenge. The problem here is the text editor dialog cause then you got relay what is being displayed on the canvas to the text editor dialog. And there you have to draw the cursor. Unfortunately drawing the cursor will be the biggest challenge here.</p>
+<p>The other way is to write a new Text Engine and hook it up into Qt's API, which is to follow the following interface of <a href="https://doc.qt.io/qt-5/qtextlayout-members.html">QTextLayout</a> if I going the right way. That way we won't have to worry about the text editor widget stuff. But I haven't explored this route that much and probably unaware of the challenges.</p>
+<p>As a basis for both, I do have a basic proof of concept ready, which could be taken for a ride from <a href="https://github.com/hellozee/qt-libraqm-test">here</a>. It uses <code>libraqm</code> which a thin wrapper over <code>HarfBuzz</code>, <code>FriBidi</code> and <code>FreeType</code>.</p>
+<p>If you are unaware of what are they, a bit of terminology,</p>
+<ul>
+<li><strong>FreeType</strong>: It is a font rasterizing engine, which means given the glyph id and all the measurements required it would fetch the actual glyph from the glyph table and draw it.</li>
+<li><strong>OpenType</strong>: Seems like a successor of FreeType, is it? No, it is just format made by Microsoft and Adobe, later adopted by Apple to store fonts, it is a successor of TrueType <code>(.ttf)</code> fonts, usually OpenType fonts have the <code>.otf</code> extension.</li>
+<li><strong>HarfBuzz</strong>: It is the shaping engine responsible for handling over the measurements over to FreeType to draw the font. It was a part of the FreeType project but later was separated into its project.</li>
+<li><strong>FriBiDi</strong>: It is an implementation of the Unicode Bidirectional algorithm, more of which can be read <a href="https://www.unicode.org/reports/tr9/">here</a>.</li>
+</ul>
+<h3 id="superscript-and-subscript">Superscript and Subscript</h3>
+<p>SVG has inbuilt support for them with the <code>vertical-line</code> or <code>baseline-shift</code> or <code>alignment-baseline</code> property, though the later 2 are deprecated in SVG2 as per as <a href="https://www.w3.org/2012/01/13-svg-irc#T03-24-06">this</a>. So as far as I know, there is no automatic way to enable the support for subscript and superscript in <code>HarfBuzz</code> but we can always do this manually, though that might require more time to perfectly nail it.</p>
+<h3 id="ligatures">Ligatures</h3>
+<p><code>HarfBuzz</code> can automatically substitute ligatures by itself, but we would also need something to disable or enable ligatures which can also be done with <code>HarfBuzz</code> as noted <a href="https://harfbuzz.github.io/shaping-opentype-features.html">here</a>. Though I am not sure how is this to be handled in SVG, also how does Qt handle this? Can we disable ligatures in <code>QTextEdit</code>?</p>
+<h3 id="top-to-bottom-and-right-to-left-writing-mode">Top To Bottom and Right To Left writing mode</h3>
+<p>We already support Left to Right writing mode, of course, that's the default and only mode available. And thanks to <code>libraqm</code>, Right to Left and Top to Bottom would also be trivial. That's the easy part, now the tough part, drawing cursor at the correct positions.</p>
+<p>SVG has this <code>writing-mode</code> CSS property which takes care of the orientation and has the following values, <code>horizontal-tb</code>, <code>vertical-rl</code> and <code>vertical-lr</code>. Nice, where is the problem? The problem is, it is a CSS property that could be applied to both <code>&lt;text&gt;</code> and <code>&lt;tspan&gt;</code> elements. How could we avoid that? Simply by ignoring the value of the property for the <code>&lt;tspan&gt;</code> elements. And also not drawing it in the text editor window, chances are Qt would mad too.</p>
+<h4 id="you-have-to-change-the-ui-for-introducing-these-features-right">You have to change the UI for introducing these features right?</h4>
+<p>Ahh yes, not much, though. If I count on my finger that would be 3 buttons and a combo box, for which I think we have enough space in the widget.</p>
+<h4 id="what-next">What next?</h4>
+<p>Live preview? such that you don't have to press save every time, you want to update the view. On canvas editing maybe? but well, cursor, cursor, cursor, till next post, <code>:wq</code>.</p>
+
+        </div>      
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/kw12/">Krita Weekly #12 | 4.2.9 beta released</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw11/">Krita Weekly #11 | Bi weekly from now</a></li>
+    
+    <li><a href="https://www.hellozee.dev/a_year_as_a_kde_developer/">A year as a KDE developer | The KUnity Setup</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.hellozee.dev/index.xml" target="_blank">RSS</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a rel="me" href="https://fosstodon.org/@hellozee">Mastodon</a>
+  </div>
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>

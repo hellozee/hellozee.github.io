@@ -6,24 +6,42 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Thu, 12 Mar 2020 17:16:39 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 15:31:10 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>foss</title>
-      <link>https://www.hellozee.dev/tags/foss/</link>
-      <pubDate>Thu, 12 Mar 2020 17:16:39 +0530</pubDate>
+      <title>font</title>
+      <link>https://www.hellozee.dev/tags/font/</link>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
       
-      <guid>https://www.hellozee.dev/tags/foss/</guid>
+      <guid>https://www.hellozee.dev/tags/font/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freetype</title>
+      <link>https://www.hellozee.dev/tags/freetype/</link>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/freetype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>harfbuzz</title>
+      <link>https://www.hellozee.dev/tags/harfbuzz/</link>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/harfbuzz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kde</title>
       <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Thu, 12 Mar 2020 17:16:39 +0530</pubDate>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/kde/</guid>
       <description></description>
@@ -32,9 +50,36 @@
     <item>
       <title>krita</title>
       <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Thu, 12 Mar 2020 17:16:39 +0530</pubDate>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opentype</title>
+      <link>https://www.hellozee.dev/tags/opentype/</link>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/opentype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://www.hellozee.dev/tags/text/</link>
+      <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foss</title>
+      <link>https://www.hellozee.dev/tags/foss/</link>
+      <pubDate>Thu, 12 Mar 2020 17:16:39 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/foss/</guid>
       <description></description>
     </item>
     
