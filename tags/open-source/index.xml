@@ -6,10 +6,19 @@
     <description>Recent content in open-source on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Thu, 12 Mar 2020 17:16:39 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weeky #13 | 4.2.9 released</title>
+      <link>https://www.hellozee.dev/kw13/</link>
+      <pubDate>Fri, 27 Mar 2020 16:11:48 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw13/</guid>
+      <description>So one of the toughest Krita releases is up today. Tough not in the sense there were a lot of regressions to solve but the mountain of build issues faced by the team.</description>
+    </item>
     
     <item>
       <title>Krita Weekly #12 | 4.2.9 beta released</title>
