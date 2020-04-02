@@ -6,10 +6,19 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Wed, 01 Apr 2020 23:26:39 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 01:10:50 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Life Update</title>
+      <link>https://www.hellozee.dev/life_update/</link>
+      <pubDate>Fri, 03 Apr 2020 01:10:50 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/life_update/</guid>
+      <description>So I am feeling bored, like everyone else that too with a poor internet connection. Writing a blog post is fairly good time killer as well as a nice way to empty your mind.</description>
+    </item>
     
     <item>
       <title>Who am I?</title>
