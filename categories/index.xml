@@ -6,10 +6,19 @@
     <description>Recent content in Categories on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 19:37:44 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>foss</title>
+      <link>https://www.hellozee.dev/categories/foss/</link>
+      <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/categories/foss/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>krita-weekly</title>
@@ -93,29 +102,11 @@
     </item>
     
     <item>
-      <title>free-ka-gyan</title>
-      <link>https://www.hellozee.dev/categories/free-ka-gyan/</link>
-      <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/free-ka-gyan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>linux</title>
       <link>https://www.hellozee.dev/categories/linux/</link>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ranting</title>
-      <link>https://www.hellozee.dev/categories/ranting/</link>
-      <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/ranting/</guid>
       <description></description>
     </item>
     
@@ -134,33 +125,6 @@
       <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/categories/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>engineering</title>
-      <link>https://www.hellozee.dev/categories/engineering/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://www.hellozee.dev/categories/youtube/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/youtube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>self</title>
-      <link>https://www.hellozee.dev/categories/self/</link>
-      <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/self/</guid>
       <description></description>
     </item>
     
@@ -219,24 +183,6 @@
     </item>
     
     <item>
-      <title>knowledge</title>
-      <link>https://www.hellozee.dev/categories/knowledge/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/knowledge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://www.hellozee.dev/categories/learning/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/categories/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cool-stuff</title>
       <link>https://www.hellozee.dev/categories/cool-stuff/</link>
       <pubDate>Mon, 10 Dec 2018 15:07:59 +0530</pubDate>
@@ -273,11 +219,11 @@
     </item>
     
     <item>
-      <title>self-satisfaction</title>
-      <link>https://www.hellozee.dev/categories/self-satisfaction/</link>
-      <pubDate>Wed, 27 Jun 2018 12:47:54 +0530</pubDate>
+      <title>free-ka-gyan</title>
+      <link>https://www.hellozee.dev/categories/free-ka-gyan/</link>
+      <pubDate>Thu, 05 Jul 2018 19:27:47 +0530</pubDate>
       
-      <guid>https://www.hellozee.dev/categories/self-satisfaction/</guid>
+      <guid>https://www.hellozee.dev/categories/free-ka-gyan/</guid>
       <description></description>
     </item>
     

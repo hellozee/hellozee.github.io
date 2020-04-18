@@ -6,10 +6,19 @@
     <description>Recent content in kde on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 19:37:44 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Commentary on the Qt situation</title>
+      <link>https://www.hellozee.dev/thoughts-on-qt/</link>
+      <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/thoughts-on-qt/</guid>
+      <description>A lot of things have been going on with Qt these days. It all started with The Qt Company trying to get an increase in their revenues, specifically this blog post.</description>
+    </item>
     
     <item>
       <title>Krita Weeky #13 | 4.2.9 released</title>

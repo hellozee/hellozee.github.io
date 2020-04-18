@@ -6,10 +6,28 @@
     <description>Recent content in Tags on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 19:37:44 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kde</title>
+      <link>https://www.hellozee.dev/tags/kde/</link>
+      <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qt</title>
+      <link>https://www.hellozee.dev/tags/qt/</link>
+      <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/qt/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>foss</title>
@@ -17,15 +35,6 @@
       <pubDate>Fri, 27 Mar 2020 16:11:48 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/foss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Fri, 27 Mar 2020 16:11:48 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/kde/</guid>
       <description></description>
     </item>
     
@@ -282,24 +291,6 @@
     </item>
     
     <item>
-      <title>competition</title>
-      <link>https://www.hellozee.dev/tags/competition/</link>
-      <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/competition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>crack</title>
-      <link>https://www.hellozee.dev/tags/crack/</link>
-      <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/crack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>adafruit</title>
       <link>https://www.hellozee.dev/tags/adafruit/</link>
       <pubDate>Mon, 05 Aug 2019 19:47:02 +0530</pubDate>
@@ -341,15 +332,6 @@
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/gnome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rant</title>
-      <link>https://www.hellozee.dev/tags/rant/</link>
-      <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/rant/</guid>
       <description></description>
     </item>
     
@@ -404,51 +386,6 @@
       <pubDate>Wed, 13 Feb 2019 03:41:21 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/inkscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>critique</title>
-      <link>https://www.hellozee.dev/tags/critique/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/critique/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://www.hellozee.dev/tags/tech/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trash</title>
-      <link>https://www.hellozee.dev/tags/trash/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/trash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://www.hellozee.dev/tags/youtube/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/youtube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>self</title>
-      <link>https://www.hellozee.dev/tags/self/</link>
-      <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/self/</guid>
       <description></description>
     </item>
     
@@ -512,15 +449,6 @@
       <pubDate>Mon, 24 Dec 2018 16:49:01 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/throwback/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>new-things</title>
-      <link>https://www.hellozee.dev/tags/new-things/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/new-things/</guid>
       <description></description>
     </item>
     

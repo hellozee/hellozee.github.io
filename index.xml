@@ -6,10 +6,19 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 19:37:44 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Commentary on the Qt situation</title>
+      <link>https://www.hellozee.dev/thoughts-on-qt/</link>
+      <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/thoughts-on-qt/</guid>
+      <description>A lot of things have been going on with Qt these days. It all started with The Qt Company trying to get an increase in their revenues, specifically this blog post.</description>
+    </item>
     
     <item>
       <title>Krita Weeky #13 | 4.2.9 released</title>
@@ -242,16 +251,6 @@ To start off the weekend, I started working on the Magnetic Lasso again, it is a
     </item>
     
     <item>
-      <title>How to crack GSoC</title>
-      <link>https://www.hellozee.dev/cracking_gsoc/</link>
-      <pubDate>Fri, 30 Aug 2019 19:07:36 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/cracking_gsoc/</guid>
-      <description>&amp;ldquo;How to crack GSoC&amp;rdquo; seems like a nice follow up of Kushal&#39;s How to crack Open Source. He sums it up in the best way possible,
- Take a hammer. Open GitHub in your laptop.</description>
-    </item>
-    
-    <item>
       <title>Magnetic Lasso for Krita is here</title>
       <link>https://www.hellozee.dev/magnetic_lasso_is_here/</link>
       <pubDate>Sat, 17 Aug 2019 16:27:27 +0530</pubDate>
@@ -383,18 +382,6 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
     </item>
     
     <item>
-      <title>Getting Alight</title>
-      <link>https://www.hellozee.dev/getting-alight/</link>
-      <pubDate>Mon, 18 Mar 2019 01:01:34 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/getting-alight/</guid>
-      <description>Would start this one with a quote,
- Information is free - You have to know
-People are not - You have to pay
-Contributors are priceless - You have to be</description>
-    </item>
-    
-    <item>
       <title>Windows : A true nightmare</title>
       <link>https://www.hellozee.dev/windows/</link>
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
@@ -411,24 +398,6 @@ Contributors are priceless - You have to be</description>
       <guid>https://www.hellozee.dev/how-design-works/</guid>
       <description>Note: The title may be misleading, 😛
  I started dabbling with graphic design back when I was in 7th grade, that time I saw someone working in Photoshop, probably was extracting a person and putting that extracted piece on top another picture, the wow moment that was and I be like I also want to do that, so got a copy of Adobe Photoshop 7, technically a pirated copy but well, Photoshop 7 was not being sold anymore back then and I was just experimenting with it, so ethically I was like, okay, it doesn&#39;t hurt anyone, let that be so.</description>
-    </item>
-    
-    <item>
-      <title>Enough of Youtube</title>
-      <link>https://www.hellozee.dev/video-review-1/</link>
-      <pubDate>Sun, 03 Feb 2019 20:46:42 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/video-review-1/</guid>
-      <description>&amp;ldquo;Youtube&amp;rdquo;-ing seems like a trendy hobby for most of the people of my age, vlogs seem to be taking over blogs but I don&#39;t have the required setup to record videos nor the time to invest in making videos.</description>
-    </item>
-    
-    <item>
-      <title>A Couple of Words</title>
-      <link>https://www.hellozee.dev/no-please/</link>
-      <pubDate>Sat, 02 Feb 2019 23:11:17 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/no-please/</guid>
-      <description>Speaking from a normal person&#39;s point of view, do praises hurt? or if I can phrase it better, what hurts more, praise or criticism? An appropriate answer would be none, if you can take praise with your head held high you must be able to take criticism with the same attitude, right?</description>
     </item>
     
     <item>
@@ -458,15 +427,6 @@ Contributors are priceless - You have to be</description>
       <guid>https://www.hellozee.dev/flashback-2018/</guid>
       <description>tl;dr, Typical end of the year post as you may expect.
 Well, 2018 was a significantly productive year for me compared to other years, learned so many things which I wanted to, plus added more things to the bucket list for the coming year.</description>
-    </item>
-    
-    <item>
-      <title>How to Learn</title>
-      <link>https://www.hellozee.dev/how-to-learn/</link>
-      <pubDate>Fri, 21 Dec 2018 08:39:18 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/how-to-learn/</guid>
-      <description>If you search the web for how to learn something, you will surely get a bunch of techniques that would help you to remember something but that is not the learning I am talking about, that is in a sense, a kind of memorization.</description>
     </item>
     
     <item>
@@ -505,15 +465,6 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
       <guid>https://www.hellozee.dev/languages/</guid>
       <description>Note: Don&#39;t take the title onto your ego
  For sake of clarity, I would like to make some terms used in the post clear, it may mean something other to you but for the simplicity of the post, I would be using them in a particular way:</description>
-    </item>
-    
-    <item>
-      <title>Something to be scared of..</title>
-      <link>https://www.hellozee.dev/something_to_be_scared_of/</link>
-      <pubDate>Wed, 27 Jun 2018 12:47:54 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/something_to_be_scared_of/</guid>
-      <description>Note: This article is purposefully written in order to offend people, the author just wanted to clear his mind. And as you can see the category says self satisfaction.</description>
     </item>
     
     <item>
