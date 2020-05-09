@@ -6,10 +6,19 @@
     <description>Recent content in foss on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 16:23:10 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/foss/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #14 | GSoC is on</title>
+      <link>https://www.hellozee.dev/kw14/</link>
+      <pubDate>Sat, 09 May 2020 16:23:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw14/</guid>
+      <description>After an anxious month, I am writing a Krita Weekly again and probably this would be my last one too, though I hope not. Let&amp;rsquo;s start by talking about bugs. Unlike the trend going about the last couple of months, the numbers have taken a serious dip.</description>
+    </item>
     
     <item>
       <title>Krita Weeky #13 | 4.2.9 released</title>
@@ -26,7 +35,7 @@
       <pubDate>Thu, 12 Mar 2020 17:16:39 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw12/</guid>
-      <description>So, a lot has been going around these days, 2020 hasn&#39;t been the best year so far. Nevertheless don&#39;t panic, maintain proper hygiene and you should be fine for the most part.</description>
+      <description>So, a lot has been going around these days, 2020 hasn&amp;rsquo;t been the best year so far. Nevertheless don&amp;rsquo;t panic, maintain proper hygiene and you should be fine for the most part.</description>
     </item>
     
     <item>
@@ -44,7 +53,7 @@
       <pubDate>Sat, 08 Feb 2020 02:42:16 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw10/</guid>
-      <description>Honestly, you don&#39;t want to know the number of bugs in our bug tracker at this point. But I assure you these are just our broken unit tests rather than bugs.</description>
+      <description>Honestly, you don&amp;rsquo;t want to know the number of bugs in our bug tracker at this point. But I assure you these are just our broken unit tests rather than bugs.</description>
     </item>
     
     <item>
@@ -127,7 +136,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw1/</guid>
-      <description>Preface Okay, so recently one of Boud&#39;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
+      <description>Preface Okay, so recently one of Boud&amp;rsquo;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
     </item>
     
     <item>
@@ -136,7 +145,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Fri, 17 May 2019 19:46:48 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/linux-desktop/</guid>
-      <description>The title is a running joke now, please don&#39;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&#39;s retrospect the situation.
+      <description>The title is a running joke now, please don&amp;rsquo;t hit me, I know that this is one hell of an aloof conclusion. But why? Let&amp;rsquo;s retrospect the situation.
  Linux is just the kernel Add a display server on top of it Add a window manager Add a compositor Add a display manager  You will get a desktop, yes a desktop and not a desktop environment.</description>
     </item>
     

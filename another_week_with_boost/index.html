@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.60.1" />
+  <meta name="generator" content="Hugo 0.70.0" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -156,80 +156,80 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
     <span class="kt">long</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">;</span>
 
     <span class="n">VertexDescriptor</span><span class="p">(</span><span class="kt">long</span> <span class="n">_x</span><span class="p">,</span> <span class="kt">long</span> <span class="n">_y</span><span class="p">)</span><span class="o">:</span>
-        <span class="n">x</span><span class="p">(</span><span class="n">_x</span><span class="p">)</span><span class="p">,</span> <span class="n">y</span><span class="p">(</span><span class="n">_y</span><span class="p">)</span>
+        <span class="n">x</span><span class="p">(</span><span class="n">_x</span><span class="p">),</span> <span class="n">y</span><span class="p">(</span><span class="n">_y</span><span class="p">)</span>
     <span class="p">{</span> <span class="p">}</span>
 
-    <span class="kt">bool</span> <span class="k">operator</span><span class="o">=</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">VertexDescriptor</span> <span class="o">&amp;</span><span class="n">rhs</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="n">rhs</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span><span class="o">=</span> <span class="n">x</span> <span class="o">&amp;</span><span class="o">&amp;</span> <span class="n">rhs</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span><span class="o">=</span> <span class="n">y</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="k">const</span> <span class="n">VertexDescriptor</span> <span class="o">&amp;</span><span class="n">rhs</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">rhs</span><span class="p">.</span><span class="n">x</span> <span class="o">==</span> <span class="n">x</span> <span class="o">&amp;&amp;</span> <span class="n">rhs</span><span class="p">.</span><span class="n">y</span> <span class="o">==</span> <span class="n">y</span><span class="p">;</span>
     <span class="p">}</span>
 
     <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;</span><span class="p">(</span><span class="k">const</span> <span class="n">VertexDescriptor</span> <span class="o">&amp;</span><span class="n">rhs</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">rhs</span><span class="p">.</span><span class="n">x</span> <span class="o">|</span><span class="o">|</span> <span class="p">(</span><span class="n">x</span> <span class="o">=</span><span class="o">=</span> <span class="n">rhs</span><span class="p">.</span><span class="n">x</span> <span class="o">&amp;</span><span class="o">&amp;</span> <span class="n">y</span> <span class="o">&lt;</span> <span class="n">rhs</span><span class="p">.</span><span class="n">y</span><span class="p">)</span><span class="p">;</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">rhs</span><span class="p">.</span><span class="n">x</span> <span class="o">||</span> <span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="n">rhs</span><span class="p">.</span><span class="n">x</span> <span class="o">&amp;&amp;</span> <span class="n">y</span> <span class="o">&lt;</span> <span class="n">rhs</span><span class="p">.</span><span class="n">y</span><span class="p">);</span>
     <span class="p">}</span>
-<span class="p">}</span><span class="p">;</span>
+<span class="p">};</span>
 
 <span class="k">typedef</span> <span class="n">VertexDescriptor</span> <span class="n">vertex_descriptor</span><span class="p">;</span>
 </code></pre></div><p>Edges are just a combination of two vertices right?</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span> <span class="n">vertex_descriptor</span><span class="o">&gt;</span> <span class="n">edge_descriptor</span><span class="p">;</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">vertex_descriptor</span><span class="p">,</span> <span class="n">vertex_descriptor</span><span class="o">&gt;</span> <span class="n">edge_descriptor</span><span class="p">;</span>
 </code></pre></div><p>We want our graph to be bidirectional, so there should be no directions,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">undirected_tag</span> <span class="n">directed_category</span><span class="p">;</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">::</span><span class="n">undirected_tag</span> <span class="n">directed_category</span><span class="p">;</span>
 </code></pre></div><p>Nope, there would be no parallel edges,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">disallow_parallel_edge_tag</span> <span class="n">edge_parallel_category</span><span class="p">;</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">::</span><span class="n">disallow_parallel_edge_tag</span> <span class="n">edge_parallel_category</span><span class="p">;</span>
 </code></pre></div><p>Normal Incidence Graph, nothing fancy, defaults will be fine,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">incidence_graph_tag</span> <span class="n">traversal_category</span><span class="p">;</span>
-</code></pre></div><p>Till now, it looks pretty easy, but now the interesting part, how would we perceive that there is an edge between two pixels? Dmitry says all the pixels should be connected to each other, but I doubt, that would even work properly. Why? If all the pixels are connected to each other, then definitely the start and end points are connected to each other, right? AStar would be looking for the smallest path. Taking the fact that both of them are part of a line in the image (it could be any line), the smallest path would be the edge between them, it won't even matter if they are connected visually or not. But then how would you determine the connections? I don't know, I guess I have to follow Dmitry for now, after all, <code>boost</code> is a highly generic library, it won't take a lot of changes to adapt it to a new strategy.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="n">boost</span><span class="o">::</span><span class="n">incidence_graph_tag</span> <span class="n">traversal_category</span><span class="p">;</span>
+</code></pre></div><p>Till now, it looks pretty easy, but now the interesting part, how would we perceive that there is an edge between two pixels? Dmitry says all the pixels should be connected to each other, but I doubt, that would even work properly. Why? If all the pixels are connected to each other, then definitely the start and end points are connected to each other, right? AStar would be looking for the smallest path. Taking the fact that both of them are part of a line in the image (it could be any line), the smallest path would be the edge between them, it won&rsquo;t even matter if they are connected visually or not. But then how would you determine the connections? I don&rsquo;t know, I guess I have to follow Dmitry for now, after all, <code>boost</code> is a highly generic library, it won&rsquo;t take a lot of changes to adapt it to a new strategy.</p>
 <p>And after a little bit of fiddling here and there, I figured out the <code>out_edge_iterator</code>  thing,</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="nc">neighbour_iterator</span> <span class="o">:</span> <span class="k">public</span> <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">iterator_facade</span><span class="o">&lt;</span><span class="n">neighbour_iterator</span><span class="p">,</span>
+<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">struct</span> <span class="nc">neighbour_iterator</span> <span class="o">:</span> <span class="k">public</span> <span class="n">boost</span><span class="o">::</span><span class="n">iterator_facade</span><span class="o">&lt;</span><span class="n">neighbour_iterator</span><span class="p">,</span>
                                                              <span class="n">edge_descriptor</span><span class="p">,</span>
-                                                <span class="n">boost</span><span class="o">:</span><span class="o">:</span><span class="n">forward_traversal_tag</span><span class="p">,</span>
+                                                <span class="n">boost</span><span class="o">::</span><span class="n">forward_traversal_tag</span><span class="p">,</span>
                                                              <span class="n">edge_descriptor</span><span class="o">&gt;</span>
 <span class="p">{</span>
     <span class="n">neighbour_iterator</span><span class="p">(</span><span class="n">vertex_descriptor</span> <span class="n">v</span><span class="p">,</span> <span class="n">KisMagneticGraph</span> <span class="n">g</span><span class="p">)</span><span class="o">:</span>
-        <span class="n">graph</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="p">,</span> <span class="n">currentPoint</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+        <span class="n">graph</span><span class="p">(</span><span class="n">g</span><span class="p">),</span> <span class="n">currentPoint</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
     <span class="p">{</span>
-        <span class="n">nextPoint</span> <span class="o">=</span> <span class="n">vertex_descriptor</span><span class="p">(</span><span class="n">g</span><span class="p">.</span><span class="n">topLeft</span><span class="p">.</span><span class="n">x</span><span class="p">(</span><span class="p">)</span><span class="p">,</span> <span class="n">g</span><span class="p">.</span><span class="n">topLeft</span><span class="p">.</span><span class="n">y</span><span class="p">(</span><span class="p">)</span><span class="p">)</span><span class="p">;</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">nextPoint</span> <span class="o">=</span><span class="o">=</span> <span class="n">currentPoint</span><span class="p">)</span><span class="p">{</span>
-            <span class="k">operator</span><span class="o">+</span><span class="o">+</span><span class="p">(</span><span class="p">)</span><span class="p">;</span>
+        <span class="n">nextPoint</span> <span class="o">=</span> <span class="n">vertex_descriptor</span><span class="p">(</span><span class="n">g</span><span class="p">.</span><span class="n">topLeft</span><span class="p">.</span><span class="n">x</span><span class="p">(),</span> <span class="n">g</span><span class="p">.</span><span class="n">topLeft</span><span class="p">.</span><span class="n">y</span><span class="p">());</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">nextPoint</span> <span class="o">==</span> <span class="n">currentPoint</span><span class="p">){</span>
+            <span class="k">operator</span><span class="o">++</span><span class="p">();</span>
         <span class="p">}</span>
     <span class="p">}</span>
 
     <span class="n">edge_descriptor</span>
-    <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
-        <span class="n">edge_descriptor</span> <span class="k">const</span> <span class="n">result</span> <span class="o">=</span> <span class="n">std</span><span class="o">:</span><span class="o">:</span><span class="n">make_pair</span><span class="p">(</span><span class="n">currentPoint</span><span class="p">,</span><span class="n">nextPoint</span><span class="p">)</span><span class="p">;</span>
+    <span class="k">operator</span><span class="o">*</span><span class="p">()</span> <span class="k">const</span> <span class="p">{</span>
+        <span class="n">edge_descriptor</span> <span class="k">const</span> <span class="n">result</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">make_pair</span><span class="p">(</span><span class="n">currentPoint</span><span class="p">,</span><span class="n">nextPoint</span><span class="p">);</span>
         <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
     <span class="p">}</span>
 
-    <span class="kt">void</span> <span class="k">operator</span><span class="o">+</span><span class="o">+</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">nextPoint</span> <span class="o">=</span><span class="o">=</span> <span class="n">graph</span><span class="p">.</span><span class="n">bottomRight</span><span class="p">)</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">++</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">nextPoint</span> <span class="o">==</span> <span class="n">graph</span><span class="p">.</span><span class="n">bottomRight</span><span class="p">)</span>
             <span class="k">return</span><span class="p">;</span> <span class="c1">// we are done, no more points
 </span><span class="c1"></span>
-        <span class="k">if</span><span class="p">(</span><span class="n">nextPoint</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span><span class="o">=</span> <span class="n">graph</span><span class="p">.</span><span class="n">bottomRight</span><span class="p">.</span><span class="n">x</span><span class="p">(</span><span class="p">)</span><span class="p">)</span> <span class="c1">// end of a row move to next column
-</span><span class="c1"></span>            <span class="n">nextPoint</span> <span class="o">=</span> <span class="n">vertex_descriptor</span><span class="p">(</span><span class="n">graph</span><span class="p">.</span><span class="n">topLeft</span><span class="p">.</span><span class="n">x</span><span class="p">(</span><span class="p">)</span><span class="p">,</span> <span class="n">nextPoint</span><span class="p">.</span><span class="n">y</span><span class="o">+</span><span class="o">+</span><span class="p">)</span><span class="p">;</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">nextPoint</span><span class="p">.</span><span class="n">x</span> <span class="o">==</span> <span class="n">graph</span><span class="p">.</span><span class="n">bottomRight</span><span class="p">.</span><span class="n">x</span><span class="p">())</span> <span class="c1">// end of a row move to next column
+</span><span class="c1"></span>            <span class="n">nextPoint</span> <span class="o">=</span> <span class="n">vertex_descriptor</span><span class="p">(</span><span class="n">graph</span><span class="p">.</span><span class="n">topLeft</span><span class="p">.</span><span class="n">x</span><span class="p">(),</span> <span class="n">nextPoint</span><span class="p">.</span><span class="n">y</span><span class="o">++</span><span class="p">);</span>
         <span class="k">else</span>
-            <span class="n">nextPoint</span><span class="p">.</span><span class="n">x</span><span class="o">+</span><span class="o">+</span><span class="p">;</span>
+            <span class="n">nextPoint</span><span class="p">.</span><span class="n">x</span><span class="o">++</span><span class="p">;</span>
     <span class="p">}</span>
 
-    <span class="kt">bool</span> <span class="k">operator</span><span class="o">=</span><span class="o">=</span><span class="p">(</span><span class="n">neighbour_iterator</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">that</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="n">currentPoint</span> <span class="o">=</span><span class="o">=</span> <span class="n">that</span><span class="p">.</span><span class="n">currentPoint</span> <span class="o">&amp;</span><span class="o">&amp;</span> <span class="n">nextPoint</span> <span class="o">=</span><span class="o">=</span> <span class="n">that</span><span class="p">.</span><span class="n">nextPoint</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="n">neighbour_iterator</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">that</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">currentPoint</span> <span class="o">==</span> <span class="n">that</span><span class="p">.</span><span class="n">currentPoint</span> <span class="o">&amp;&amp;</span> <span class="n">nextPoint</span> <span class="o">==</span> <span class="n">that</span><span class="p">.</span><span class="n">nextPoint</span><span class="p">;</span>
     <span class="p">}</span>
 
     <span class="kt">bool</span> <span class="nf">equal</span><span class="p">(</span><span class="n">neighbour_iterator</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">that</span><span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="k">operator</span><span class="o">=</span><span class="o">=</span><span class="p">(</span><span class="n">that</span><span class="p">)</span><span class="p">;</span>
+        <span class="k">return</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="n">that</span><span class="p">);</span>
     <span class="p">}</span>
 
-    <span class="kt">void</span> <span class="nf">increment</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">operator</span><span class="o">+</span><span class="o">+</span><span class="p">(</span><span class="p">)</span><span class="p">;</span>
+    <span class="kt">void</span> <span class="nf">increment</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">operator</span><span class="o">++</span><span class="p">();</span>
     <span class="p">}</span>
 
 <span class="k">private</span><span class="o">:</span>
     <span class="n">KisMagneticGraph</span> <span class="n">graph</span><span class="p">;</span>
     <span class="n">vertex_descriptor</span> <span class="n">currentPoint</span><span class="p">,</span> <span class="n">nextPoint</span><span class="p">;</span>
-<span class="p">}</span><span class="p">;</span>
+<span class="p">};</span>
 
 <span class="k">typedef</span> <span class="n">neighbour_iterator</span> <span class="n">out_edge_iterator</span><span class="p">;</span>
 </code></pre></div><p>And talking about the degree size type, it would be an unsigned integer, so here it is,</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="k">typedef</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">degree_size_type</span><span class="p">;</span>
-</code></pre></div><p>That would mean, I am done with modeling the graph, but not yet with <code>boost::astar_search</code>, which I am still stuck with, hopefully, by the time I have to write another post, I will be done with it too. And yes I am yet to push the code to the repository, cause it doesn't compile yet. So <code>:wq</code> for now.</p>
+</code></pre></div><p>That would mean, I am done with modeling the graph, but not yet with <code>boost::astar_search</code>, which I am still stuck with, hopefully, by the time I have to write another post, I will be done with it too. And yes I am yet to push the code to the repository, cause it doesn&rsquo;t compile yet. So <code>:wq</code> for now.</p>
 
         </div>      
         

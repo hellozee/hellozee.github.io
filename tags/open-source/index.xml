@@ -6,10 +6,19 @@
     <description>Recent content in open-source on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 16:23:10 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #14 | GSoC is on</title>
+      <link>https://www.hellozee.dev/kw14/</link>
+      <pubDate>Sat, 09 May 2020 16:23:10 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw14/</guid>
+      <description>After an anxious month, I am writing a Krita Weekly again and probably this would be my last one too, though I hope not. Let&amp;rsquo;s start by talking about bugs. Unlike the trend going about the last couple of months, the numbers have taken a serious dip.</description>
+    </item>
     
     <item>
       <title>Krita Weeky #13 | 4.2.9 released</title>
@@ -26,7 +35,7 @@
       <pubDate>Thu, 12 Mar 2020 17:16:39 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw12/</guid>
-      <description>So, a lot has been going around these days, 2020 hasn&#39;t been the best year so far. Nevertheless don&#39;t panic, maintain proper hygiene and you should be fine for the most part.</description>
+      <description>So, a lot has been going around these days, 2020 hasn&amp;rsquo;t been the best year so far. Nevertheless don&amp;rsquo;t panic, maintain proper hygiene and you should be fine for the most part.</description>
     </item>
     
     <item>
@@ -45,7 +54,7 @@
       
       <guid>https://www.hellozee.dev/a_year_as_a_kde_developer/</guid>
       <description>It has been more than a year that I had push rights for all the KDE repositories. So this is an obligatory anniversary post.
-I got introduced to Linux while searching for development environments that came with all sorts of compilers &amp;amp; interpreters by default and I don&#39;t have to manually install those stuff.</description>
+I got introduced to Linux while searching for development environments that came with all sorts of compilers &amp;amp; interpreters by default and I don&amp;rsquo;t have to manually install those stuff.</description>
     </item>
     
     <item>
@@ -54,7 +63,7 @@ I got introduced to Linux while searching for development environments that came
       <pubDate>Sat, 08 Feb 2020 02:42:16 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw10/</guid>
-      <description>Honestly, you don&#39;t want to know the number of bugs in our bug tracker at this point. But I assure you these are just our broken unit tests rather than bugs.</description>
+      <description>Honestly, you don&amp;rsquo;t want to know the number of bugs in our bug tracker at this point. But I assure you these are just our broken unit tests rather than bugs.</description>
     </item>
     
     <item>
@@ -137,7 +146,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Mon, 28 Oct 2019 17:58:03 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/kw1/</guid>
-      <description>Preface Okay, so recently one of Boud&#39;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
+      <description>Preface Okay, so recently one of Boud&amp;rsquo;s posts sparked some conversations in hackernews and reddit. So this is my part of taking care of a couple of the points raised in those discussions.</description>
     </item>
     
     <item>
@@ -200,7 +209,7 @@ We can now import jpeg2000 files into Krita.</description>
       <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
-      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
     </item>
     
     <item>
@@ -256,7 +265,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/boost_astar/</guid>
-      <description>Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>
@@ -275,7 +284,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Fri, 22 Feb 2019 15:31:30 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/windows/</guid>
-      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&#39;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
+      <description>I never expected such a dreadful day would come such that I have to install Windows, cause I didn&amp;rsquo;t have enough money. And yes, you read it right, nothing is wrong in the previous statement.</description>
     </item>
     
     <item>

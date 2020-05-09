@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.60.1" />
+  <meta name="generator" content="Hugo 0.70.0" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -129,7 +129,7 @@
         </header>
         <div class="post-content markdown-body">
           <p><strong>Update:</strong> This feature is now merged into master and can be tested out by downloading any of the Krita Next version. The UX has changed a lot, <a href="https://www.hellozee.dev/to_be_merged_in_master/">here</a> is an updated post about the UX.</p>
-<p>I won't say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</p>
+<p>I won&rsquo;t say that I am done with Magnetic Lasso now, but the results are a lot better now to be honest. Take a look at one of the tests that I did,</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/nhT3cbzBpOk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -149,8 +149,8 @@
 <li>No auto-scroll available, well, I thought this would be easy as overriding a virtual function, but it seems like, auto-scroll only works when a mouse-button is pressed, so this would again fall in the refactoring job.</li>
 <li>Compress mouse signals, right now for every mouse move event, it tries to guess an edge, this is technically useless if you move your mouse too fast, then it would be wise to ignore the events in the middle, saving a lot of computation.</li>
 <li>Caching of pre-filtering, we pre filter the image for initial guess at the edges, for now, it happens when you switch to the magnetic lasso or change the radius of the kernel in the tool options. If the image is big, it might take a lot of time to pre-filter the image. Caching the results and do filtering only when requested would surely improve the speed of the tool.</li>
-<li>We of course need some better cursors for the tool, right now, it doesn't look bad but at the same time it is not good looking as the one PS has, ehhhh.</li>
-<li>Last one, sometime ago I thought I have to write a new edge detection filter, but since Dmitry patched his filter for the tool, I don't think, I would need to write a new one for it in the near future. Though, would definitely try it out once I am done with all of the above.</li>
+<li>We of course need some better cursors for the tool, right now, it doesn&rsquo;t look bad but at the same time it is not good looking as the one PS has, ehhhh.</li>
+<li>Last one, sometime ago I thought I have to write a new edge detection filter, but since Dmitry patched his filter for the tool, I don&rsquo;t think, I would need to write a new one for it in the near future. Though, would definitely try it out once I am done with all of the above.</li>
 </ul>
 
         </div>      

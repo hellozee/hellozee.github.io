@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.60.1" />
+  <meta name="generator" content="Hugo 0.70.0" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -133,10 +133,10 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
 <p>Let me start this one with a story.</p>
 <p>Once there was a kid who loved to play games, after a while, he wanted to make games of his own and tada a programmer was born.</p>
 <p>End of the story.</p>
-<p>Wasn't that a pretty lame one? It is the most common story of anyone who loves to code, well I hope you are not one among the people who chose to code just because the job openings looked delicious. Anyway let's continue, I always wanted to make a game of my own when I was in school and since I was a loner( at that time) I had to do everything myself, from designing the assets to writing code. Honestly, you don't expect a full blown AAA quality game from a high school kid who just started out but at least it made me learn something which changed my focus from programming to computer graphics, <a href="https://www.blender.org/">Blender</a>, an open source beast. Of course, setting up a development environment in Windows was difficult for a 7th-grade kid but playing with Blender was easy though making something cool with it was not. Anyways fast forward some years, I got to learn about multiple Visual Effects packages, mostly proprietary ones and a couple of steps which my fingers picked up while dancing over the keyboard.</p>
+<p>Wasn&rsquo;t that a pretty lame one? It is the most common story of anyone who loves to code, well I hope you are not one among the people who chose to code just because the job openings looked delicious. Anyway let&rsquo;s continue, I always wanted to make a game of my own when I was in school and since I was a loner( at that time) I had to do everything myself, from designing the assets to writing code. Honestly, you don&rsquo;t expect a full blown AAA quality game from a high school kid who just started out but at least it made me learn something which changed my focus from programming to computer graphics, <a href="https://www.blender.org/">Blender</a>, an open source beast. Of course, setting up a development environment in Windows was difficult for a 7th-grade kid but playing with Blender was easy though making something cool with it was not. Anyways fast forward some years, I got to learn about multiple Visual Effects packages, mostly proprietary ones and a couple of steps which my fingers picked up while dancing over the keyboard.</p>
 <p><strong>PS</strong> : <em>The main content begins here</em></p>
-<p>Half a year ago, something struck my mind, I had a fever of creating the old marvel intro, why? I don't know, I am not even a great fan of Marvel Comics either but probably because it looked easy and eye-catchy. I set out to look for how-to-s and all I find is a bunch of After Effects tutorials, I know After Effects is the go-to program for doing that kind of Motion Graphics but being a Linux evangelist, I was not ready to give up so easily, Adobe you suck. ( Photoshop is nice but still )</p>
-<p>BlackMagicDesign's <a href="https://www.blackmagicdesign.com/in/products/fusion/">Fusion</a> 9 to rescue, it was easy to recreate the effect on Fusion but I had to do the same thing with a lot of pictures, given that a picture stays on the screen for around 3 to 4 frames and there were 25 frames a second, end of the day, a lot of work for just 3 seconds. Fortunately Fusion supported Python 2, Python 3 and Lua, was free too but unfortunately it can't find either of the python versions on my system and I was stuck with Lua, a scripting language which I don't know why decided to start its array indexes from 1, left me wondering for a night why my script was failing. Anyway, it was easy to make one thanks to the scripting manual which came with Fusion and the task being not so daunting. <a href="https://github.com/hellozee/scripts/blob/master/marvel.lua">Here</a> is the final script which I wrote,</p>
+<p>Half a year ago, something struck my mind, I had a fever of creating the old marvel intro, why? I don&rsquo;t know, I am not even a great fan of Marvel Comics either but probably because it looked easy and eye-catchy. I set out to look for how-to-s and all I find is a bunch of After Effects tutorials, I know After Effects is the go-to program for doing that kind of Motion Graphics but being a Linux evangelist, I was not ready to give up so easily, Adobe you suck. ( Photoshop is nice but still )</p>
+<p>BlackMagicDesign&rsquo;s <a href="https://www.blackmagicdesign.com/in/products/fusion/">Fusion</a> 9 to rescue, it was easy to recreate the effect on Fusion but I had to do the same thing with a lot of pictures, given that a picture stays on the screen for around 3 to 4 frames and there were 25 frames a second, end of the day, a lot of work for just 3 seconds. Fortunately Fusion supported Python 2, Python 3 and Lua, was free too but unfortunately it can&rsquo;t find either of the python versions on my system and I was stuck with Lua, a scripting language which I don&rsquo;t know why decided to start its array indexes from 1, left me wondering for a night why my script was failing. Anyway, it was easy to make one thanks to the scripting manual which came with Fusion and the task being not so daunting. <a href="https://github.com/hellozee/scripts/blob/master/marvel.lua">Here</a> is the final script which I wrote,</p>
 <div class="highlight"><pre class="chroma"><code class="language-lua" data-lang="lua"><span class="cm">--[[
 </span><span class="cm">    Author: Kuntal Majumder
 </span><span class="cm">    Description: Lua script to create an animation sequence with pictures,
@@ -145,28 +145,28 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
 
 <span class="cm">--[[ Getting the List of Loaders, if there are multiple of them,
 </span><span class="cm">     select the specific loaders and replace false with true --]]</span>
-<span class="n">loaderList</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span><span class="s2">&#34;</span><span class="s2">Loader</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">loaderList</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span><span class="s2">&#34;Loader&#34;</span><span class="p">)</span>
 
 <span class="cm">--[[ Deselecting everything --]]</span>
 <span class="n">flow</span> <span class="o">=</span> <span class="n">comp.CurrentFrame</span><span class="p">.</span><span class="n">FlowView</span>
-<span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">(</span><span class="p">)</span>
+<span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">()</span>
 
 <span class="n">numberOfPictures</span> <span class="o">=</span> <span class="mi">0</span>
 
 <span class="kr">for</span> <span class="n">i</span><span class="p">,</span><span class="n">loader</span> <span class="kr">in</span> <span class="n">ipairs</span><span class="p">(</span><span class="n">loaderList</span><span class="p">)</span> <span class="kr">do</span>
-    <span class="n">transform</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Transform</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="n">transform</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;Transform&#34;</span><span class="p">)</span>
     
     <span class="cm">--[[ Adding high quality motion blur --]]</span>
     <span class="n">transform.MotionBlur</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="n">transform.Quality</span> <span class="o">=</span> <span class="mi">10</span>    
     
     <span class="cm">--[[ Adding the animation to the pictures --]]</span>
-    <span class="n">transform</span><span class="p">:</span><span class="n">AddModifier</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Center</span><span class="s2">&#34;</span><span class="p">,</span><span class="s2">&#34;</span><span class="s2">XYPath</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="n">transform</span><span class="p">:</span><span class="n">AddModifier</span><span class="p">(</span><span class="s2">&#34;Center&#34;</span><span class="p">,</span><span class="s2">&#34;XYPath&#34;</span><span class="p">)</span>
     <span class="n">transform.Center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">1.5</span><span class="p">}</span>
     <span class="n">transform.Center</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">}</span>
     
     <span class="cm">--[[ Offsetting every picture by 4 frames compared to last picture --]]</span>
-    <span class="n">timespeed</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">TimeSpeed</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="n">timespeed</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;TimeSpeed&#34;</span><span class="p">)</span>
     <span class="n">timespeed.Delay</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">4</span>
     
     <span class="cm">--[[ Connecting respective inputs and outputs --]]</span>
@@ -178,10 +178,10 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
         <span class="cm">--[[ One merge node is already there in the node graph which was
 </span><span class="cm">                     selected in the last iteration, so we connect its output
 </span><span class="cm">                     with the background of the current --]]</span>
-        <span class="n">table</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="s2">&#34;</span><span class="s2">Merge</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">table</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="s2">&#34;Merge&#34;</span><span class="p">)</span>
         <span class="n">prevMerge</span> <span class="o">=</span> <span class="n">table</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">(</span><span class="p">)</span>
-        <span class="n">merge</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Merge</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">()</span>
+        <span class="n">merge</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;Merge&#34;</span><span class="p">)</span>
         <span class="n">merge.Foreground</span> <span class="o">=</span> <span class="n">timespeed.Output</span>
         <span class="n">merge.Background</span> <span class="o">=</span> <span class="n">prevMerge.Output</span>
         <span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">(</span><span class="n">merge</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
@@ -189,8 +189,8 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
         <span class="cm">--[[ Required nodes are added to the second picture so make new
 </span><span class="cm">                     merge node and connect the first picture&#39;s timespeed to it
 </span><span class="cm">                     which was selected last time --]]</span>
-        <span class="n">merge</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Merge</span><span class="s2">&#34;</span><span class="p">)</span>
-        <span class="n">table</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="s2">&#34;</span><span class="s2">TimeSpeed</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">merge</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;Merge&#34;</span><span class="p">)</span>
+        <span class="n">table</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="s2">&#34;TimeSpeed&#34;</span><span class="p">)</span>
         <span class="n">prevTimeSpeed</span> <span class="o">=</span> <span class="n">table</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
         <span class="n">merge.Foreground</span> <span class="o">=</span> <span class="n">timespeed.Output</span>
         <span class="n">merge.Background</span> <span class="o">=</span> <span class="n">prevTimeSpeed.Output</span>
@@ -198,20 +198,20 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
     <span class="kr">else</span>
         <span class="cm">--[[ Required nodes added to the first picture, so no merges
 </span><span class="cm">                     are created, instead the timespeed node is selected --]]</span>
-        <span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">(</span><span class="p">)</span>
+        <span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">()</span>
         <span class="n">flow</span><span class="p">:</span><span class="n">Select</span><span class="p">(</span><span class="n">timespeed</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
     <span class="kr">end</span>
     <span class="n">numberOfPictures</span> <span class="o">=</span> <span class="n">numberOfPictures</span> <span class="o">+</span> <span class="mi">1</span>
 <span class="kr">end</span>
 
 <span class="cm">--[[ Getting the last Merge node --]]</span>
-<span class="n">table</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="s2">&#34;</span><span class="s2">Merge</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">table</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">GetToolList</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="s2">&#34;Merge&#34;</span><span class="p">)</span>
 <span class="n">toSaveMerge</span> <span class="o">=</span> <span class="n">table</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
 <span class="cm">--[[ Adding a Saver node --]]</span>
-<span class="n">comp</span><span class="p">:</span><span class="n">Lock</span><span class="p">(</span><span class="p">)</span>
-<span class="n">saver</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Saver</span><span class="s2">&#34;</span><span class="p">)</span>
-<span class="n">comp</span><span class="p">:</span><span class="n">Unlock</span><span class="p">(</span><span class="p">)</span>
+<span class="n">comp</span><span class="p">:</span><span class="n">Lock</span><span class="p">()</span>
+<span class="n">saver</span> <span class="o">=</span> <span class="n">comp</span><span class="p">:</span><span class="n">AddTool</span><span class="p">(</span><span class="s2">&#34;Saver&#34;</span><span class="p">)</span>
+<span class="n">comp</span><span class="p">:</span><span class="n">Unlock</span><span class="p">()</span>
 <span class="n">saver.Input</span> <span class="o">=</span> <span class="n">toSaveMerge.Output</span>
 
 <span class="cm">--[[ If the file location is predetermined we can enter the file location
@@ -223,77 +223,77 @@ Once there was a kid who loved to play games, after a while, he wanted to make g
 </span><span class="cm">--]]</span>
 
 </code></pre></div><p>The script is really simple all it does it get all the image loaders from the node graph and attaches a <code>Transform</code> node which does the animation, adds <code>TimeSpeed</code> node which adds an offset of 4 seconds to the image based on its position and merges it with the rest. Tada, you have a marvel like animation ready in seconds.</p>
-<p>A couple days ago I landed at <a href="https://www.foundry.com/">The Foundry&rsquo;</a>s website which said they were offering <a href="https://www.foundry.com/products/nuke">Nuke</a> for free to students up to a year. I have tried Nuke earlier but it was pretty costly and the non-commercial version was pretty limiting for learning but this time, I got a full-fledged copy of Nuke for me, thanks to The Foundry. And the first thing I did with it was to recreate the Marvel Intro animation and cause Nuke supported Python, it was really easy for me to do though I am not the best guy in the town when it comes to writing python, probably the worst one but a couple of extra control statements won't hurt the performance (I am not writing another CRUD app with Django at least). So with <code>Py-27</code> (smile if you get the reference), I went to fight the battle, a little did I know it will be over by a couple of hours. Thus the next day I went a mile ahead and made added a couple of more things, voila you have a robust &amp; organized script which could generate flawless Marvel Intros from any set of images you throw at it. <a href="https://github.com/hellozee/nuke-scripts/blob/master/marvel.py">Here</a> is the final version:</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">
-</span><span class="s2"></span><span class="s2">    Filename: marvel.py</span><span class="s2">
-</span><span class="s2"></span><span class="s2">    Author: Kuntal Majumder</span><span class="s2">
-</span><span class="s2"></span><span class="s2">&#34;&#34;&#34;</span>
+<p>A couple days ago I landed at <a href="https://www.foundry.com/">The Foundry&rsquo;</a>s website which said they were offering <a href="https://www.foundry.com/products/nuke">Nuke</a> for free to students up to a year. I have tried Nuke earlier but it was pretty costly and the non-commercial version was pretty limiting for learning but this time, I got a full-fledged copy of Nuke for me, thanks to The Foundry. And the first thing I did with it was to recreate the Marvel Intro animation and cause Nuke supported Python, it was really easy for me to do though I am not the best guy in the town when it comes to writing python, probably the worst one but a couple of extra control statements won&rsquo;t hurt the performance (I am not writing another CRUD app with Django at least). So with <code>Py-27</code> (smile if you get the reference), I went to fight the battle, a little did I know it will be over by a couple of hours. Thus the next day I went a mile ahead and made added a couple of more things, voila you have a robust &amp; organized script which could generate flawless Marvel Intros from any set of images you throw at it. <a href="https://github.com/hellozee/nuke-scripts/blob/master/marvel.py">Here</a> is the final version:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="s2">&#34;&#34;&#34;
+</span><span class="s2">    Filename: marvel.py
+</span><span class="s2">    Author: Kuntal Majumder
+</span><span class="s2">&#34;&#34;&#34;</span>
 
 <span class="kn">import</span> <span class="nn">nuke</span>
 
-<span class="k">def</span> <span class="nf">get_transform</span><span class="p">(</span><span class="n">height</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">The transform node does the animation of dropping the image</span><span class="s2">&#34;&#34;&#34;</span>
-    <span class="n">transform</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Transform</span><span class="p">(</span><span class="p">)</span>
-    <span class="n">transform</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">translate</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setAnimated</span><span class="p">(</span><span class="p">)</span>
-    <span class="n">transform</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">translate</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="n">height</span><span class="p">]</span><span class="p">,</span><span class="n">time</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">transform</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">translate</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span><span class="p">,</span><span class="n">time</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_transform</span><span class="p">(</span><span class="n">height</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;The transform node does the animation of dropping the image&#34;&#34;&#34;</span>
+    <span class="n">transform</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Transform</span><span class="p">()</span>
+    <span class="n">transform</span><span class="p">[</span><span class="s1">&#39;translate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setAnimated</span><span class="p">()</span>
+    <span class="n">transform</span><span class="p">[</span><span class="s1">&#39;translate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="n">height</span><span class="p">],</span><span class="n">time</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">transform</span><span class="p">[</span><span class="s1">&#39;translate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">time</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">transform</span>
 
-<span class="k">def</span> <span class="nf">get_reformat</span><span class="p">(</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Resizes the image according to the project settings</span><span class="s2">&#34;&#34;&#34;</span>
-    <span class="n">reformat</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Reformat</span><span class="p">(</span><span class="p">)</span>
-    <span class="n">reformat</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">resize</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">fill</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_reformat</span><span class="p">():</span>
+    <span class="s2">&#34;&#34;&#34;Resizes the image according to the project settings&#34;&#34;&#34;</span>
+    <span class="n">reformat</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Reformat</span><span class="p">()</span>
+    <span class="n">reformat</span><span class="p">[</span><span class="s1">&#39;resize&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="s1">&#39;fill&#39;</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">reformat</span>
 
-<span class="k">def</span> <span class="nf">get_timeoffset</span><span class="p">(</span><span class="n">pos</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Shifts the image to the given position in the timeline</span><span class="s2">&#34;&#34;&#34;</span>
-    <span class="n">timeoffset</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">TimeOffset</span><span class="p">(</span><span class="p">)</span>
-    <span class="n">timeoffset</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">time_offset</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="n">pos</span><span class="o">*</span><span class="mi">4</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_timeoffset</span><span class="p">(</span><span class="n">pos</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;Shifts the image to the given position in the timeline&#34;&#34;&#34;</span>
+    <span class="n">timeoffset</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">TimeOffset</span><span class="p">()</span>
+    <span class="n">timeoffset</span><span class="p">[</span><span class="s1">&#39;time_offset&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="n">pos</span><span class="o">*</span><span class="mi">4</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">timeoffset</span>
 
-<span class="k">def</span> <span class="nf">manipulate_node</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="n">pos</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">The man who generates the node graph</span><span class="s2">&#34;&#34;&#34;</span>
+<span class="k">def</span> <span class="nf">manipulate_node</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="n">pos</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;The man who generates the node graph&#34;&#34;&#34;</span>
     <span class="n">read</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Read</span><span class="p">(</span><span class="nb">file</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span><span class="n">auto_alpha</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span><span class="n">premultiplied</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="n">reformat</span> <span class="o">=</span> <span class="n">get_reformat</span><span class="p">(</span><span class="p">)</span>
+    <span class="n">reformat</span> <span class="o">=</span> <span class="n">get_reformat</span><span class="p">()</span>
     <span class="n">reformat</span><span class="o">.</span><span class="n">setInput</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">read</span><span class="p">)</span>
 
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Crops the node if it is larger to avoid residue while it is off the screen</span><span class="s2">&#34;&#34;&#34;</span>
-    <span class="n">crop</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Crop</span><span class="p">(</span><span class="p">)</span>
+    <span class="s2">&#34;&#34;&#34;Crops the node if it is larger to avoid residue while it is off the screen&#34;&#34;&#34;</span>
+    <span class="n">crop</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Crop</span><span class="p">()</span>
     <span class="n">crop</span><span class="o">.</span><span class="n">setInput</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">reformat</span><span class="p">)</span>
-    <span class="n">transform</span> <span class="o">=</span> <span class="n">get_transform</span><span class="p">(</span><span class="n">read</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">format</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="p">)</span><span class="o">.</span><span class="n">height</span><span class="p">(</span><span class="p">)</span><span class="p">)</span>
+    <span class="n">transform</span> <span class="o">=</span> <span class="n">get_transform</span><span class="p">(</span><span class="n">read</span><span class="p">[</span><span class="s1">&#39;format&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="o">.</span><span class="n">height</span><span class="p">())</span>
     <span class="n">transform</span><span class="o">.</span><span class="n">setInput</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">crop</span><span class="p">)</span>
     <span class="n">timeoffset</span> <span class="o">=</span> <span class="n">get_timeoffset</span><span class="p">(</span><span class="n">pos</span><span class="p">)</span>
     <span class="n">timeoffset</span><span class="o">.</span><span class="n">setInput</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">transform</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">timeoffset</span>
     
-<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="p">)</span><span class="p">:</span>
-    <span class="n">images</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">getFilename</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Select Images</span><span class="s2">&#34;</span><span class="p">,</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">*.png *.jpg *.jpeg</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">multiple</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">images</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">getFilename</span><span class="p">(</span><span class="s2">&#34;Select Images&#34;</span><span class="p">,</span><span class="s1">&#39;*.png *.jpg *.jpeg&#39;</span><span class="p">,</span><span class="n">multiple</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
     
     <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">length</span> <span class="o">&lt;</span> <span class="mi">2</span> <span class="p">:</span>
-        <span class="n">nuke</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">At least 2 images required to create the effect</span><span class="s2">&#34;</span><span class="p">)</span>
-        <span class="n">nuke</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">At least 2 images required to create the effect</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">nuke</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&#34;At least 2 images required to create the effect&#34;</span><span class="p">)</span>
+        <span class="n">nuke</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="s2">&#34;At least 2 images required to create the effect&#34;</span><span class="p">)</span>
         <span class="k">return</span>
 
-    <span class="n">merge</span> <span class="o">=</span> <span class="n">manipulate_node</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">merge</span> <span class="o">=</span> <span class="n">manipulate_node</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="mi">0</span><span class="p">)</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
     
     <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">:</span>
-        <span class="n">node</span> <span class="o">=</span> <span class="n">manipulate_node</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="p">,</span><span class="n">i</span><span class="p">)</span>
-        <span class="n">merge</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Merge</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="n">merge</span><span class="p">,</span> <span class="n">node</span><span class="p">]</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">+</span><span class="o">=</span> <span class="mi">1</span>
+        <span class="n">node</span> <span class="o">=</span> <span class="n">manipulate_node</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">merge</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">Merge</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="n">merge</span><span class="p">,</span> <span class="n">node</span><span class="p">])</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
     
     <span class="c1"># A generic touch to make it similar to the original one,</span>
     <span class="c1"># a trick which really makes difference, have to play with</span>
     <span class="c1"># the shutter samples for more accuracy</span>
-    <span class="n">motionblur</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">MotionBlur</span><span class="p">(</span><span class="p">)</span>
+    <span class="n">motionblur</span> <span class="o">=</span> <span class="n">nuke</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">MotionBlur</span><span class="p">()</span>
     <span class="n">motionblur</span><span class="o">.</span><span class="n">setInput</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">merge</span><span class="p">)</span>
     
     <span class="c1"># For keeping track of the node graph if you have too many pictures</span>
     <span class="n">motionblur</span><span class="o">.</span><span class="n">setSelected</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">__main__</span><span class="s2">&#34;</span><span class="p">:</span>
-    <span class="n">main</span><span class="p">(</span><span class="p">)</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
 
 </code></pre></div><p>This is an upgraded version of previous script which I wrote for Fusion, the script asks for selecting the pictures with a file dialog and adjusts the size of the picture according to the project settings before attaching the <code>Transform</code> and <code>TimeOffset</code> nodes.</p>
 <p>And to impress you all, the final output of it:</p>

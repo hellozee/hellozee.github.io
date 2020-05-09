@@ -6,7 +6,7 @@
     <description>Recent content in krita on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sun, 15 Mar 2020 15:31:10 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 16:23:10 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/krita/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
       <pubDate>Sun, 15 Mar 2020 15:31:10 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/freetype-harfbuzz-fonts/</guid>
-      <description>Was experimenting with rendering text in Qt, of course for trying to see if I can land some improvements over Krita&#39;s existing text tool. And now that as I have played with it a bit, jotting some notes over this blog post.</description>
+      <description>Was experimenting with rendering text in Qt, of course for trying to see if I can land some improvements over Krita&amp;rsquo;s existing text tool. And now that as I have played with it a bit, jotting some notes over this blog post.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Thu, 18 Jul 2019 09:01:28 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/a_few_more_steps/</guid>
-      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&#39;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
+      <description>Honestly, working on correcting the checkpoint procedure made the tool explode. So I decided to take a couple of steps back and rethink the strategy. And for inspiration, I fired up YouTube and started watching tutorials of Photoshop&amp;rsquo;s Magnetic Lasso, cause that was the one which made me write this thing in the first place.</description>
     </item>
     
     <item>
@@ -136,7 +136,7 @@ In the previous post, I discussed boost::astar_search and ignored the most impor
       <pubDate>Sun, 26 May 2019 04:43:18 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/boost_astar/</guid>
-      <description>Right now, I am having a hard time understanding BGL&#39;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
+      <description>Right now, I am having a hard time understanding BGL&amp;rsquo;s (the Boost Graph Library) template spaghetti, so decided to write a blogpost while I decipher it, one at a time, documenting the whole thing along the way.</description>
     </item>
     
     <item>

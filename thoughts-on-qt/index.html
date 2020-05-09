@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.60.1" />
+  <meta name="generator" content="Hugo 0.70.0" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -119,19 +119,19 @@
             </div>
         </header>
         <div class="post-content markdown-body">
-          <p>A lot of things have been going on with Qt these days. It all started with The Qt Company trying to get an increase in their revenues, specifically <a href="https://www.qt.io/blog/qt-offering-changes-2020">this</a> blog post. And just like a proper PR team, they didn't talk about the changes clearly for the open-source folks who use the product. If I can summarize the whole thing for open source users, it boils down to,</p>
+          <p>A lot of things have been going on with Qt these days. It all started with The Qt Company trying to get an increase in their revenues, specifically <a href="https://www.qt.io/blog/qt-offering-changes-2020">this</a> blog post. And just like a proper PR team, they didn&rsquo;t talk about the changes clearly for the open-source folks who use the product. If I can summarize the whole thing for open source users, it boils down to,</p>
 <ul>
 <li>No extended support for LTS releases for open source users, we will get the release but we would have to manually backport the security patches. The Qt Company would backport them but only for the commercial customers.</li>
 <li>No offline installer for open source folks, if we want to install Qt from the <em>website</em>, we need to use the online installer.</li>
 <li>For using the online installer we need to have a Qt account, which was optional earlier.</li>
 </ul>
-<p>These changes won't affect open source Qt that much, on the other hand, the last 2 points do make sense. The Qt company is paying for the server to host the builds, it would be wrong for us to expect them to do that for no charge. Other than that, the first point would mean the open-source community needs to do some extra work to backport security patches. A thing which distro packagers already used to do in the past when there were no LTS releases of Qt.</p>
-<p>While the dust around this was trying to settle, something again popped up. A <a href="https://mail.kde.org/pipermail/kde-community/2020q2/006098.html">mail</a> in the kde-community mailing list. The mail is a bit long, but the important thing to ponder over is, The Qt Company is losing revenue due to the ongoing pandemic. And so to increase their revenue they are trying to restrict the releases to 12 months for open source folks. Why 12 months? Cause that's the maximum that they can have, if they don't open-source the code by then, they would be forced to release Qt under BSD license legally as per the contract between KDE e.V. and the company.</p>
+<p>These changes won&rsquo;t affect open source Qt that much, on the other hand, the last 2 points do make sense. The Qt company is paying for the server to host the builds, it would be wrong for us to expect them to do that for no charge. Other than that, the first point would mean the open-source community needs to do some extra work to backport security patches. A thing which distro packagers already used to do in the past when there were no LTS releases of Qt.</p>
+<p>While the dust around this was trying to settle, something again popped up. A <a href="https://mail.kde.org/pipermail/kde-community/2020q2/006098.html">mail</a> in the kde-community mailing list. The mail is a bit long, but the important thing to ponder over is, The Qt Company is losing revenue due to the ongoing pandemic. And so to increase their revenue they are trying to restrict the releases to 12 months for open source folks. Why 12 months? Cause that&rsquo;s the maximum that they can have, if they don&rsquo;t open-source the code by then, they would be forced to release Qt under BSD license legally as per the contract between KDE e.V. and the company.</p>
 <p>To me, it is more like the company is just testing the water of how far they could go with restricting their product. As they retracted with a poorly written blog <a href="https://www.qt.io/blog/qt-and-open-source">post</a> later. Notice that they have disabled comments on that post.</p>
 <p>Now, why are they trying to do this?</p>
 <ul>
 <li>Increase their revenue, of course.</li>
-<li>The shareholders don't have much idea about open source.</li>
+<li>The shareholders don&rsquo;t have much idea about open source.</li>
 </ul>
 <p>What could be the consequences of this?</p>
 <ul>
@@ -144,10 +144,10 @@
 <ul>
 <li>Less testing of their product, since no open source folks would be using it.</li>
 <li>No patches from open source contributors.</li>
-<li>They can't backport the patches from the fork to upstream.</li>
+<li>They can&rsquo;t backport the patches from the fork to upstream.</li>
 </ul>
-<p>Nonetheless, it would also be somewhat troubling for KDE too to manage all those stuff cause we don't how deep are the waters we are trying to swim in. Though I could be definitely wrong cause there are much more experienced folks in the community who are vouching for a fork.</p>
-<p>This event at least made me realize a couple of things, one The Qt Company never acknowledges the open source contributions. I never saw a single mention of KDE in their blog post leave all other projects. Second don't rely on one thing too much. It is great that Qt makes C++ as easy as Java, but relying too much on it could have worse consequences.</p>
+<p>Nonetheless, it would also be somewhat troubling for KDE too to manage all those stuff cause we don&rsquo;t how deep are the waters we are trying to swim in. Though I could be definitely wrong cause there are much more experienced folks in the community who are vouching for a fork.</p>
+<p>This event at least made me realize a couple of things, one The Qt Company never acknowledges the open source contributions. I never saw a single mention of KDE in their blog post leave all other projects. Second don&rsquo;t rely on one thing too much. It is great that Qt makes C++ as easy as Java, but relying too much on it could have worse consequences.</p>
 
         </div>      
         
