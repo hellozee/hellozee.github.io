@@ -6,10 +6,19 @@
     <description>Recent content in krita-weekly on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 16:11:48 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 21:42:38 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/categories/krita-weekly/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krita Weekly #14</title>
+      <link>https://www.hellozee.dev/kw14/</link>
+      <pubDate>Sat, 09 May 2020 21:42:38 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/kw14/</guid>
+      <description>After an anxious month, I am writing a Krita Weekly again and probably this would be my last one too, though I hope not. Let’s start by talking about bugs. Unlike the trend going about the last couple of months, the numbers have taken a serious dip.</description>
+    </item>
     
     <item>
       <title>Krita Weeky #13 | 4.2.9 released</title>

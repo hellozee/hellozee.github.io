@@ -48,11 +48,29 @@
     </item>
     
     <item>
+      <title>foss</title>
+      <link>https://www.hellozee.dev/tags/foss/</link>
+      <pubDate>Sat, 09 May 2020 21:42:38 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>kde</title>
       <link>https://www.hellozee.dev/tags/kde/</link>
-      <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
+      <pubDate>Sat, 09 May 2020 21:42:38 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>krita</title>
+      <link>https://www.hellozee.dev/tags/krita/</link>
+      <pubDate>Sat, 09 May 2020 21:42:38 +0530</pubDate>
+      
+      <guid>https://www.hellozee.dev/tags/krita/</guid>
       <description></description>
     </item>
     
@@ -62,24 +80,6 @@
       <pubDate>Thu, 16 Apr 2020 19:37:44 +0530</pubDate>
       
       <guid>https://www.hellozee.dev/tags/qt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>foss</title>
-      <link>https://www.hellozee.dev/tags/foss/</link>
-      <pubDate>Fri, 27 Mar 2020 16:11:48 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/foss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>krita</title>
-      <link>https://www.hellozee.dev/tags/krita/</link>
-      <pubDate>Fri, 27 Mar 2020 16:11:48 +0530</pubDate>
-      
-      <guid>https://www.hellozee.dev/tags/krita/</guid>
       <description></description>
     </item>
     
