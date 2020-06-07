@@ -6,18 +6,18 @@
     <description>Recent content on A Nerd&#39;s Tale</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Kuntal Majumder</copyright>
-    <lastBuildDate>Sat, 09 May 2020 16:23:10 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 20:08:19 +0530</lastBuildDate>
     
 	<atom:link href="https://www.hellozee.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Krita Weekly #14 | GSoC is on</title>
-      <link>https://www.hellozee.dev/kw14/</link>
-      <pubDate>Sat, 09 May 2020 16:23:10 +0530</pubDate>
+      <title>Transitioning to Windows</title>
+      <link>https://www.hellozee.dev/transitioning_to_windows/</link>
+      <pubDate>Sun, 07 Jun 2020 20:08:19 +0530</pubDate>
       
-      <guid>https://www.hellozee.dev/kw14/</guid>
-      <description>After an anxious month, I am writing a Krita Weekly again and probably this would be my last one too, though I hope not. Let&amp;rsquo;s start by talking about bugs. Unlike the trend going about the last couple of months, the numbers have taken a serious dip.</description>
+      <guid>https://www.hellozee.dev/transitioning_to_windows/</guid>
+      <description>So, recently I started using windows for work. Why? There are a couple of reasons, one that I needed to use MSVC, that is the Microsoft Visual C++ toolchain and the other being, I wasn&amp;rsquo;t quite comfortable to ifdef stuff for making it work on GCC aka, the GNU counterpart of MSVC.</description>
     </item>
     
     <item>

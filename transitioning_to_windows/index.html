@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.71.1" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="hellozee" />
+  <meta property="og:url" content="https://www.hellozee.dev/transitioning_to_windows/" />
+  <link rel="canonical" href="https://www.hellozee.dev/transitioning_to_windows/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.hellozee.dev"
+      },
+      "articleSection" : "",
+      "name" : "Transitioning to Windows",
+      "headline" : "Transitioning to Windows",
+      "description" : "So, recently I started using windows for work. Why? There are a couple of reasons, one that I needed to use MSVC, that is the Microsoft Visual C\u002b\u002b toolchain and the other being, I wasn\u0026rsquo;t quite comfortable to ifdef stuff for making it work on GCC aka, the GNU counterpart of MSVC.",
+      "inLanguage" : "en-US",
+      "author" : "hellozee",
+      "creator" : "hellozee",
+      "publisher": "hellozee",
+      "accountablePerson" : "hellozee",
+      "copyrightHolder" : "hellozee",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-06-07 20:08:19 \u002b0530 IST",
+      "dateModified" : "2020-06-07 20:08:19 \u002b0530 IST",
+      "url" : "https:\/\/www.hellozee.dev\/transitioning_to_windows\/",
+      "keywords" : [ "open-source","terminal","powershell","microsoft", ]
+  }
+</script>
+<title>Transitioning to Windows - A Nerd&#39;s Tale</title>
+  <meta property="og:title" content="Transitioning to Windows - A Nerd&#39;s Tale" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="So, recently I started using windows for work. Why? There are a couple of reasons, one that I needed to use MSVC, that is the Microsoft Visual C&#43;&#43; toolchain and the other being, I wasn&rsquo;t quite comfortable to ifdef stuff for making it work on GCC aka, the GNU counterpart of MSVC." />
+
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css" />
+  <link rel="stylesheet" href="https://www.hellozee.dev/css/index.css">
+  <link href="https://www.hellozee.dev/index.xml" rel="alternate" type="application/rss+xml" title="A Nerd&#39;s Tale">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  <script>
+    
+
+    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+
+    
+    <script type="text/javascript">
+      var _paq = window._paq || [];
+       
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://hellozee.mooo.com/analytics/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    
+
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="https://www.hellozee.dev/">A Nerd&#39;s Tale</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Transitioning to Windows</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <time class="post-date" datetime="2020-06-07 20:08:19 IST">
+                07, Jun, 2020
+              </time>
+            </div>
+            <div class="col-xs-6">
+              <div class="post-author">
+                <a href="https://www.hellozee.dev/">@hellozee</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+                                            
+                                                      
+                <a href="https://www.hellozee.dev/tags/open-source/">#open-source</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/terminal/">#terminal</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/powershell/">#powershell</a>             
+                                            
+                ,                                       
+                <a href="https://www.hellozee.dev/tags/microsoft/">#microsoft</a>             
+              
+            </div>
+        </header>
+        <div class="post-content markdown-body">
+          <p>So, recently I started using windows for work. Why? There are a couple of reasons, one that I needed to use <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B">MSVC</a>, that is the Microsoft Visual C++ toolchain and the other being, I wasn&rsquo;t quite comfortable to ifdef stuff for making it work on <a href="https://en.wikipedia.org/wiki/GNU_Compiler_Collection">GCC</a> aka, the GNU counterpart of MSVC.</p>
+<p>All in all, the change wasn&rsquo;t a cakewalk, a part of which I can attribute to the fact that Windows does a lot of stuff in its own way which is just the opposite of the POSIX way. Though it was much better than what I expected, thanks to some all-new developer tools introduced by Microsoft. For now, most of them are still in an early phase, there is a start at least.</p>
+<p>Installing Windows was the same as every time, easy process but taking a lot of time. And as always the first thing one does after installing Windows is to get a new browser, which I too did but not like the previous times. Previously I use to download Chrome or Firefox, whichever I was using in Linux. This time I downloaded neither of them. Instead of downloading the other browsers, went online and updated the Edge browser, since the new Microsoft Edge uses <a href="https://en.wikipedia.org/wiki/Blink_(browser_engine)">Blink</a> browser engine, the same which is used by Chrome, Chromium, and a multitude of modern browsers. The UX has felt a bit better than the other Blink based browsers specifically the part where you can sort your downloads by type of the file downloaded.</p>
+<p><img src="https://www.hellozee.dev/img/edge_download.png" alt="Download Page of Microsoft Edge"></p>
+<p>Next stop, getting my development environment up and running. And similar to every other developer coming from a POSIX background, it is time to get a functional shell that aids instead of being a pain in the posterior. But before even getting a usable shell, we need a usable terminal emulator. And thanks to Microsoft, we have the Windows Terminal, miles ahead of the vanilla command prompt. Though, it is still far behind something like <a href="https://konsole.kde.org/">Konsole</a>, cause it sports the UX of <a href="https://en.wikipedia.org/wiki/GNOME_Terminal">GNOME terminal</a>, sadly. I don&rsquo;t know what is problem in having a proper title bar in GUI applications these days.</p>
+<p>Eclipsing that, we have a new problem, Windows doesn&rsquo;t have a <em>proper</em> Bash shell, what a bummer. Well, it comes with Powershell 6 preinstalled which is not bad, but just like the browser, it is a bit dated and needs to be manually updated to Powershell 7. Being open-source, as well as a part of the most popular desktop OS on the planet helped it a lot. While Powershell has a set of problems of its own, there are solutions that help to mend it to a place. The first one being, <a href="https://github.com/PowerShell/PSReadLine">PSReadLine</a>, and with the following commands, it feels more like home.</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Set-PSReadLineOption</span> <span class="n">-EditMode</span> <span class="n">Emacs</span>
+<span class="nb">Set-PSReadlineKeyHandler</span> <span class="n">-Key</span> <span class="n">Tab</span> <span class="n">-Function</span> <span class="n">Complete</span>
+</code></pre></div><p>One of them gets the shortcuts like <code>Ctrl + a</code>, <code>Ctrl + e</code>, <code>Ctrl + w</code>, and the other makes the tab autocomplete function like the one in Bash. Woohoo, but wait what is the use of the terminal here in windows? We don&rsquo;t get any package manager or git here. Actually, we do, Microsoft has been working on a new package manager called <a href="https://github.com/microsoft/winget-cli">winget</a> which looks like a ripoff of <a href="https://keivan.io/the-day-appget-died/">appget</a>, fortunately, we can talk about how Microsoft is screwing open source projects in some other posts but not today.</p>
+<p>Nonetheless, it is still early considering it was announced just a few weeks back so I instead used <a href="https://chocolatey.org/">Chocolately</a>, a pretty solid package manager for Windows. And just like the Linux package managers, it needs administrative privileges to performs actions but Windows doesn&rsquo;t have <code>sudo</code>. So the first step was to install <a href="https://github.com/gerardog/gsudo">gsudo</a>, followed by <code>git</code>.</p>
+<p>We have <code>git</code> now, * me plays the victory music *. Time to pimp the shell to the extreme. For assistance, we need a couple more modules, one is <a href="https://github.com/dahlbyk/posh-git">posh-git</a> and the other being <a href="https://github.com/JanDeDobbeleer/oh-my-posh">oh-my-posh</a>. The first module enables tab completion for <code>git</code> and also, adds some info regarding the repository in the prompt and another is just the Powershell counterpart of <code>oh-my-zsh</code>.</p>
+<p>Also coming from plasma and being a fan of the Breeze color scheme, I downloaded the same from <a href="https://atomcorp.github.io/themes/">here</a>. Boom, the terminal looks like this now, slick isn&rsquo;t it.</p>
+<p><img src="https://www.hellozee.dev/img/windows_terminal.png" alt="Windows Terminal"></p>
+<p>And here is my complete profile, a small one for now,</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Import-Module</span> <span class="n">posh-git</span>
+<span class="nb">Import-Module</span> <span class="n">oh-my-posh</span>
+<span class="nb">Set-Theme</span> <span class="n">Avit</span>
+<span class="nb">Set-PSReadLineOption</span> <span class="n">-EditMode</span> <span class="n">Emacs</span>
+<span class="nb">Set-PSReadlineKeyHandler</span> <span class="n">-Key</span> <span class="n">Tab</span> <span class="n">-Function</span> <span class="n">Complete</span>
+</code></pre></div><h6 id="note-avit-is-the-oh-my-posh-theme">Note: Avit is the <code>oh-my-posh</code> theme.</h6>
+<p>Oh, I also started playing with <a href="https://github.com/microsoft/PowerToys">PowerToys</a> which includes a lot of power utilities for Windows but just like other stuff, it is still beta-quality substance, although promising.</p>
+<p>That&rsquo;s all for today, see yall later, <code>:wq</code>. And FYI, I have installed vim in windows too, didn&rsquo;t pimp it to an extreme yet for now.</p>
+
+        </div>      
+        
+
+<div class="releated">
+  <h3>See Also</h3>
+  <ul>
+    
+    <li><a href="https://www.hellozee.dev/kw13/">Krita Weeky #13 | 4.2.9 released</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw12/">Krita Weekly #12 | 4.2.9 beta released</a></li>
+    
+    <li><a href="https://www.hellozee.dev/kw11/">Krita Weekly #11 | Bi weekly from now</a></li>
+    
+  </ul>
+</div>
+
+
+
+        
+        
+        
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/hellozee" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/mkuntal" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://twitter.com/hellozee54/" target="_blank">Twitter</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.instagram.com/_hellozee_/" target="_blank">Instagram</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://hellozee.artstation.com/" target="_blank">Artstation</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.hellozee.dev/index.xml" target="_blank">RSS</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a rel="me" href="https://fosstodon.org/@hellozee">Mastodon</a>
+  </div>
+  <div class="site-footer-item">
+    <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">Theme</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://www.hellozee.dev/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+  
+
+</body>
+
+</html>
