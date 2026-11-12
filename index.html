@@ -4,91 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <title>Untitled(2)</title>
-    <style type="text/css">
+    <style>
         body {
             font-family: "Comic Sans MS", "Comic Sans", cursive;
-            margin-left: 25%;
-            margin-right: 25%;
+            margin: 0 25%;
             text-align: center;
-        }
-
-        .marquee-container {
-            padding: 0.5rem;
-            overflow: hidden;
-            border-width: 2px;
-            border-style: dashed;
-            font-size: 25px;
-            text-align: left;
-        }
-
-        .marquee-content {
-            animation: slide 20s linear infinite;
-        }
-
-        .container {
-            padding: 10px;
-        }
-
-        .icon-container {
-            padding: 10px;
-        }
-
-        @keyframes slide {
-            0% {
-                transform: translatex(0%)
-            }
-
-            100% {
-                transform: translatex(100%)
-            }
-        }
-
-        .blink {
-            animation: flash 1s steps(1, end) infinite;
-        }
-
-        @keyframes flash {
-            0% {
-                color: red;
-            }
-
-            50% {
-                color: blue;
-            }
-
-            100% {
-                color: red;
-            }
+            color: #ffff00;
+            background: #000040 radial-gradient(#fff 1px, transparent 1px) 0 0 / 40px 40px;
         }
 
         @media (orientation: portrait) {
-            body {
-                margin-left: 5%;
-                margin-right: 5%;
-            }
+            body { margin: 0 5%; }
+        }
+
+        a { color: #00ffff; }
+        a:visited { color: #ff00ff; }
+
+        .marquee {
+            margin-top: 10px;
+            padding: 0.5rem;
+            border: 2px dashed;
+            font-size: 25px;
+            animation: flash 1s steps(1) infinite;
+        }
+
+        @keyframes flash {
+            0% { color: red; }
+            50% { color: blue; }
+        }
+
+        .box {
+            margin: 15px 0;
+            padding: 10px;
+            background: #c0c0c0;
+            color: #000;
+            border: 6px outset #fff;
+        }
+
+        .box a { color: #0000ee; }
+        .box a:visited { color: #551a8b; }
+
+        hr {
+            height: 4px;
+            border: 0;
+            background: linear-gradient(90deg, red, orange, yellow, lime, cyan, blue, magenta);
+        }
+
+        .construction {
+            padding: 6px;
+            font-weight: bold;
+            color: #000;
+            background: repeating-linear-gradient(45deg, #ffcc00 0 15px, #000 15px 30px);
+        }
+
+        .construction span { background: #ffcc00; padding: 0 6px; }
+
+        nav img {
+            width: 40px;
+            padding: 10px;
+        }
+
+        .counter {
+            font-family: "Courier New", monospace;
+            background: #000;
+            color: #0f0;
+            padding: 2px 6px;
+            border: 2px inset #888;
+        }
+
+        .badges span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            width: 88px;
+            height: 31px;
+            margin: 2px;
+            font: bold 10px/1.1 Verdana, sans-serif;
+            border: 2px outset #fff;
+            vertical-align: middle;
+        }
+
+        small { display: block; margin: 10px 0 20px; }
+
+        .sparkle {
+            position: fixed;
+            pointer-events: none;
+            animation: sparkle 0.8s ease-out forwards;
+        }
+
+        @keyframes sparkle {
+            to { opacity: 0; transform: translateY(20px) scale(0.3); }
         }
     </style>
 </head>
 
 <body>
-    <div class="marquee-container">
-        <div class="marquee-content">
-            <span class="blink">Welcome to web 1.0</span>
-        </div>
+    <div class="marquee">Welcome to web 1.0</div>
+
+    <div class="box">
+        <img src="facebook-profile-picture-no-pic-avatar.jpg" width="200" alt="Avatar" border="2">
+        <p>
+            I promise, I look good in the mirror than in the pictures. <br>
+            Anyway, thanks for the stalking, lemme help you.
+        </p>
     </div>
-    <div class="container">
-        <img src="facebook-profile-picture-no-pic-avatar.jpg" width="200px" />
+
+    <hr>
+    <p>&#9733; Ramblings live at <a href="https://blog.hellozee.dev">blog.hellozee.dev</a> &#9733;</p>
+    <nav>
+        <a href="https://www.linkedin.com/in/mkuntal/"><img src="linkedin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/hellozee54"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/_hellozee_/"><img src="instagram.png" alt="Instagram"></a>
+    </nav>
+    <hr>
+
+    <div class="construction"><span>&#128679; UNDER CONSTRUCTION &#128679;</span></div>
+    <p>You are visitor number <span class="counter">000042</span></p>
+    <div class="badges">
+        <span style="background:#000080;color:#fff">Netscape NOW!</span>
+        <span style="background:#fff;color:#000">Made w/ Notepad</span>
+        <span style="background:#008000;color:#ff0">HTML 3.2</span>
+        <span style="background:#800000;color:#fff">Y2K Compliant</span>
     </div>
-    <div class="container">
-        I promise, I look good in the mirror than in the pictures. <br> Anyway, thanks for the stalking, lemme help you.
-    </div>
-    <div>
-        <a href="https://www.linkedin.com/in/mkuntal/"><img src="linkedin.png" width="40px"
-                class="icon-container" /></a>
-        <a href="https://twitter.com/hellozee54"><img src="twitter.png" width="40px" class="icon-container" /></a>
-        <a href="https://www.instagram.com/_hellozee_/"><img src="instagram.png" width="40px"
-                class="icon-container" /></a>
-    </div>
+    <small>Last updated: 12/11/1999<br>Best viewed in Netscape Navigator 4.0 at 800x600</small>
+    <script>
+        const colors = ["#ff0", "#f0f", "#0ff", "#fff"];
+        document.addEventListener("mousemove", e => {
+            const s = document.createElement("span");
+            s.className = "sparkle";
+            s.textContent = "\u2726";
+            s.style.left = e.clientX + "px";
+            s.style.top = e.clientY + "px";
+            s.style.color = colors[Math.floor(Math.random() * colors.length)];
+            s.addEventListener("animationend", () => s.remove());
+            document.body.appendChild(s);
+        });
+    </script>
 </body>
 
 </html>
